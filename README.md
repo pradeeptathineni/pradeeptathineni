@@ -7,7 +7,7 @@ Once is flirtation. Twice is frustration.
 Once is temptation. Twice is libation.
 Once is foundation. Twice is causation.
 
-All thereafter, automation.
+Any thereafter, automation.
 ```
 
 [![Profile views](https://komarev.com/ghpvc/?username=pradeeptathineni&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/pradeeptathineni)
