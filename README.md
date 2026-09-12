@@ -2,7 +2,13 @@
 
 I build practical automation for software engineering, infrastructure, and knowledge work.
 
-> Once is experience. Twice is evidence. All thereafter is automation.
+```text
+Once is flirtation. Twice is frustration.
+Once is temptation. Twice is libation.
+Once is foundation. Twice is causation.
+
+All thereafter is automation.
+```
 
 [![Profile views](https://komarev.com/ghpvc/?username=pradeeptathineni&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/pradeeptathineni)
 [![GitHub followers](https://img.shields.io/github/followers/pradeeptathineni?label=Followers&style=flat)](https://github.com/pradeeptathineni?tab=followers)
