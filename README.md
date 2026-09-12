@@ -11,9 +11,9 @@ I build practical automation for software engineering, infrastructure, and knowl
 
 | Project | What it explores |
 | --- | --- |
-| [**Context AI**](https://github.com/pradeeptathineni/context-ai) | Reusable AI context engineering. |
+| [**Context AI**](https://github.com/pradeeptathineni/context-ai) | A small, reusable context library that keeps durable guidance separate from model, provider, and project details. |
 | [**Blueprint AI**](https://github.com/pradeeptathineni/blueprint-ai) | Reusable workflows to inspect, build, review, and strengthen software projects—deterministic tooling first, with optional bounded model reasoning. |
-| [**Principles AI**](https://github.com/pradeeptathineni/principles-ai) | A case study of AI context architecture and evidence-grounded knowledge to authoritatively define durable principles, actionable practices, and personal-growth goals. |
+| [**Principles AI**](https://github.com/pradeeptathineni/principles-ai) | An AI-assisted knowledge system for curating durable principles and actionable practices, backed by deterministic validation and human-governed decisions. |
 
 ## 🧭 About Me
 
@@ -21,101 +21,75 @@ I'm interested in tools that make complex work safer, clearer, and more repeatab
 
 ## 🛠️ Languages & Tools
 
-These are technologies demonstrated in the public projects below, not an expertise ranking.
+These are grounded in the public work below, with repository-language composition shown separately in the snapshot.
 
-- **Major work:** Python, JavaScript, Node.js, Terraform/HCL, Bash, AWS, GitHub Actions
-- **Also represented:** React, Express, Processing, p5.js, data visualization
+- **Current owned projects:** Python, JavaScript, Node.js, Ruby, Terraform/HCL, Bash, AWS, GitHub Actions
+- **Also visible in owned or archived work:** React, Express, data visualization
+- **Learning and reference trails:** Processing and p5.js
 - **Engineering themes:** deterministic tooling, infrastructure as code, CI, verification, developer workflows, knowledge systems
 
 ## 🗺️ Project Map
 
-Every public repository is cataloged below except this profile repository, which is the presentation surface. Labels distinguish owned work from forks, learning/reference material, archives, and projects with limited public evidence.
+The current builds, creative detours, useful odds and ends, and older trails—all in one place.
 
-**Browse:** [AI Systems](#ai-systems) · [Cloud & infrastructure](#cloud--infrastructure) · [Creative coding & visualization](#creative-coding--visualization) · [Web applications](#web-applications) · [Utilities](#utilities) · [Limited evidence](#limited-evidence) · [Forks & references](#forks--references)
-
-<a id="ai-systems"></a>
 <details open>
-<summary><strong>AI &amp; knowledge systems</strong></summary>
+<summary><strong>🤖 AI Engineering</strong></summary>
 
-| Project | Description | Tags |
-| --- | --- | --- |
-| [context-ai](https://github.com/pradeeptathineni/context-ai) | AI context engineering definitions that follow authoritative standards for repeatable use in different AI projects. | `AI-workflows` `developer-tools` `knowledge-systems` |
-| [blueprint-ai](https://github.com/pradeeptathineni/blueprint-ai) | CLI and Python package for project inspection, review, generation, and strengthening with deterministic checks and optional model support. | `Python` `CLI` `developer-tools` `AI-workflows` `knowledge-systems` |
-| [principles-ai](https://github.com/pradeeptathineni/principles-ai) | Evidence-grounded knowledge corpus with a deterministic Node.js validation harness and human-governed semantic decisions. | `JavaScript` `Node.js` `AI-workflows` `knowledge-systems` |
+| Project | Description |
+| --- | --- |
+| [context-ai](https://github.com/pradeeptathineni/context-ai) | Reusable, provider-aware context guidance, structured model routing, references, validation, and an evaluation protocol. |
+| [blueprint-ai](https://github.com/pradeeptathineni/blueprint-ai) | Python CLI for inspecting, reviewing, generating, and evolving projects with deterministic checks and optional bounded model reasoning. |
+| [principles-ai](https://github.com/pradeeptathineni/principles-ai) | AI-assisted knowledge system with a deterministic Node.js harness for maintaining principles, practices, and their supporting structure. |
 
 </details>
 
-<a id="cloud--infrastructure"></a>
 <details open>
-<summary><strong>Cloud &amp; infrastructure</strong></summary>
+<summary><strong>☁️ DevOps Engineering</strong></summary>
 
-| Project | Description | Tags |
-| --- | --- | --- |
-| [eng-challenge-aws-terraform](https://github.com/pradeeptathineni/eng-challenge-aws-terraform) | Terraform-defined AWS web infrastructure with VPC networking, an ALB, private EC2 workload, optional S3 state, CI, and verification workflows. | `Terraform` `AWS` `Bash` `IaC` `CI` |
-| [aws-iac-terraform](https://github.com/pradeeptathineni/aws-iac-terraform) | AWS infrastructure-as-code templates using Terraform. | `Terraform` `AWS` `IaC` |
-| [terraform](https://github.com/pradeeptathineni/terraform) | Terraform repository with no further public description. **Archived; limited evidence.** | `Terraform` `archive` `limited-evidence` |
+| Project | Description |
+| --- | --- |
+| [eng-challenge-aws-terraform](https://github.com/pradeeptathineni/eng-challenge-aws-terraform) | Terraform-defined AWS web infrastructure with VPC networking, an ALB, a private EC2 workload, optional S3 state, CI, and end-to-end verification. |
+| [aws-iac-terraform](https://github.com/pradeeptathineni/aws-iac-terraform) | AWS infrastructure-as-code templates using Terraform. |
 
 </details>
 
-<a id="creative-coding--visualization"></a>
 <details>
-<summary><strong>Creative coding &amp; visualization</strong></summary>
+<summary><strong>🎨 Creative Interests</strong></summary>
 
-| Project | Description | Tags |
-| --- | --- | --- |
-| [nature-of-code](https://github.com/pradeeptathineni/nature-of-code) | Personal creative-coding experiments inspired by Nature of Code and Coding Train, including terrain, starfields, fireworks, and wave-function collapse. | `JavaScript` `creative-coding` `learning` |
-| [cs4460p5](https://github.com/pradeeptathineni/cs4460p5) | Course design project visualizing an aircraft-incident dataset. **Archived learning project.** | `JavaScript` `data-visualization` `learning` `archive` |
+| Project | Description |
+| --- | --- |
+| [nature-of-code](https://github.com/pradeeptathineni/nature-of-code) | Personal creative-coding experiments inspired by *The Nature of Code* and Coding Train, including terrain, starfields, fireworks, and wave-function collapse. |
+| [LearningProcessing](https://github.com/pradeeptathineni/LearningProcessing) | **Fork and learning reference:** examples accompanying the book *Learning Processing*. |
+| [LearningProcessing-p5.js](https://github.com/pradeeptathineni/LearningProcessing-p5.js) | **Fork and learning reference:** *Learning Processing* examples ported to p5.js. |
 
 </details>
 
-<a id="web-applications"></a>
 <details>
-<summary><strong>Web applications</strong></summary>
+<summary><strong>🧰 Utilities</strong></summary>
 
-| Project | Description | Tags |
-| --- | --- | --- |
-| [react-webapp-template](https://github.com/pradeeptathineni/react-webapp-template) | React frontend foundation paired with an Express backend. **Archived template.** | `JavaScript` `React` `Express` `archive` |
+| Project | Description |
+| --- | --- |
+| [etc](https://github.com/pradeeptathineni/etc) | A small repository containing a Bash configuration file. |
+| [PathAtlas](https://github.com/pradeeptathineni/PathAtlas) | **Metadata-only:** no public description or root content is available yet. |
 
 </details>
 
-<a id="utilities"></a>
 <details>
-<summary><strong>Utilities</strong></summary>
+<summary><strong>📦 Archived</strong></summary>
 
-| Project | Description | Tags |
-| --- | --- | --- |
-| [etc](https://github.com/pradeeptathineni/etc) | Small repository containing a Bash configuration file. | `Shell` `dotfiles` `limited-evidence` |
-
-</details>
-
-<a id="limited-evidence"></a>
-<details>
-<summary><strong>Limited evidence</strong> — no engineering domain inferred from names alone</summary>
-
-| Project | Description | Tags |
-| --- | --- | --- |
-| [PathAtlas](https://github.com/pradeeptathineni/PathAtlas) | Public repository with no available description or root content. **Metadata-only; scope and technologies are not inferred.** | `metadata-only` `unclassified` |
+| Project | Description |
+| --- | --- |
+| [terraform](https://github.com/pradeeptathineni/terraform) | **Archived; limited public detail:** a Terraform repository with no further description. |
+| [quest](https://github.com/pradeeptathineni/quest) | **Archived fork:** a cloud-skills assessment web app and infrastructure challenge. |
+| [AWS-SAA-C03-Study-Guide](https://github.com/pradeeptathineni/AWS-SAA-C03-Study-Guide) | **Archived fork and reference:** an AWS Solutions Architect study guide. |
+| [react-webapp-template](https://github.com/pradeeptathineni/react-webapp-template) | **Archived:** a React frontend foundation paired with an Express backend. |
+| [react-boilerplate](https://github.com/pradeeptathineni/react-boilerplate) | **Archived fork:** the React Boilerplate application foundation. |
+| [material-dashboard-react](https://github.com/pradeeptathineni/material-dashboard-react) | **Archived fork:** Creative Tim's Material Dashboard React. |
+| [Photon](https://github.com/pradeeptathineni/Photon) | **Archived fork:** the Photon OSINT web crawler. |
+| [stellitime-api](https://github.com/pradeeptathineni/stellitime-api) | **Archived fork:** a sample Python program backed by DynamoDB and deployed with CloudFormation. |
+| [cs4460p5](https://github.com/pradeeptathineni/cs4460p5) | **Archived learning project:** an information visualization of an aircraft-incident dataset. |
 
 </details>
-
-<a id="forks--references"></a>
-<details>
-<summary><strong>Forks &amp; references</strong> — upstream work; not presented as authored or maintained projects</summary>
-
-| Project | Description | Tags |
-| --- | --- | --- |
-| [LearningProcessing](https://github.com/pradeeptathineni/LearningProcessing) | Fork of examples accompanying the book *Learning Processing*. | `fork` `Processing` `learning` |
-| [LearningProcessing-p5.js](https://github.com/pradeeptathineni/LearningProcessing-p5.js) | Fork of *Learning Processing* examples ported to p5.js. | `fork` `JavaScript` `p5.js` `learning` |
-| [quest](https://github.com/pradeeptathineni/quest) | Fork of a cloud-skills assessment web app. **Archived.** | `fork` `HCL` `cloud` `archive` |
-| [AWS-SAA-C03-Study-Guide](https://github.com/pradeeptathineni/AWS-SAA-C03-Study-Guide) | Fork of an AWS Solutions Architect study guide. **Archived reference.** | `fork` `AWS` `reference` `archive` |
-| [react-boilerplate](https://github.com/pradeeptathineni/react-boilerplate) | Fork of the React Boilerplate application foundation. **Archived.** | `fork` `React` `JavaScript` `archive` |
-| [material-dashboard-react](https://github.com/pradeeptathineni/material-dashboard-react) | Fork of Creative Tim's Material Dashboard React. **Archived.** | `fork` `React` `Material-UI` `archive` |
-| [Photon](https://github.com/pradeeptathineni/Photon) | Fork of the Photon OSINT web crawler. **Archived.** | `fork` `Python` `OSINT` `archive` |
-| [stellitime-api](https://github.com/pradeeptathineni/stellitime-api) | Fork of a sample Python program backed by DynamoDB and deployed with CloudFormation. **Archived.** | `fork` `Python` `AWS` `DynamoDB` `archive` |
-
-</details>
-
-<sub>Repository language links reflect GitHub's repository classification; they describe code composition, not proficiency.</sub>
 
 ## 📊 Public GitHub snapshot
 
