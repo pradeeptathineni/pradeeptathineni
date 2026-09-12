@@ -31,7 +31,7 @@ These are technologies demonstrated in the public projects below, not an experti
 
 Every public repository is cataloged below except this profile repository, which is the presentation surface. Labels distinguish owned work from forks, learning/reference material, archives, and projects with limited public evidence.
 
-**Browse by domain:** [Developer tooling](#developer-tooling) · [AI & knowledge systems](#ai--knowledge-systems) · [Cloud & infrastructure](#cloud--infrastructure) · [Creative coding & visualization](#creative-coding--visualization) · [Web applications](#web-applications) · [Utilities](#utilities) · [Forks & references](#forks--references)
+**Browse by domain:** [Developer tooling](#developer-tooling) · [AI & knowledge systems](#ai--knowledge-systems) · [Cloud & infrastructure](#cloud--infrastructure) · [Creative coding & visualization](#creative-coding--visualization) · [Web applications](#web-applications) · [Utilities](#utilities) · [Limited evidence](#limited-evidence) · [Forks & references](#forks--references)
 
 **Browse by technology:** [Python](https://github.com/pradeeptathineni?tab=repositories&q=&type=&language=python) · [JavaScript](https://github.com/pradeeptathineni?tab=repositories&q=&type=&language=javascript) · [HCL](https://github.com/pradeeptathineni?tab=repositories&q=&type=&language=hcl) · [Shell](https://github.com/pradeeptathineni?tab=repositories&q=&type=&language=shell) · [Terraform](#cloud--infrastructure) · [AWS](#cloud--infrastructure)
 
@@ -52,7 +52,6 @@ Every public repository is cataloged below except this profile repository, which
 | Project | Evidence-backed description | Tags |
 | --- | --- | --- |
 | [principles-ai](https://github.com/pradeeptathineni/principles-ai) | Evidence-grounded knowledge corpus with a deterministic Node.js validation harness and human-governed semantic decisions. | `JavaScript` `Node.js` `AI-workflows` `knowledge-systems` |
-| [PathAtlas](https://github.com/pradeeptathineni/PathAtlas) | Public repository with no available description or root content. **Metadata-only; scope and technologies are not inferred.** | `metadata-only` `unclassified` |
 
 </details>
 
@@ -99,6 +98,16 @@ Every public repository is cataloged below except this profile repository, which
 
 </details>
 
+<a id="limited-evidence"></a>
+<details>
+<summary><strong>Limited evidence</strong> — no engineering domain inferred from names alone</summary>
+
+| Project | Evidence-backed description | Tags |
+| --- | --- | --- |
+| [PathAtlas](https://github.com/pradeeptathineni/PathAtlas) | Public repository with no available description or root content. **Metadata-only; scope and technologies are not inferred.** | `metadata-only` `unclassified` |
+
+</details>
+
 <a id="forks--references"></a>
 <details>
 <summary><strong>Forks &amp; references</strong> — upstream work; not presented as authored or maintained projects</summary>
@@ -117,3 +126,12 @@ Every public repository is cataloged below except this profile repository, which
 </details>
 
 <sub>Repository language links reflect GitHub's repository classification; they describe code composition, not proficiency.</sub>
+
+## 📊 Public GitHub snapshot
+
+These automatic cards summarize public GitHub activity and repository-language composition; they are supporting context, not an expertise score. The [project map above](#project-map) remains the navigable source of project detail if the images are unavailable.
+
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pradeeptathineni&amp;theme=github_dark" alt="Pradeep's public GitHub statistics">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pradeeptathineni&amp;theme=github_dark" alt="Language composition of Pradeep's public GitHub repositories">
+</p>
