@@ -17,16 +17,13 @@ I build practical automation for software engineering, infrastructure, and knowl
 
 ## 🧭 About Me
 
-I'm interested in tools that make complex work safer, clearer, and more repeatable, especially where automation can give people more room for judgment and creativity. My current public work sits at the intersection of developer tooling, evidence-grounded AI architecture, and cloud infrastructure. Creative-coding experiments are part of the trail too, as I love simulation of physics and nature.
+I'm interested in tools that make complex work safer, clearer, and more repeatable—especially when automation gives people more room for judgment and creativity. My current public work brings together developer tooling, AI context architecture, and cloud infrastructure. I also enjoy creative-coding experiments inspired by physics and nature.
 
 ## 🛠️ Languages & Tools
 
-These are grounded in the public work below, with repository-language composition shown separately in the snapshot.
-
-- **Current owned projects:** Python, JavaScript, Node.js, Ruby, Terraform/HCL, Bash, AWS, GitHub Actions
-- **Also visible in owned or archived work:** React, Express, data visualization
-- **Learning and reference trails:** Processing and p5.js
-- **Engineering themes:** deterministic tooling, infrastructure as code, CI, verification, developer workflows, knowledge systems
+- **Building with:** Python, JavaScript, Node.js, Ruby, Terraform/HCL, Bash, AWS, GitHub Actions
+- **Also exploring:** React, Express, Processing, p5.js, and data visualization
+- **Recurring themes:** deterministic tooling, infrastructure as code, CI, verification, developer workflows, knowledge systems
 
 ## 🗺️ Project Map
 
@@ -93,7 +90,7 @@ The current builds, creative detours, useful odds and ends, and older trails—a
 
 ## 📊 Public GitHub snapshot
 
-These automatic cards summarize public GitHub activity and repository-language composition; they are supporting context, not an expertise score. The [project map above](#project-map) remains the navigable source of project detail if the images are unavailable.
+Two quick views of the public work: overall GitHub activity and the mix of languages across these repositories.
 
 <p>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pradeeptathineni&amp;theme=github_dark" alt="Pradeep's public GitHub statistics">
