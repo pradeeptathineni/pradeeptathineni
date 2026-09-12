@@ -11,19 +11,19 @@ I build practical automation for software engineering, infrastructure, and knowl
 
 | Project | What it explores |
 | --- | --- |
+| [**Context AI**](https://github.com/pradeeptathineni/context-ai) | Reusable AI context engineering. |
 | [**Blueprint AI**](https://github.com/pradeeptathineni/blueprint-ai) | Reusable workflows to inspect, build, review, and strengthen software projects—deterministic tooling first, with optional bounded model reasoning. |
-| [**Principles**](https://github.com/pradeeptathineni/principles-ai) | An AI-assisted, evidence-grounded knowledge system for durable principles, actionable practices, and personal-growth goals. |
-| [**AWS Terraform Engineering Challenge**](https://github.com/pradeeptathineni/eng-challenge-aws-terraform) | Terraform-defined AWS web infrastructure with modular networking, reproducible workflows, optional remote state, CI, and end-to-end verification. |
+| [**Principles AI**](https://github.com/pradeeptathineni/principles-ai) | A case study of AI context architecture and evidence-grounded knowledge to authoritatively define durable principles, actionable practices, and personal-growth goals. |
 
 ## 🧭 About Me
 
-I'm interested in tools that make complex work safer, clearer, and more repeatable—especially where automation can give people more room for judgment and creativity. My current public work sits at the intersection of developer tooling, evidence-grounded AI workflows, and cloud infrastructure; creative-coding experiments are part of the trail too.
+I'm interested in tools that make complex work safer, clearer, and more repeatable, especially where automation can give people more room for judgment and creativity. My current public work sits at the intersection of developer tooling, evidence-grounded AI architecture, and cloud infrastructure. Creative-coding experiments are part of the trail too, as I love simulation of physics and nature.
 
 ## 🛠️ Languages & Tools
 
 These are technologies demonstrated in the public projects below, not an expertise ranking.
 
-- **Current work:** Python, JavaScript, Node.js, Terraform/HCL, Bash, AWS, GitHub Actions
+- **Major work:** Python, JavaScript, Node.js, Terraform/HCL, Bash, AWS, GitHub Actions
 - **Also represented:** React, Express, Processing, p5.js, data visualization
 - **Engineering themes:** deterministic tooling, infrastructure as code, CI, verification, developer workflows, knowledge systems
 
@@ -31,26 +31,16 @@ These are technologies demonstrated in the public projects below, not an experti
 
 Every public repository is cataloged below except this profile repository, which is the presentation surface. Labels distinguish owned work from forks, learning/reference material, archives, and projects with limited public evidence.
 
-**Browse by domain:** [Developer tooling](#developer-tooling) · [AI & knowledge systems](#ai--knowledge-systems) · [Cloud & infrastructure](#cloud--infrastructure) · [Creative coding & visualization](#creative-coding--visualization) · [Web applications](#web-applications) · [Utilities](#utilities) · [Limited evidence](#limited-evidence) · [Forks & references](#forks--references)
+**Browse:** [AI Systems](#ai-systems) · [Cloud & infrastructure](#cloud--infrastructure) · [Creative coding & visualization](#creative-coding--visualization) · [Web applications](#web-applications) · [Utilities](#utilities) · [Limited evidence](#limited-evidence) · [Forks & references](#forks--references)
 
-**Browse by technology:** [Python](https://github.com/pradeeptathineni?tab=repositories&q=&type=&language=python) · [JavaScript](https://github.com/pradeeptathineni?tab=repositories&q=&type=&language=javascript) · [HCL](https://github.com/pradeeptathineni?tab=repositories&q=&type=&language=hcl) · [Shell](https://github.com/pradeeptathineni?tab=repositories&q=&type=&language=shell) · [Terraform](#cloud--infrastructure) · [AWS](#cloud--infrastructure)
-
-<a id="developer-tooling"></a>
-<details open>
-<summary><strong>Developer tooling</strong></summary>
-
-| Project | Evidence-backed description | Tags |
-| --- | --- | --- |
-| [blueprint-ai](https://github.com/pradeeptathineni/blueprint-ai) | CLI and Python package for project inspection, review, generation, and strengthening with deterministic checks and optional model support. | `Python` `CLI` `developer-tools` `verification` |
-
-</details>
-
-<a id="ai--knowledge-systems"></a>
+<a id="ai-systems"></a>
 <details open>
 <summary><strong>AI &amp; knowledge systems</strong></summary>
 
-| Project | Evidence-backed description | Tags |
+| Project | Description | Tags |
 | --- | --- | --- |
+| [context-ai](https://github.com/pradeeptathineni/context-ai) | AI context engineering definitions that follow authoritative standards for repeatable use in different AI projects. | `AI-workflows` `developer-tools` `knowledge-systems` |
+| [blueprint-ai](https://github.com/pradeeptathineni/blueprint-ai) | CLI and Python package for project inspection, review, generation, and strengthening with deterministic checks and optional model support. | `Python` `CLI` `developer-tools` `AI-workflows` `knowledge-systems` |
 | [principles-ai](https://github.com/pradeeptathineni/principles-ai) | Evidence-grounded knowledge corpus with a deterministic Node.js validation harness and human-governed semantic decisions. | `JavaScript` `Node.js` `AI-workflows` `knowledge-systems` |
 
 </details>
@@ -59,7 +49,7 @@ Every public repository is cataloged below except this profile repository, which
 <details open>
 <summary><strong>Cloud &amp; infrastructure</strong></summary>
 
-| Project | Evidence-backed description | Tags |
+| Project | Description | Tags |
 | --- | --- | --- |
 | [eng-challenge-aws-terraform](https://github.com/pradeeptathineni/eng-challenge-aws-terraform) | Terraform-defined AWS web infrastructure with VPC networking, an ALB, private EC2 workload, optional S3 state, CI, and verification workflows. | `Terraform` `AWS` `Bash` `IaC` `CI` |
 | [aws-iac-terraform](https://github.com/pradeeptathineni/aws-iac-terraform) | AWS infrastructure-as-code templates using Terraform. | `Terraform` `AWS` `IaC` |
@@ -71,7 +61,7 @@ Every public repository is cataloged below except this profile repository, which
 <details>
 <summary><strong>Creative coding &amp; visualization</strong></summary>
 
-| Project | Evidence-backed description | Tags |
+| Project | Description | Tags |
 | --- | --- | --- |
 | [nature-of-code](https://github.com/pradeeptathineni/nature-of-code) | Personal creative-coding experiments inspired by Nature of Code and Coding Train, including terrain, starfields, fireworks, and wave-function collapse. | `JavaScript` `creative-coding` `learning` |
 | [cs4460p5](https://github.com/pradeeptathineni/cs4460p5) | Course design project visualizing an aircraft-incident dataset. **Archived learning project.** | `JavaScript` `data-visualization` `learning` `archive` |
@@ -82,7 +72,7 @@ Every public repository is cataloged below except this profile repository, which
 <details>
 <summary><strong>Web applications</strong></summary>
 
-| Project | Evidence-backed description | Tags |
+| Project | Description | Tags |
 | --- | --- | --- |
 | [react-webapp-template](https://github.com/pradeeptathineni/react-webapp-template) | React frontend foundation paired with an Express backend. **Archived template.** | `JavaScript` `React` `Express` `archive` |
 
@@ -92,7 +82,7 @@ Every public repository is cataloged below except this profile repository, which
 <details>
 <summary><strong>Utilities</strong></summary>
 
-| Project | Evidence-backed description | Tags |
+| Project | Description | Tags |
 | --- | --- | --- |
 | [etc](https://github.com/pradeeptathineni/etc) | Small repository containing a Bash configuration file. | `Shell` `dotfiles` `limited-evidence` |
 
@@ -102,7 +92,7 @@ Every public repository is cataloged below except this profile repository, which
 <details>
 <summary><strong>Limited evidence</strong> — no engineering domain inferred from names alone</summary>
 
-| Project | Evidence-backed description | Tags |
+| Project | Description | Tags |
 | --- | --- | --- |
 | [PathAtlas](https://github.com/pradeeptathineni/PathAtlas) | Public repository with no available description or root content. **Metadata-only; scope and technologies are not inferred.** | `metadata-only` `unclassified` |
 
@@ -112,7 +102,7 @@ Every public repository is cataloged below except this profile repository, which
 <details>
 <summary><strong>Forks &amp; references</strong> — upstream work; not presented as authored or maintained projects</summary>
 
-| Project | Evidence-backed description | Tags |
+| Project | Description | Tags |
 | --- | --- | --- |
 | [LearningProcessing](https://github.com/pradeeptathineni/LearningProcessing) | Fork of examples accompanying the book *Learning Processing*. | `fork` `Processing` `learning` |
 | [LearningProcessing-p5.js](https://github.com/pradeeptathineni/LearningProcessing-p5.js) | Fork of *Learning Processing* examples ported to p5.js. | `fork` `JavaScript` `p5.js` `learning` |
