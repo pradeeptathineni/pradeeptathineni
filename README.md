@@ -72,6 +72,7 @@ The current builds, creative detours, useful odds and ends, and older trails—a
 
 | Project | Description |
 | --- | --- |
+| [aws-clip](https://github.com/pradeeptathineni/aws-clip) | **Limited public detail:** an “AWS CLI Plus” utility. |
 | [etc](https://github.com/pradeeptathineni/etc) | A small repository containing a Bash configuration file. |
 | [PathAtlas](https://github.com/pradeeptathineni/PathAtlas) | **Metadata-only:** no public description or root content is available yet. |
 
