@@ -13,21 +13,13 @@ Any thereafter, automation.
 [![Profile views](https://komarev.com/ghpvc/?username=pradeeptathineni&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/pradeeptathineni)
 [![GitHub followers](https://img.shields.io/github/followers/pradeeptathineni?label=Followers&style=flat)](https://github.com/pradeeptathineni?tab=followers)
 
-## 🚀 What I'm building
-
-| Project | What it explores |
-| --- | --- |
-| [**Context AI**](https://github.com/pradeeptathineni/context-ai) | A small, reusable context library that keeps durable guidance separate from model, provider, and project details. |
-| [**Blueprint AI**](https://github.com/pradeeptathineni/blueprint-ai) | Reusable workflows to inspect, build, review, and strengthen software projects—deterministic tooling first, with optional bounded model reasoning. |
-| [**Principles AI**](https://github.com/pradeeptathineni/principles-ai) | An AI-assisted knowledge system for curating durable principles and actionable practices, backed by deterministic validation and human-governed decisions. |
-
 ## 🧭 About Me
 
 I'm interested in tools that make complex work safer, clearer, and more repeatable—especially when automation gives people more room for judgment and creativity. My current public work brings together developer tooling, AI context architecture, and cloud infrastructure. I also enjoy creative-coding experiments inspired by physics and nature.
 
 ## 🛠️ Languages & Tools
 
-- **Building with:** Python, JavaScript, Node.js, Ruby, Terraform/HCL, Bash, AWS, GitHub Actions
+- **Building with:** Python, Go, JavaScript, Node.js, Ruby, Terraform/HCL, Bash, AWS, GitHub Actions
 - **Also exploring:** React, Express, Processing, p5.js, and data visualization
 - **Recurring themes:** deterministic tooling, infrastructure as code, CI, verification, developer workflows, knowledge systems
 
