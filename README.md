@@ -1,8 +1,7 @@
 # Hi, I'm Pradeep 👋
 
 I build evidence-first tools for software engineering, AI systems, infrastructure, and
-quantitative learning. My default question is simple: **what strong open-source work should I
-understand before I build another wheel?**
+quantitative learning.
 
 ```text
 Once is flirtation. Twice is frustration.
@@ -136,3 +135,5 @@ Two quick views of the public work: overall GitHub activity and the mix of langu
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pradeeptathineni&amp;theme=github_dark" alt="Pradeep's public GitHub statistics">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pradeeptathineni&amp;theme=github_dark" alt="Language composition of Pradeep's public GitHub repositories">
 </p>
+
+[EOF]::c-l>lF%H5o5CnU_Vmlh-FCge>5FPa;UMYxhC)pQ_f1d;)NIRNY?RBIS;zHY_*@Qt}gd03h#qnee;Wo5G2q*S3E#^<^NJX-$@PT<V@ldM^6Gt{l8^*WvJ~q^ke|Jz*i8yM)`Csh{)ch;0Z58$PQpY$0Xw5t&
