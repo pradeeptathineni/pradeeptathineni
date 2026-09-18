@@ -2,12 +2,12 @@
 I'm an engineer who sees repetitive work and starts wondering why a computer isn't suffering through it instead.
 I build around cloud/DevOps, developer tooling, AI systems, OSS discovery, and quantitative learning.
 Small annoyances become scripts. Repeated annoyances become repositories. Occasionally the repository becomes another annoyance.
-```text
+~~~text
 Once is flirtation. Twice is frustration.
 Once is temptation. Twice is libation.
 Once is foundation. Twice is causation.
 All thereafter is automation.
-```
+~~~
 [![Profile views](https://komarev.com/ghpvc/?username=pradeeptathineni&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/pradeeptathineni)
 [![GitHub followers](https://img.shields.io/github/followers/pradeeptathineni?label=Followers&style=flat)](https://github.com/pradeeptathineni?tab=followers)
 ## 🚀 What I'm building
