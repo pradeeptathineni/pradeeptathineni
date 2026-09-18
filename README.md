@@ -18,11 +18,11 @@ All thereafter is automation.
 
 | Project | What it explores |
 | --- | --- |
-| [**ShouldaUsedThat**](https://github.com/pradeeptathineni/shoulda-used-that) | A deterministic-first, AI-optional coordinator for discovering, vetting, remembering, and revalidating existing OSS before writing more code. Its [live catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) is also a public execution of the idea. |
-| [**Context AI**](https://github.com/pradeeptathineni/context-ai) | A small, reusable context library that keeps durable guidance separate from model, provider, and project details. |
-| [**Blueprint AI**](https://github.com/pradeeptathineni/blueprint-ai) | Reusable workflows to inspect, build, review, and strengthen software projects—deterministic tooling first, with optional bounded model reasoning. |
-| [**Quant Atlas**](https://github.com/pradeeptathineni/quant-atlas) | Learner-first quantitative references that expose the meaning, counts, denominators, and arithmetic behind technical metrics. |
-| [**Principles AI**](https://github.com/pradeeptathineni/principles-ai) | An AI-assisted knowledge system for curating durable principles and actionable practices, backed by deterministic validation and human-governed decisions. |
+| [**ShouldaUsedThat** best coordinated ai slop](https://github.com/pradeeptathineni/shoulda-used-that) | A deterministic-first, AI-optional coordinator for discovering, vetting, remembering, and revalidating existing OSS before writing more code. Its [live catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) is also a public execution of the idea. |
+| [**Context AI** ai slop](https://github.com/pradeeptathineni/context-ai) | A small, reusable context library that keeps durable guidance separate from model, provider, and project details. |
+| [**Blueprint AI** ai slop](https://github.com/pradeeptathineni/blueprint-ai) | Reusable workflows to inspect, build, review, and strengthen software projects—deterministic tooling first, with optional bounded model reasoning. |
+| [**Quant Atlas** ai slop](https://github.com/pradeeptathineni/quant-atlas) | Learner-first quantitative references that expose the meaning, counts, denominators, and arithmetic behind technical metrics. |
+| [**Principles AI** ai slop](https://github.com/pradeeptathineni/principles-ai) | An AI-assisted knowledge system for curating durable principles and actionable practices, backed by deterministic validation and human-governed decisions. |
 
 ## 🔎 Check the ecosystem first
 
