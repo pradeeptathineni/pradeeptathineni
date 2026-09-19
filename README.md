@@ -18,9 +18,9 @@ All thereafter is automation.
 
 ## 🚀 What I'm building
 
-Yes, there's a lot of AI here, slop is fair suspicion.
+There's a bunch of AI here, slop is fair suspicion.
 
-But actually these projects exist _because_ I have the same suspicion.
+But these projects exist actually _because_ I have the same suspicion.
 
 **evidence -> context engineering -> agent orchestration -> bounded execution -> verification -> productization -> review**
 
