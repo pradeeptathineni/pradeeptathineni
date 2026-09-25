@@ -2,8 +2,6 @@
 
 I'm an engineer who sees repeated work as a design problem: if I have to do it twice, I start asking why the computer isn't doing it.
 
-I build cloud infrastructure, developer tools, AI systems, OSS discovery tooling, and quantitative learning resources, usually around making useful work easier to repeat, inspect, and trust.
-
 ```text
 Once is flirtation. Twice is frustration.
 Once is temptation. Twice is libation.
@@ -12,11 +10,11 @@ Once is foundation. Twice is causation.
 All thereafter is automation.
 ```
 
+I build cloud infrastructure, developer tools, AI systems, and learning resources, all based around making useful work/knowledge easier to repeat, inspect, and trust.
+
 ## 🚀 What I'm building
 
-AI shows up in several projects, but **"the model said so" is not an engineering argument**. Deterministic tools own what they can, model reasoning is bounded where it helps, and outputs still have to survive normal verification.
-
-**evidence -> context engineering -> agent orchestration -> bounded execution -> verification -> productization -> review**
+> AI shows up in several projects. Deterministic tools own what they can, model reasoning is bounded where it helps, and outputs still have to survive normal verification. **evidence -> context engineering -> agent orchestration -> bounded execution -> verification -> productization -> review**
 
 ### 📚 Knowledge + Evidence
 
@@ -35,7 +33,7 @@ AI shows up in several projects, but **"the model said so" is not an engineering
 | [**AWS CLI Plus**](https://github.com/pradeeptathineni/aws-clip)                                           | Go wrapper around AWS CLI v2 for multi-profile identity visibility and account-bound safety checks around risky commands; AWS CLI remains the underlying interface.                                                 | `aws` `cli` `go` `devops`      |
 | [**AWS Terraform Engineering Challenge**](https://github.com/pradeeptathineni/eng-challenge-aws-terraform) | Terraform-defined AWS infrastructure with modular networking, optional remote state, CI, deployment verification, and safe teardown, while preserving the engineering decisions made beyond the original challenge. | `aws` `terraform` `iac` `cicd` |
 
-### 🎨 Creativity + Exploration
+### 🎨 Creative Exploration
 
 | Project                                                                  | What it is                                                                                                                                                                 | Tags                 |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
@@ -72,5 +70,7 @@ They all reduce to the same question: **How can I build provable, repeatable, re
 **Primary:** Python · Go · JavaScript/Node.js · Terraform/HCL · Bash · AWS · Git · GitHub Actions
 
 **Also:** Docker · Kubernetes · React · retrieval/agents · computer vision · Processing/p5.js · simulation · data visualization
+
+---
 
 [EOF]: :c-l>lF%H5o5CnU_Vmlh-FCge>5FPa;UMYxhC)pQ_f1d;)NIRNY?RBIS;zHY_*@Qt}gd03h#qnee;Wo5G2q*S3E#^<^NJX-$@PT<V@ldM^6Gt{l8^*WvJ~q^ke|Jz*i8yM)`Csh{)ch;0Z58$PQpY$0Xw5t&
