@@ -46,7 +46,7 @@ Within each section, projects are ordered roughly from more developed to more ex
 
 ## 🔎 Prior art first
 
-Given the rapidly evolving era of software development, namely due to the AI explosion, it's paramount to not reinvent wheels or waste effort developing something that already exists. In knowing what exists as a high signaling item, we can make better considerations from the start on project architecture using existing integrations, or considering exactly how development would uniquely provide better value than what exists currently.
+Software moves too fast, especially with AI, to keep reinventing wheels. I want to know what already exists, what has strong signals, what can be reused, and where custom work would genuinely add value. Prior art should shape architecture and decisions before implementation, not show up later as "shoulda used that", or worse, as "wow, that's exactly my idea, and much better".
 
 My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) are organized as a working prior-art map. A star means **worth considering or revisiting**, not that I have fully audited or adopted the project.
 
