@@ -53,11 +53,23 @@ I favor small, inspectable changes, repeatable deployment, and checks that show 
 
 I use AI to research, plan, implement, and review. I remain responsible for the choices, verification, and results. The question I keep returning to is: **does this make someone's life easier, or more interesting?**
 
-## Toolbox
+## 🛠️ Tech stack
 
-- **Regular tools:** AWS, Terraform, Python, Bash, Docker, Git, and GitHub Actions (`Jenki...nvm`), on macOS and Linux.
-- **Also in the toolbox:** Go, JavaScript/TypeScript, SQL, Kubernetes, Helm, OpenTofu, CloudFormation; CloudWatch, Prometheus, and Grafana for observability.
-- **Exploring:** LLM applications, retrieval, evaluation, visualization, and simulation.
+- **Systems:**
+  - **Operating Systems:** `*macOS*` ; `*Linux*` ; `Windows`
+  - **Editors / Notebooks:** `*VS Code*` ; `Jupyter` ; `Google Colab`
+- **Software & Platforms:**
+  - **Code:** `*Python*` ; `*Bash*` ; `Go` ; `JavaScript` ; `TypeScript` ; `Node.js` ; `SQL` ; `React`
+  - **Cloud & Platform:** `*AWS*` ; `*Docker*` ; `Kubernetes` ; `Helm`
+  - **Infrastructure as Code:** `*Terraform*` ; `OpenTofu` ; `AWS CloudFormation`
+  - **Delivery:** `*Git*` ; `*GitHub Actions*` ; `CircleCI` ; `AWS CodePipeline` ; `Jenki...nvm`
+  - **Observability:** `CloudWatch` ; `Prometheus` ; `Grafana` ; `ELK`
+- **Focuses:**
+  - **Engineering:** `Automation` ; `DevOps` ; `Cloud Architecture` ; `Platform Engineering` ; `Solutions Architecture` ; `Modernization` ; `Customer Enablement` ; `Developer Tooling` ; `OSS / Prior-Art Discovery` ; `IoT`
+  - **AI:** `LLM Applications` ; `RAG` ; `Agents` ; `Context Engineering` ; `Model Routing` ; `Evaluation` ; `Machine Learning`
+  - **Exploring:** `Computer Vision` ; `Data Visualization` ; `Simulation`
+
+> Items written like `*this*` are the major, most typical items in my toolbox.
 
 ## neon1
 

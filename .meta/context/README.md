@@ -37,6 +37,9 @@ redirects to Signals; a future Maestro role is a proposal, not another product.
 Curate worthwhile projects rather than inventory every repository. Describe a
 clear purpose and practical benefit, without implying that intent proves value.
 Keep established cloud, DevOps, and platform work visible alongside AI work.
+Pradeep prefers the detailed, grouped tech stack with its original item formatting,
+major-tool markers, and legend. Preserve that structure; do not condense it into
+shorter toolbox bullets unless asked.
 Learning collections must distinguish completed practice from planned exercises.
 Credit upstream work; a fork is not evidence of authorship.
 
