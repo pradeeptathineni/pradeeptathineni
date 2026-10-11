@@ -10,108 +10,68 @@ Once is foundation. Twice is causation.
 All thereafter is automation.
 ```
 
-I build cloud infrastructure, developer tools, AI systems, and learning resources, all based around making useful work/knowledge easier to repeat, inspect, and trust.
+I build cloud infrastructure, developer tools, and AI systems. My background is in automation, DevOps, and platform engineering; I like making difficult work easier to repeat and understand.
+
+## What I'm working toward
+
+**Deep AI** is my longer-term goal: a human-directed environment for understanding information, finding worthwhile ideas, weighing decisions, and turning selected ideas into useful work. I'd like to ask what's changed in an area I care about, see the evidence, and decide which idea deserves a small experiment. I want AI to help me, and eventually others, discover valuable possibilities while keeping people in charge of what matters and what happens next.
+
+That unified experience is still a plan. Signals is my nearer-term priority, and the separate AI repositories below explore complementary parts of this direction. Each should be useful on its own as I work out where bringing them together would help.
+
+## What I'm building
+
+### Cloud and developer tooling
+
+- [**AWS Terraform Engineering Challenge**](https://github.com/pradeeptathineni/eng-challenge-aws-terraform): AWS web infrastructure with modular networking, optional remote state, CI, deployment verification, and safe teardown. The surrounding engineering grew beyond the original challenge.
+- [**AWS CLI Plus**](https://github.com/neon1llc/aws-clip): A Go wrapper for AWS CLI v2 that makes multi-profile work easier to follow, verifies account identity, and adds account-bound checks before risky commands.
+
+### AI systems
+
+These are evolving engineering projects, with working tools and open questions about where they help most.
+
+- [**Signals AI**](https://github.com/pradeeptathineni/signals-ai): Research questions, inspect evidence, compare findings, and retain useful knowledge for interests and projects. A local workspace supports discovery; the [public Corpus](https://pradeeptathineni.github.io/signals-ai/) shares approved records.
+- [**Context AI**](https://github.com/pradeeptathineni/context-ai): Reusable engineering guidance with tools to select and adopt it for a project, verify the installed files, and undo changes while preserving that project's own instructions.
+- [**Blueprint AI**](https://github.com/pradeeptathineni/blueprint-ai): Create, inspect, review, and evolve software projects using native tools and deterministic checks, with optional AI reasoning over bounded evidence.
+- [**Principles AI**](https://github.com/pradeeptathineni/principles-ai): An evidence-informed collection of principles, practices, and rationales, supported by tooling for structure and validation. It aims to make considered guidance easier to learn from and revisit.
+
+Each project owns its practical AI guidance; patterns that prove helpful across projects may eventually inform Context AI's reusable library.
+
+### Practice and exploration
+
+- [**Labs**](https://github.com/pradeeptathineni/labs): Problems I take apart, decisions I make, and things I build. The [published catalog](https://pradeeptathineni.github.io/labs/) separates work I've done from exercises waiting for me, across code, study, writing, and design.
+- [**ShouldaUsedThat**](https://github.com/pradeeptathineni/shoulda-used-that): A deterministic research CLI for deciding what to reuse, what to skip, and what remains worth building. The [reviewed catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) keeps the decisions and evidence.
+- [**home-lab**](https://github.com/pradeeptathineni/home-lab): My Mac-hosted Linux lab for private services, monitoring, local AI, backup practice, and disposable experiments. It is also how I learn what deserves a future always-on server.
+- [**nature-of-code**](https://github.com/pradeeptathineni/nature-of-code): Creative coding inspired by Daniel Shiffman's *The Nature of Code* and Coding Train: terrain, starfields, fireworks, moiré, and wave-function collapse.
+
+## How I work
+
+**observe → understand → remove → automate → verify → observe again**
+
+I start with the problem and the person dealing with it. Before adding machinery, I ask what can be removed and what already exists. My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) are a working prior-art map: a star means worth considering or revisiting, not fully audited or adopted. I'd rather find good prior art early than discover it later as “shoulda used that,” or worse, “wow, that's exactly my idea, and much better.”
+
+I favor small, inspectable changes, repeatable deployment, and checks that show what actually happened. Automation needs useful logs and a way to recover. With AI, I start from a deterministic baseline, bound what the model can do, and compare the results. A passing test is useful evidence; whether someone's work improves still needs observation.
+
+I use AI to research, plan, implement, and review. I remain responsible for the choices, verification, and results. The question I keep returning to is: **does this make someone's life easier, or more interesting?**
+
+## Toolbox
+
+- **Regular tools:** AWS, Terraform, Python, Bash, Docker, Git, and GitHub Actions (`Jenki...nvm`), on macOS and Linux.
+- **Also in the toolbox:** Go, JavaScript/TypeScript, SQL, Kubernetes, Helm, OpenTofu, CloudFormation; CloudWatch, Prometheus, and Grafana for observability.
+- **Exploring:** LLM applications, retrieval, evaluation, visualization, and simulation.
+
+## neon1
+
+[**neon1**](https://github.com/neon1llc) is my personal organization for tooling that grows out of repeated needs in software, infrastructure, automation, and customer enablement. AWS CLI Plus lives there. I share patterns when they become useful beyond the problem that first prompted them.
 
 ---
 
-## 🚀 What I'm building
+<details>
+<summary>When the dashboard is still green.</summary>
 
-Within each section, projects are ordered roughly from more developed to more exploratory.
+<img src="assets/this-is-fine.png" alt="Two panels of a dog sitting with a mug in a burning room, saying ‘This is fine.’" width="460">
 
-### 🏗️ Engineering
+*“On Fire” (2013), by [KC Green / Gunshow](https://gunshowcomic.com/648). Copyright remains with the creator.*
 
-| Project                                                                                                    | What it does                                                                                                                                                                                                        | Tags                           |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| [**AWS Terraform Engineering Challenge**](https://github.com/pradeeptathineni/eng-challenge-aws-terraform) | Terraform-defined AWS infrastructure with modular networking, optional remote state, CI, deployment verification, and safe teardown, while preserving the engineering decisions made beyond the original challenge. | `aws` `terraform` `iac` `cicd` |
-| [**AWS CLI Plus**](https://github.com/neon1llc/aws-clip)                                                   | Go wrapper around AWS CLI v2 for multi-profile identity visibility and account-bound safety checks around risky commands; AWS CLI remains the underlying interface.                                                 | `aws` `cli` `go` `devops`      |
-
-### 🤖 AI Case Studies
-
-| Project                                                                | What it explores                                                                                                                                      | Tags                                  |
-| ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| [**Blueprint AI**](https://github.com/pradeeptathineni/blueprint-ai)   | AI case study in reusable engineering blueprints for inspecting, reviewing, creating, and safely evolving software projects.                          | `devtools` `cli` `python` `ai`        |
-| [**Maestro AI**](https://github.com/pradeeptathineni/maestro-ai)       | AI case study in evidence-bound research for finding high-signal knowledge relevant to a user query.                                                  | `ai` `research` `search` `typescript` |
-| [**Context AI**](https://github.com/pradeeptathineni/context-ai)       | AI case study in reusable context engineering that keeps durable guidance separate from model routing, provider behavior, references, and evaluation. | `ai` `context` `routing` `evals`      |
-| [**Principles AI**](https://github.com/pradeeptathineni/principles-ai) | AI case study in evidence-grounding for durable principles and actionable practices across professional and technical domains.                        | `ai` `knowledge` `evidence` `node.js` |
-
-### 🧪 Experiments + Learning
-
-| Project                                                                      | What it does                                                                                                                                                                                                                                                      | Tags                                       |
-| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [**ShouldaUsedThat**](https://github.com/pradeeptathineni/shoulda-used-that) | Turns a concrete software problem into evidence-backed reuse decisions: what fits, what does not, and what custom work remains. Its [public catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) shows reviewed decisions and their evidence. | `oss` `decision-support` `cli` `python`    |
-| [**home-lab**](https://github.com/pradeeptathineni/home-lab)                 | A personal home lab for learning through measured services, observability, local AI, backup practice, and disposable experiments on real hardware.                                                                                                                | `homelab` `docker` `local-ai` `automation` |
-| [**nature-of-code**](https://github.com/pradeeptathineni/nature-of-code)     | Creative-coding experiments inspired by _The Nature of Code_ and Coding Train, including terrain, starfields, fireworks, wave-function collapse, and other visual systems.                                                                                        | `simulation` `p5.js`                       |
-
----
-
-## 🔎 Prior art first
-
-Software moves too fast, especially with AI, to keep reinventing wheels. I want to know what already exists, what has strong signals, what can be reused, and where custom work would genuinely add value. Prior art should shape architecture and decisions before implementation, not show up later as "shoulda used that", or worse, as "wow, that's exactly my idea, and much better".
-
-My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) are organized as a working prior-art map. A star means **worth considering or revisiting**, not that I have fully audited or adopted the project.
-
-- **AI + knowledge:** [Generative AI & Agents](https://github.com/stars/pradeeptathineni/lists/generative-ai-agents) ; [RAG, Search & Knowledge](https://github.com/stars/pradeeptathineni/lists/rag-search-knowledge) ; [Computer Vision & Multimodal](https://github.com/stars/pradeeptathineni/lists/computer-vision-multimodal)
-- **Engineering + delivery:** [Cloud Infrastructure & IaC](https://github.com/stars/pradeeptathineni/lists/cloud-infrastructure-iac) ; [Platform Engineering & Delivery](https://github.com/stars/pradeeptathineni/lists/platform-engineering-delivery) ; [Software Supply Chain](https://github.com/stars/pradeeptathineni/lists/software-supply-chain) ; [Python Engineering](https://github.com/stars/pradeeptathineni/lists/python-engineering) ; [Web Engineering & Interfaces](https://github.com/stars/pradeeptathineni/lists/web-engineering-interfaces)
-- **Systems + exploration:** [Homelab & Self-Hosting](https://github.com/stars/pradeeptathineni/lists/homelab-self-hosting) ; [Creative Coding & Visualization](https://github.com/stars/pradeeptathineni/lists/creative-coding-visualization) ; [Nature, Physics & Simulation](https://github.com/stars/pradeeptathineni/lists/nature-physics-simulation) ; [OSS Curation & Prior Art](https://github.com/stars/pradeeptathineni/lists/oss-curation-prior-art)
-
-Where a star is not enough, the [ShouldaUsedThat catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) keeps the evidence, rationale, freshness, disposition, and conditions that would make a decision worth revisiting.
-
----
-
-## 🛠️ Tech stack
-
-- **Systems:**
-  - **Operating Systems:** `*macOS*` ; `*Linux*` ; `Windows`
-  - **Editors / Notebooks:** `*VS Code*` ; `Jupyter` ; `Google Colab`
-- **Software & Platforms:**
-  - **Code:** `*Python*` ; `*Bash*` ; `Go` ; `JavaScript` ; `TypeScript` ; `Node.js` ; `SQL` ; `React`
-  - **Cloud & Platform:** `*AWS*` ; `*Docker*` ; `Kubernetes` ; `Helm`
-  - **Infrastructure as Code:** `*Terraform*` ; `OpenTofu` ; `AWS CloudFormation`
-  - **Delivery:** `*Git*` ; `*GitHub Actions*` ; `CircleCI` ; `AWS CodePipeline` ; `Jenki...nvm`
-  - **Observability:** `CloudWatch` ; `Prometheus` ; `Grafana` ; `ELK`
-- **Focuses:**
-  - **Engineering:** `Automation` ; `DevOps` ; `Cloud Architecture` ; `Platform Engineering` ; `Solutions Architecture` ; `Modernization` ; `Customer Enablement` ; `Developer Tooling` ; `OSS / Prior-Art Discovery` ; `IoT`
-  - **AI:** `LLM Applications` ; `RAG` ; `Agents` ; `Context Engineering` ; `Model Routing` ; `Evaluation` ; `Machine Learning`
-  - **Exploring:** `Computer Vision` ; `Data Visualization` ; `Simulation`
-
-> Items written like `*this*` are the major, most typical items in my toolbox.
-
----
-
-## 🧭 How I think
-
-I strive to turn laborious physical- or digital-world processes into systems that are faster, more reliable, and easier to understand.
-
-| Domain         | Question I keep asking                                                             |
-| -------------- | ---------------------------------------------------------------------------------- |
-| Software       | **Does this create meaningful user value?**                                        |
-| Automation     | **What steps can be removed, collapsed, or made reliable?**                        |
-| Infrastructure | **Does this shorten and strengthen the feedback loop?**                            |
-| Hardware / IoT | **Where can software make a physical system meaningfully better, and vice-versa?** |
-| AI             | **What can be grounded, bounded, and independently verified?**                     |
-
-They all reduce to the same question: **How can I build provable, repeatable, reliable technology that makes people's lives easier (or more interesting)?**
-
----
-
-## 🔁 How I engineer
-
-**observe -> understand -> remove -> automate -> verify -> observe again**
-
-| Focus                         | Process                                                                                                                                                                                                                     |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Automation**                | repetition observed -> define inputs/outputs -> script/software development -> make idempotent -> integrate/schedule -> log + measure -> alert on failure -> remove more steps                                              |
-| **DevOps / Delivery**         | code change -> local/static checks -> PR CI -> human review -> immutable artifact -> deploy progressively -> smoke/integration tests -> observe -> rollback or promote                                                      |
-| **Infrastructure / Platform** | requirements + constraints -> prior art -> architecture -> IaC -> plan + review -> provision -> verify -> observe + detect drift -> iterate                                                                                 |
-| **Solutions / Modernization** | understand current state -> identify constraints + user value -> compare options -> record tradeoffs -> migrate the smallest useful slice -> validate cost/security/reliability -> expand deliberately                      |
-| **AI Engineering**            | define task + evals -> establish deterministic baseline -> gather evidence/context -> add the minimum useful model behavior -> constrain tools/outputs -> evaluate independently -> observe cost/latency/quality -> iterate |
-
----
-
-## 🟢 neon1
-
-[**neon1**](https://github.com/neon1llc) is my personal organization home for repeatable tooling across software, automation, infrastructure, IoT, and grounded uses of AI that I have found useful across SMB solutions enablement. When I witness repeated semantics that can be generalized across business, operator, or end-user technology solutions, I strive to refine and share those ideas here.
-
----
+</details>
 
 [EOF]: :c-l>lF%H5o5CnU_Vmlh-FCge>5FPa;UMYxhC)pQ_f1d;)NIRNY?RBIS;zHY_*@Qt}gd03h#qnee;Wo5G2q*S3E#^<^NJX-$@PT<V@ldM^6Gt{l8^*WvJ~q^ke|Jz*i8yM)`Csh{)ch;0Z58$PQpY$0Xw5t&
