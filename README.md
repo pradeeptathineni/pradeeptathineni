@@ -1,4 +1,4 @@
-# Hi, I'm Pradeep 👋
+# H I I ' M P R A D E E P
 
 I'm an engineer who sees repeated work as a design problem: if I have to do it twice, I start asking why the computer isn't doing it.
 
