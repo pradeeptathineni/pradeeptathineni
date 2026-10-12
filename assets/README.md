@@ -6,6 +6,7 @@ These images are credited separately from the repository's code. The XKCD PNGs a
 | --- | --- | --- |
 | [1739-fixing-problems.png](xkcd/1739-fixing-problems.png) | Randall Munroe · [XKCD #1739, Fixing Problems](https://xkcd.com/1739/) | [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/) |
 | [1319-automation.png](xkcd/1319-automation.png) | Randall Munroe · [XKCD #1319, Automation](https://xkcd.com/1319/) | [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/) |
+| [0789-showdown.png](xkcd/0789-showdown.png) | Randall Munroe · [XKCD #789, Showdown](https://xkcd.com/789/) | [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/) |
 | [1838-machine-learning.png](xkcd/1838-machine-learning.png) | Randall Munroe · [XKCD #1838, Machine Learning](https://xkcd.com/1838/) | [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/) |
 | [0974-the-general-problem.png](xkcd/0974-the-general-problem.png) | Randall Munroe · [XKCD #974, The General Problem](https://xkcd.com/974/) | [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/) |
 | [0882-significant.png](xkcd/0882-significant.png) | Randall Munroe · [XKCD #882, Significant](https://xkcd.com/882/) | [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/) |

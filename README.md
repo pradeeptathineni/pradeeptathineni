@@ -439,6 +439,22 @@ self.INTERESTS = [
 
 <p></p>
 
+> `wild_times` = "Ese be some wild, curious times we be havin ese days, pardna."
+
+<details>
+<summary>self.imagine(wild_times)</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/xkcd/0789-showdown.png" alt="Two cowboys prepare for a duel, but a tumbleweed draws two guns and wins the showdown." width="740"><br/>
+  <sup><em><a href="https://xkcd.com/789/">XKCD #789</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
+</p>
+
+</details>
+
+<p></p>
+
 > `autonomy` = "If my autonomous system needs a babysitter, I’ve built a very expensive toddler. Give it a memory file and a calendar and apparently I’m supposed to call it a coworker."
 
 <p></p>
