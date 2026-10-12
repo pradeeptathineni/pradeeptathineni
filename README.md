@@ -1,17 +1,32 @@
 <h1 align="center">⭐ class PradeepTathineniGithub:</h1>
+
+<p align="center">
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/macOS-64748B?logo=macos&amp;logoColor=white&amp;style=flat" alt="macOS"></a>
+  <a href="#tech-stack"><img src="assets/badges/vscode.svg" alt="VS Code"></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=white&amp;style=flat" alt="Python, my primary language"></a>
+  <a href="#tech-stack"><img src="assets/badges/aws.svg" alt="AWS"></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&amp;logoColor=white&amp;style=flat" alt="Docker"></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Terraform-7B42AC?logo=terraform&amp;logoColor=white&amp;style=flat" alt="Terraform"></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&amp;logoColor=white&amp;style=flat" alt="GitHub Actions"></a>
+  <a href="#tech-stack"><img src="assets/badges/codex.svg" alt="Codex, one of my primary AI tools"></a>
+  <a href="#tech-stack"><img src="assets/badges/chatgpt.svg" alt="ChatGPT, one of my primary AI tools"></a>
+</p>
+
+<p align="center">
+  <a href="#projects">Projects</a> ·
+  <a href="https://pradeeptathineni.github.io/labs/">Labs</a> ·
+  <a href="https://github.com/pradeeptathineni?tab=stars">GitHub Stars</a> ·
+  <a href="https://github.com/neon1llc">neon1</a> ·
+  <a href="https://www.linkedin.com/in/pradeep-tathineni/">LinkedIn</a>
+</p>
+
 <div align="center">
 
 ```python
 self.AUTHOR = "Pradeep Tathineni"
 
 self.SECTIONS = [ self.identity, self.my_values, self.my_projects, self.tech_stack, self.neon1, Meta ]
-```
 
-<pre><code>self.LINKS = [ <a href="#projects">&quot;Projects&quot;</a>, <a href="https://pradeeptathineni.github.io/labs/">&quot;Labs&quot;</a>, <a href="https://github.com/pradeeptathineni?tab=stars">&quot;GitHub Stars&quot;</a>, <a href="https://github.com/neon1llc">&quot;neon1&quot;</a>, <a href="https://www.linkedin.com/in/pradeep-tathineni/">&quot;LinkedIn&quot;</a> ]
-
-self.TOOLBOX = [ <a href="#tech-stack"><img src="https://img.shields.io/badge/macOS-64748B?logo=macos&amp;logoColor=white&amp;style=flat" alt="macOS"></a>, <a href="#tech-stack"><img src="assets/badges/vscode.svg" alt="VS Code"></a>, <a href="#tech-stack"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=white&amp;style=flat" alt="Python, my primary language"></a>, <a href="#tech-stack"><img src="assets/badges/aws.svg" alt="AWS"></a>, <a href="#tech-stack"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&amp;logoColor=white&amp;style=flat" alt="Docker"></a>, <a href="#tech-stack"><img src="https://img.shields.io/badge/Terraform-7B42AC?logo=terraform&amp;logoColor=white&amp;style=flat" alt="Terraform"></a>, <a href="#tech-stack"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&amp;logoColor=white&amp;style=flat" alt="GitHub Actions"></a>, <a href="#tech-stack"><img src="assets/badges/codex.svg" alt="Codex, one of my primary AI tools"></a>, <a href="#tech-stack"><img src="assets/badges/chatgpt.svg" alt="ChatGPT, one of my primary AI tools"></a> ]</code></pre>
-
-```python
 # Could you imagine if we chose to center our code?
 ```
 

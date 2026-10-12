@@ -25,10 +25,10 @@ blocks are intentional: format lists with indentation, but keep each prose strin
 on one source line. Do not split strings to enforce a line-length limit.
 Pad single-line list literals with a space inside each bracket. Separate opening
 metadata assignments with a blank line for readability.
-The opening metadata uses HTML `<pre><code>` to display clickable links and badge
-images inside the code-style block. A fenced block would display their markup.
-The closing comment has its own Python fence for native highlighting. Applying
-Python highlighting to the HTML metadata strips its embedded links and images.
+Keep the opening badges and links in standalone centered paragraphs: spaces
+between badges, dots between links. Put author, sections, and the comment in one
+centered Python fence, separated by blank lines. Images inside `<pre><code>`
+failed on the live GitHub profile despite passing a local preview and API render.
 
 ## Accuracy and project selection
 
