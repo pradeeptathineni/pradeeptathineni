@@ -37,9 +37,19 @@ Author, sections, and the comment share one centered Python fence with blank lin
 Keep badges selective and use icons where available. Badge images inside
 `<pre><code>` failed on the live GitHub profile despite passing local/API previews.
 
-Use native `<details>` with inline call-style summaries; heading-sized summaries
-detached arrows in VS Code. Keep `<p></p>` disclosure spacing and `<br/>` section
-separation. Avoid blockquote indentation, CSS/JavaScript, and nonworking open-all
+Wrap each top-level class and method in a closed
+`<details>`, with its existing heading inside the summary and its content inside.
+Classes contain their method sections. Values opens Intentions and closes Practices;
+Tech Stack opens Software & Platforms and closes its other groups. Preserve other defaults.
+Place each section emoji directly in the summary before its heading element.
+Keep group summaries inline. Heading-sized summaries can detach arrows in VS Code.
+Use one `<p><br/></p>` spacer between main sections. After the welcome code block,
+use a single `<br/>` immediately after `</div>` to avoid doubling its existing margin.
+Use `<p></p>` between inner groups and after inline summaries;
+avoid stacked spacers. Put fragment anchors inside summaries to avoid empty-paragraph margins.
+Keep adjacent closing `</details>` tags on consecutive lines, retain blank lines
+around Markdown blocks, and preserve the deliberate three-break EOF separation.
+Avoid blockquote indentation, CSS/JavaScript, and nonworking open-all
 controls. Long identity and thought prose uses blockquotes with inline code variable
 labels; explanatory notes can use an inline `#` label. Keep each assignment or
 sentence on one source line and let prose wrap naturally. Reserve code blocks for

@@ -1,4 +1,5 @@
-<h1 align="center">⭐ class Deep(Github):</h1>
+<details>
+<summary>⭐<h1 align="center">class Deep(Github):</h1></summary>
 
 <p align="center">
   <a href="#tech-stack"><img src="https://img.shields.io/badge/macOS-64748B?logo=macos&amp;logoColor=white&amp;style=flat" alt="macOS"></a>
@@ -31,10 +32,10 @@ self.SECTIONS = [ self.identity, self.values, self.projects, self.tech_stack, se
 ```
 
 </div>
-
 <br/>
 
-## 🪪 def identity(self, title="Hello World!"):
+<details>
+<summary>🪪<h2>def identity(self, title="Hello World!"):</h2></summary>
 
 <details open>
 <summary>self.identity.group(<strong>"<ins>Core</ins>"</strong>)</summary>
@@ -102,10 +103,12 @@ self.INTERESTS = [
 ```
 
 </details>
+</details>
 
-<br/>
+<p><br/></p>
 
-## 🧭 def values(self, group="technology"):
+<details>
+<summary>🧭<h2>def values(self, group="technology"):</h2></summary>
 
 <details open>
 <summary>self.values.group(<strong>"<ins>Intentions</ins>"</strong>)</summary>
@@ -122,7 +125,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<details open>
+<details>
 <summary>self.values.group(<strong>"<ins>Practices</ins>"</strong>)</summary>
 
 <p></p>
@@ -133,12 +136,12 @@ self.INTERESTS = [
 > `#` **Remove, automate, verify, and revisit** — Keep changes small, check that they help, and keep a way to recover.
 
 </details>
+</details>
 
-<br/>
+<p><br/></p>
 
-<a name="projects"></a>
-
-## 🚀 def projects(self, type="personal"):
+<details>
+<summary><a name="projects"></a>🚀<h2>def projects(self, type="personal"):</h2></summary>
 
 <details>
 <summary>self.projects.info()</summary>
@@ -318,12 +321,11 @@ self.INTERESTS = [
   | **Tags** | `p5.js` ; `simulation` ; `creative-coding` |
 
 </details>
+</details>
+<p><br/></p>
 
-<br/>
-
-<a name="tech-stack"></a>
-
-## 🛠️ def tech_stack(self, sort=[ "preference", "experience" ]):
+<details>
+<summary><a name="tech-stack"></a>🛠️<h2>def tech_stack(self, sort=[ "preference", "experience" ]):</h2></summary>
 
 <details>
 <summary>self.tech.meta()</summary>
@@ -336,7 +338,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<details open>
+<details>
 <summary>self.tech.group(<strong>"<ins>Systems</ins>"</strong>)</summary>
 
 <p></p>
@@ -364,7 +366,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<details open>
+<details>
 <summary>self.tech.group(<strong>"<ins>Focuses</ins>"</strong>)</summary>
 
 <p></p>
@@ -374,18 +376,22 @@ self.INTERESTS = [
 - **Exploring:** `Computer Vision` ; `Data Visualization` ; `Simulation`
 
 </details>
+</details>
+<p><br/></p>
 
-<br/>
-
-## 🟢 def neon1(self, type="business", redirect=True):
+<details>
+<summary>🟢<h2>def neon1(self, type="business", redirect=True):</h2></summary>
 
 > `#` [**neon1**](https://github.com/neon1llc) is my engineering organization for software, infrastructure, and automation within SMBs.\
 > `#` I share reusable tools and patterns through its public repositories.\
 > `#` AWS CLI Plus lives there.
 
-<br/>
+</details>
+</details>
+<p><br/></p>
 
-## 🗂️ class Meta(Deep):
+<details>
+<summary>🗂️<h2>class Meta(Deep):</h2></summary>
 
 <details>
 <summary>def disclaimers(self, warnings="alert"):</summary>
@@ -407,6 +413,10 @@ self.INTERESTS = [
 
 <details>
 <summary>def thoughts(self, think=2, filter=None, humor="dry"):</summary>
+
+<p></p>
+
+> `sanity` = "Sanity is like a robust README. They both heavily collapse."
 
 <p></p>
 
@@ -523,7 +533,7 @@ self.INTERESTS = [
 </p>
 
 </details>
-
+</details>
 <br/>
 <br/>
 <br/>
