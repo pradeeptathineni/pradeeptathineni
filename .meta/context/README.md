@@ -48,7 +48,10 @@ major-tool markers, and legend; do not condense it unless asked.
 
 Keep established cloud, DevOps, and platform work visible alongside AI exploration.
 Use concise purposes and the README's Flow, Maturity, Status, Activity, and Tags
-format and definitions. Intended flow differs from implemented behavior. Releases,
+format and definitions. Keep project titles as bullets with nested two-column,
+five-row metadata tables and blank column headings; Meta mirrors that layout.
+Keep adjacent project bullets contiguous: blank lines make lists loose and add
+paragraph spacing above their tables. Intended flow differs from implemented behavior. Releases,
 recent commits, and passing checks do not prove readiness, maintenance, or value;
 pre-v1 releases generally remain experimental. Do not invent claims or outcomes.
 Verify public identities, URLs, and capabilities against public source. Private
