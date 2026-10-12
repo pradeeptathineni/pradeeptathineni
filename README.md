@@ -443,7 +443,7 @@ self.INTERESTS = [
 
 <p></p>
 
-> `wild_times` = "Ese be some wild, curious times we be havin ese days, pardna."
+> `wild_times` = "Ain't it some wild, curious times we be havin ese days, pardna."
 
 <details>
 <summary>self.imagine(wild_times)</summary>
