@@ -359,7 +359,7 @@ self.INTERESTS = [
 
 <br/>
 
-# 🗂️ class Meta:
+# 🗂️ class Meta(PradeepTathineniGithub):
 
 <details>
 <summary>def disclaimers(self, warnings="alert"):</summary>
@@ -486,8 +486,8 @@ self.INTERESTS = [
 
 <p></p>
 
-<details>
-<summary>def state(self, true=True):</summary>
+<details open>
+<summary>def self(self, true=True):</summary>
 
 <p></p>
 
