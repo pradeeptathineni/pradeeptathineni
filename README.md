@@ -1,5 +1,4 @@
-<details>
-<summary>⭐<h1 align="center">class Deep(Github):</h1></summary>
+<h1 align="center">⭐ class Deep(Github):</h1>
 
 <p align="center">
   <a href="#tech-stack"><img src="https://img.shields.io/badge/macOS-64748B?logo=macos&amp;logoColor=white&amp;style=flat" alt="macOS"></a>
@@ -34,8 +33,7 @@ self.SECTIONS = [ self.identity, self.values, self.projects, self.tech_stack, se
 </div>
 <br/>
 
-<details>
-<summary>🪪<h2>def identity(self, title="Hello World!"):</h2></summary>
+## 🪪 def identity(self, title="Hello World!"):
 
 <details open>
 <summary>self.identity.group(<strong>"<ins>Core</ins>"</strong>)</summary>
@@ -103,12 +101,10 @@ self.INTERESTS = [
 ```
 
 </details>
-</details>
 
-<p><br/></p>
+<br/>
 
-<details>
-<summary>🧭<h2>def values(self, group="technology"):</h2></summary>
+## 🧭 def values(self, group="technology"):
 
 <details open>
 <summary>self.values.group(<strong>"<ins>Intentions</ins>"</strong>)</summary>
@@ -136,12 +132,10 @@ self.INTERESTS = [
 > `#` **Remove, automate, verify, and revisit** — Keep changes small, check that they help, and keep a way to recover.
 
 </details>
-</details>
 
-<p><br/></p>
+<br/>
 
-<details>
-<summary><a name="projects"></a>🚀<h2>def projects(self, type="personal"):</h2></summary>
+## <a name="projects"></a>🚀 def projects(self, type="personal"):
 
 <details>
 <summary>self.projects.info()</summary>
@@ -321,11 +315,9 @@ self.INTERESTS = [
   | **Tags** | `p5.js` ; `simulation` ; `creative-coding` |
 
 </details>
-</details>
-<p><br/></p>
+<br/>
 
-<details>
-<summary><a name="tech-stack"></a>🛠️<h2>def tech_stack(self, sort=[ "preference", "experience" ]):</h2></summary>
+## <a name="tech-stack"></a>🛠️ def tech_stack(self, sort=[ "preference", "experience" ]):
 
 <details>
 <summary>self.tech.meta()</summary>
@@ -376,22 +368,17 @@ self.INTERESTS = [
 - **Exploring:** `Computer Vision` ; `Data Visualization` ; `Simulation`
 
 </details>
-</details>
-<p><br/></p>
+<br/>
 
-<details>
-<summary>🟢<h2>def neon1(self, type="business", redirect=True):</h2></summary>
+## 🟢 def neon1(self, type="business", redirect=True):
 
 > `#` [**neon1**](https://github.com/neon1llc) is my engineering organization for software, infrastructure, and automation within SMBs.\
 > `#` I share reusable tools and patterns through its public repositories.\
 > `#` AWS CLI Plus lives there.
 
-</details>
-</details>
-<p><br/></p>
+<br/>
 
-<details>
-<summary>🗂️<h2>class Meta(Deep):</h2></summary>
+## 🗂️ class Meta(Deep):
 
 <details>
 <summary>def disclaimers(self, warnings="alert"):</summary>
@@ -532,7 +519,6 @@ self.INTERESTS = [
   <sup><em>“On Fire” (2013), by <a href="https://gunshowcomic.com/648">KC Green / Gunshow</a>. Copyright remains with the creator.</em></sup>
 </p>
 
-</details>
 </details>
 <br/>
 <br/>
