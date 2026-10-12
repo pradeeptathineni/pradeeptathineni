@@ -510,7 +510,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<details open>
+<details>
 <summary>def self(self, true=False):</summary>
 
 <p></p>
