@@ -25,7 +25,7 @@
 ```python
 self.AUTHOR = "Pradeep Tathineni" if env.PROPER else "Deep"
 
-self.SECTIONS = [ self.identity, self.my_values, self.my_projects, self.tech_stack, self.neon1, Meta ]
+self.SECTIONS = [ self.identity, self.values, self.projects, self.tech_stack, self.neon1, Meta ]
 
 # Could you imagine if we chose to center our code?
 ```
@@ -105,7 +105,7 @@ self.INTERESTS = [
 
 <br/>
 
-## 🧭 def my_values(self, group="technology"):
+## 🧭 def values(self, group="technology"):
 
 <details open>
 <summary>self.values.group(<strong>"<ins>Intentions</ins>"</strong>)</summary>
@@ -138,10 +138,10 @@ self.INTERESTS = [
 
 <a name="projects"></a>
 
-## 🚀 def my_projects(self, level="high"):
+## 🚀 def projects(self, type="personal"):
 
 <details>
-<summary>self.projects.meta()</summary>
+<summary>self.projects.info()</summary>
 
 <p></p>
 
@@ -385,7 +385,7 @@ self.INTERESTS = [
 
 <br/>
 
-# 🗂️ class Meta(Deep):
+## 🗂️ class Meta(Deep):
 
 <details>
 <summary>def disclaimers(self, warnings="alert"):</summary>
