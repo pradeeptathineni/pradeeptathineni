@@ -69,7 +69,7 @@ self.FOCUSES["domains"] = [
     "Cloud",      # enablement
     "DevOps",     # delivery
     "Security",   # confidence
-    "AI",         # capability
+    "AI",         # automation 2.0
 ]
 
 self.FOCUSES["concepts"] = [
@@ -320,7 +320,7 @@ self.INTERESTS = [
 ## <a name="tech-stack"></a>🛠️ def tech_stack(self, sort=[ "preference", "experience" ]):
 
 <details>
-<summary>self.tech.meta()</summary>
+<summary>self.tech.info()</summary>
 
 <p></p>
 
@@ -403,14 +403,16 @@ self.INTERESTS = [
 
 <p></p>
 
-> `sanity` = "Sanity is like a robust README. They both heavily collapse."
+> `is_this_a_joke` = "You either die a standard, or live long enough to see yourself become the **_🌟spectacle✨_**."
+
+> `sanity` = "Sanity is like a spectacular README. They both heavily collapse."
 
 <p></p>
 
-> `fixing_problems` = "If you've never thought about building a productivity app, or haven't spent a whole Sunday concerned with a single README, can you really call yourself an engineer?"
+> `im_fixing_problems` = "If you've never thought about building a third productivity tool, or haven't spent a whole Sunday on one README, can you really call yourself an engineer?"
 
 <details>
-<summary>self.imagine(fixing_problems)</summary>
+<summary>self.imagine(im_fixing_problems)</summary>
 
 <p></p>
 
