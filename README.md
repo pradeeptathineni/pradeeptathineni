@@ -37,7 +37,7 @@ self.SECTIONS = [ self.identity, self.my_values, self.my_projects, self.tech_sta
 ## 🪪 def identity(self, title="Hello World!"):
 
 <details open>
-<summary>self.identity.group(<strong>"Core"</strong>)</summary>
+<summary>self.identity.group(<strong>"<ins>Core</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -60,7 +60,7 @@ self.SECTIONS = [ self.identity, self.my_values, self.my_projects, self.tech_sta
 <p></p>
 
 <details>
-<summary>self.identity.group(<strong>"More"</strong>)</summary>
+<summary>self.identity.group(<strong>"<ins>More</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -108,7 +108,7 @@ self.INTERESTS = [
 ## 🧭 def my_values(self, group="technology"):
 
 <details open>
-<summary>self.values.group(<strong>"Intentions"</strong>)</summary>
+<summary>self.values.group(<strong>"<ins>Intentions</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -123,7 +123,7 @@ self.INTERESTS = [
 <p></p>
 
 <details open>
-<summary>self.values.group(<strong>"Practices"</strong>)</summary>
+<summary>self.values.group(<strong>"<ins>Practices</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -163,7 +163,7 @@ self.INTERESTS = [
 <!-- Refresh public release/activity facts: python3 .meta/scripts/project_metadata.py -->
 
 <details>
-<summary>self.projects.group(<strong>"Cloud and DevOps Engineering"</strong>)</summary>
+<summary>self.projects.group(<strong>"<ins>Cloud and DevOps Engineering</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -181,7 +181,7 @@ self.INTERESTS = [
 <p></p>
 
 <details>
-<summary>self.projects.group(<strong>"Automation and Tooling"</strong>)</summary>
+<summary>self.projects.group(<strong>"<ins>Automation and Tooling</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -207,7 +207,7 @@ self.INTERESTS = [
 <p></p>
 
 <details>
-<summary>self.projects.group(<strong>"AI Systems"</strong>)</summary>
+<summary>self.projects.group(<strong>"<ins>AI Systems</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -288,7 +288,7 @@ self.INTERESTS = [
 <p></p>
 
 <details>
-<summary>self.projects.group(<strong>"Practice and Exploration"</strong>)</summary>
+<summary>self.projects.group(<strong>"<ins>Practice and Exploration</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -337,7 +337,7 @@ self.INTERESTS = [
 <p></p>
 
 <details open>
-<summary>self.tech.group(<strong>"Systems"</strong>)</summary>
+<summary>self.tech.group(<strong>"<ins>Systems</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -349,7 +349,7 @@ self.INTERESTS = [
 <p></p>
 
 <details open>
-<summary>self.tech.group(<strong>"Software &amp; Platforms"</strong>)</summary>
+<summary>self.tech.group(<strong>"<ins>Software &amp; Platforms</ins>"</strong>)</summary>
 
 <p></p>
 
@@ -365,7 +365,7 @@ self.INTERESTS = [
 <p></p>
 
 <details open>
-<summary>self.tech.group(<strong>"Focuses"</strong>)</summary>
+<summary>self.tech.group(<strong>"<ins>Focuses</ins>"</strong>)</summary>
 
 <p></p>
 
