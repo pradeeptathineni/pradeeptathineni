@@ -1,4 +1,6 @@
-<h1 align="center">⭐ class Deep(Github):</h1>
+<div align="center"><font size="7">⭐</font></div>
+
+<h1 align="center">class Deep(Github):</h1>
 
 <p align="center">
   <a href="#tech-stack"><img src="https://img.shields.io/badge/macOS-64748B?logo=macos&amp;logoColor=white&amp;style=flat" alt="macOS"></a>
@@ -34,7 +36,9 @@ self.SECTIONS = [ self.identity, self.values, self.projects, self.tech_stack, se
 
 <br/>
 
-## 🪪 def identity(self, title="Hello World!"):
+<div><font size="7">🪪</font></div>
+
+## def identity(self, title="Hello World!"):
 
 <details open>
 <summary>self.identity.group(<strong>"<ins>Core</ins>"</strong>)</summary>
@@ -105,7 +109,9 @@ self.INTERESTS = [
 
 <br/>
 
-## 🧭 def values(self, group="technology"):
+<div><font size="7">🧭</font></div>
+
+## def values(self, group="technology"):
 
 <details open>
 <summary>self.values.group(<strong>"<ins>Intentions</ins>"</strong>)</summary>
@@ -138,7 +144,9 @@ self.INTERESTS = [
 
 <a name="projects"></a>
 
-## 🚀 def projects(self, type="personal"):
+<div><font size="7">🚀</font></div>
+
+## def projects(self, type="personal"):
 
 <details>
 <summary>self.projects.info()</summary>
@@ -323,7 +331,9 @@ self.INTERESTS = [
 
 <a name="tech-stack"></a>
 
-## 🛠️ def tech_stack(self, sort=[ "preference", "experience" ]):
+<div><font size="7">🛠️</font></div>
+
+## def tech_stack(self, sort=[ "preference", "experience" ]):
 
 <details>
 <summary>self.tech.meta()</summary>
@@ -377,15 +387,24 @@ self.INTERESTS = [
 
 <br/>
 
-## 🟢 def neon1(self, type="business", redirect=True):
+<div></div>
+
+<details open>
+<summary><font size="5">🟢 def neon1(self, type="business", redirect=True):</font></summary>
+
+<p></p>
 
 > `#` [**neon1**](https://github.com/neon1llc) is my engineering organization for software, infrastructure, and automation within SMBs.\
 > `#` I share reusable tools and patterns through its public repositories.\
 > `#` AWS CLI Plus lives there.
 
+</details>
+
 <br/>
 
-## 🗂️ class Meta(Deep):
+<div><font size="7">🗂️</font></div>
+
+## class Meta(Deep):
 
 <details>
 <summary>def disclaimers(self, warnings="alert"):</summary>
