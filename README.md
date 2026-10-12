@@ -403,13 +403,15 @@ self.INTERESTS = [
 
 <p></p>
 
-> `is_this_a_joke` = "You either die a standard, or live long enough to see yourself become the **_🌟spectacle✨_**."
+> `is_this_a_joke_r` = "You either die a standard, or live long enough to see yourself become the **_🌟spectacle✨_**."
 
 > `sanity` = "Sanity is like a spectacular README. They both heavily collapse."
 
+> `state` = `self.self()`
+
 <p></p>
 
-> `im_fixing_problems` = "If you've never thought about building a third productivity tool, or haven't spent a whole Sunday on one README, can you really call yourself an engineer?"
+> `fixing_problems` = "If you've never thought about building a third productivity tool, or haven't spent a whole Sunday on one README, can you really call yourself an engineer?"
 
 <details>
 <summary>self.imagine(im_fixing_problems)</summary>
@@ -535,6 +537,20 @@ self.INTERESTS = [
 <p align="center">
   <img src="assets/this-is-fine.png" alt="Two panels of a dog sitting with a mug in a burning room, saying ‘This is fine.’" width="460"><br/>
   <sup><em>“On Fire” (2013), by <a href="https://gunshowcomic.com/648">KC Green / Gunshow</a>. Copyright remains with the creator.</em></sup>
+</p>
+
+</details>
+
+<p></p>
+
+<details>
+<summary>def self(self, true=True):</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/brain-explosion.jpg" alt="A man in glasses holds his hands beside his head as a cosmic explosion fills the background." width="460"><br/>
+  <sup><em>Brain explosion meme · <a href="https://meme-arsenal.com/create/template/11175240">Meme Arsenal template</a>.</em></sup>
 </p>
 
 </details>

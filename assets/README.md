@@ -11,6 +11,7 @@ These images are credited separately from the repository's code. The XKCD PNGs a
 | [0974-the-general-problem.png](xkcd/0974-the-general-problem.png) | Randall Munroe · [XKCD #974, The General Problem](https://xkcd.com/974/) | [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/) |
 | [0882-significant.png](xkcd/0882-significant.png) | Randall Munroe · [XKCD #882, Significant](https://xkcd.com/882/) | [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/) |
 | [this-is-fine.png](this-is-fine.png) | KC Green · [Gunshow #648, On Fire](https://gunshowcomic.com/648) (2013) | Copyright belongs to KC Green. No additional reuse permission is granted here. |
+| [brain-explosion.jpg](brain-explosion.jpg) | Brain explosion meme · [Supplied Meme Arsenal template #11175240](https://meme-arsenal.com/create/template/11175240) | Template source reference; no additional reuse permission is granted here. |
 
 XKCD's [official license guidance](https://xkcd.com/license.html) permits noncommercial sharing with attribution. Follow each creator's terms when reusing artwork; a software license does not override them.
 
