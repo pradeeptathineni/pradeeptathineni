@@ -41,19 +41,21 @@ self.SECTIONS = [ self.identity, self.my_values, self.my_projects, self.tech_sta
 
 <p></p>
 
-```python
-self.WHO = "I'm an engineer who sees repeated work as a design problem: if I have to do it twice, I start asking why the computer isn't doing it."
+> `self.WHO` = "I'm an engineer who sees repeated work as a design problem: if I have to do it twice, I start asking why the computer isn't doing it."
 
+```python
 # Once is flirtation. Twice is frustration.
 # Once is temptation. Twice is libation.
 # Once is foundation. Twice is causation.
 #
 # All thereafter is automation.
+```
 
-self.WHAT = "I have 8+ years of professional experience in automation, application development, cloud, DevOps, and security, and nearly two decades of exploring technology."
+> `self.WHAT` = "I have 8+ years of professional experience in automation, application development, cloud, DevOps, and security, and nearly two decades of exploring technology."
 
-self.WHY = "My constant pursuit has always been to enable people with technology solutions that make their work and lives easier."
+> `self.WHY` = "My constant pursuit has always been to enable people with technology solutions that make their work and lives easier."
 
+```python
 self.FOCUSES["domains"] = [
     "Automation", # performance
     "Cloud",      # enablement
@@ -151,8 +153,9 @@ self.INTERESTS = [
 - **Activity:** Last default-branch commit; `Recent` means within 90 days of the check date, otherwise `Quiet`. Proposed projects show planning status instead.
 - **Tags:** Technologies and areas of focus.
 
-<pre><code># A release is a checkpoint; pre-v1.0.0 releases generally remain experimental.
-# Public release and activity facts checked on 2026-10-12, New York time.</code></pre>
+> `#` A release is a checkpoint; pre-v1.0.0 releases generally remain experimental.
+>
+> `#` Public release and activity facts checked on 2026-10-12, New York time.
 
 </details>
 
@@ -203,7 +206,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<pre><code># These projects explore my AI engineering direction, from planning and evidence to development and orchestration.</code></pre>
+> `#` These projects explore my AI engineering direction, from planning and evidence to development and orchestration.
 
 - **Planning AI** — Keep project intent, research, decisions, and next steps coherent.
   - **Flow:** _question → research → explore → decide → prepare work_
@@ -254,10 +257,13 @@ self.INTERESTS = [
   - **Activity:** Planning only; no standalone implementation.
   - **Tags:** `ai` ; `discovery` ; `decision-support`
 
-<pre><code># I'd like to ask what's changed in an area I care about, see the evidence, and choose an idea worth a small experiment.
-# Deep AI is the ambition to make that experience useful for me and eventually others, with people deciding what matters and what happens next.
-# The individual projects should remain useful on their own.
-# Each project owns its practical AI guidance; patterns proven helpful across projects may eventually inform Context AI's reusable library.</code></pre>
+> `#` I'd like to ask what's changed in an area I care about, see the evidence, and choose an idea worth a small experiment.
+>
+> `#` Deep AI is the ambition to make that experience useful for me and eventually others, with people deciding what matters and what happens next.
+>
+> `#` The individual projects should remain useful on their own.
+>
+> `#` Each project owns its practical AI guidance; patterns proven helpful across projects may eventually inform Context AI's reusable library.
 
 </details>
 
@@ -300,7 +306,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<pre><code># Items written like *this* are the major, most typical items in my toolbox.</code></pre>
+> `#` Items written like `*this*` are the major, most typical items in my toolbox.
 
 </details>
 
@@ -378,7 +384,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<pre><code>fixing_problems = "If you've never thought about building a productivity app, or haven't spent a whole Sunday concerned with a single README, can you really call yourself an engineer?"</code></pre>
+> `fixing_problems` = "If you've never thought about building a productivity app, or haven't spent a whole Sunday concerned with a single README, can you really call yourself an engineer?"
 
 <details>
 <summary>self.imagine(fixing_problems)</summary>
@@ -394,7 +400,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<pre><code>automation = "I can spend all day automating a five-minute task, then spend tomorrow repairing the automation. At some point the time savings become a matter of faith, and I call that a long-term investment."</code></pre>
+> `automation` = "I can spend all day automating a five-minute task, then spend tomorrow repairing the automation. At some point the time savings become a matter of faith, and I call that a long-term investment."
 
 <details>
 <summary>self.imagine(automation)</summary>
@@ -410,11 +416,11 @@ self.INTERESTS = [
 
 <p></p>
 
-<pre><code>autonomy = "If my autonomous system needs a babysitter, I’ve built a very expensive toddler. Give it a memory file and a calendar and apparently I’m supposed to call it a coworker."</code></pre>
+> `autonomy` = "If my autonomous system needs a babysitter, I’ve built a very expensive toddler. Give it a memory file and a calendar and apparently I’m supposed to call it a coworker."
 
 <p></p>
 
-<pre><code>machine_learning = "Some AI architecture diagrams are just invoices with arrows. I want to know what each box does, why I need it, and what happens if I stop paying for it. Calling it a pile of math doesn't help if the next step is poking it until the answers look right."</code></pre>
+> `machine_learning` = "Some AI architecture diagrams are just invoices with arrows. I want to know what each box does, why I need it, and what happens if I stop paying for it. Calling it a pile of math doesn't help if the next step is poking it until the answers look right."
 
 <details>
 <summary>self.imagine(machine_learning)</summary>
@@ -430,11 +436,11 @@ self.INTERESTS = [
 
 <p></p>
 
-<pre><code>originality = "Nothing humbles an original idea like a ten-year-old GitHub repo that already does it, has better documentation, and runs on a Raspberry Pi. My innovation may just be not having searched properly."</code></pre>
+> `originality` = "Nothing humbles an original idea like a ten-year-old GitHub repo that already does it, has better documentation, and runs on a Raspberry Pi. My innovation may just be not having searched properly."
 
 <p></p>
 
-<pre><code>the_general_problem = "An abstraction that only works for my favorite example is a private joke. If I need to explain why every other example doesn't count, I probably haven't found the pattern yet. The other extreme is spending twenty minutes building a condiment system when someone asked for salt."</code></pre>
+> `the_general_problem` = "An abstraction that only works for my favorite example is a private joke. If I need to explain why every other example doesn't count, I probably haven't found the pattern yet. The other extreme is spending twenty minutes building a condiment system when someone asked for salt."
 
 <details>
 <summary>self.imagine(the_general_problem)</summary>
@@ -450,7 +456,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<pre><code>significance = "My tests passed. My claims are still on probation. I wrote the code, picked the examples, and decided what counts as success; that is a lot of authority for someone trying to prove himself right."</code></pre>
+> `significance` = "My tests passed. My claims are still on probation. I wrote the code, picked the examples, and decided what counts as success; that is a lot of authority for someone trying to prove himself right."
 
 <details>
 <summary>self.imagine(significance)</summary>
@@ -466,15 +472,15 @@ self.INTERESTS = [
 
 <p></p>
 
-<pre><code>research = "Knowing all my options is paramount. Unfortunately, ‘keep researching’ is always one of them, and it comes with an unlimited free trial. Eventually I have to choose something and find out what I missed."</code></pre>
+> `research` = "Knowing all my options is paramount. Unfortunately, ‘keep researching’ is always one of them, and it comes with an unlimited free trial. Eventually I have to choose something and find out what I missed."
 
 <p></p>
 
-<pre><code>dashboards = "Every dashboard is green, every failed test is a pass, and every benchmark is a record with Inspect Element and a few minutes. Show me what survives a refresh."</code></pre>
+> `dashboards` = "Every dashboard is green, every failed test is a pass, and every benchmark is a record with Inspect Element and a few minutes. Show me what survives a refresh."
 
 <p></p>
 
-<pre><code>impact = "The world does not owe my side project a use case. If nobody needs it, I can still enjoy building it. I just don't get to rename my enjoyment ‘impact’ and expect everyone else to agree."</code></pre>
+> `impact` = "The world does not owe my side project a use case. If nobody needs it, I can still enjoy building it. I just don't get to rename my enjoyment ‘impact’ and expect everyone else to agree."
 
 </details>
 

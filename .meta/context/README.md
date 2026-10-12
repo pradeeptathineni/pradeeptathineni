@@ -36,9 +36,12 @@ Keep badges selective and use icons where available. Badge images inside
 Use native `<details>` with inline call-style summaries; heading-sized summaries
 detached arrows in VS Code. Keep `<p></p>` disclosure spacing and `<br/>` section
 separation. Avoid blockquote indentation, CSS/JavaScript, and nonworking open-all
-controls. Keep each prose string or thought assignment on one source line;
-native wrapping or scrolling is acceptable. Indent multiline lists and pad inline
-lists inside brackets. Preserve the detailed grouped tech stack, inline code,
+controls. Long identity and thought prose uses blockquotes with inline code variable
+labels; explanatory notes can use an inline `#` label. Keep each assignment or
+sentence on one source line and let prose wrap naturally. Reserve code blocks for
+the poem, lists, and short code; do not force prose wrapping with triple-quoted
+strings or manual line breaks. Indent multiline lists and pad inline lists inside
+brackets. Preserve the detailed grouped tech stack, inline code,
 major-tool markers, and legend; do not condense it unless asked.
 
 ## Project truth and metadata
