@@ -164,18 +164,22 @@ self.INTERESTS = [
 
 <p></p>
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/eng-challenge-aws-terraform"><strong>AWS Terraform Engineering Challenge</strong></a> — Make AWS web infrastructure reproducible and inspectable.</summary>
+<dl><dd>
 
-  |              |                                                                                                   |
-  | :----------- | :------------------------------------------------------------------------------------------------ |
-  | **Flow**     | _requirements → Terraform plan → deploy → verify → tear down_                                     |
-  | **Maturity** | `Experimental`                                                                                    |
-  | **Status**   | Modular infrastructure, CI, and deployment checks exist. This is still a challenge-scale project. |
-  | **Activity** | Updated 2026-09-12 · `Recent`                                                                     |
-  | **Tags**     | `aws` ; `terraform` ; `devops`                                                                    |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/eng-challenge-aws-terraform"><strong>AWS Terraform Engineering Challenge</strong></a> — Make AWS web infrastructure reproducible and inspectable.</summary>
 
-  </details>
+|              |                                                                                                   |
+| :----------- | :------------------------------------------------------------------------------------------------ |
+| **Flow**     | _requirements → Terraform plan → deploy → verify → tear down_                                     |
+| **Maturity** | `Experimental`                                                                                    |
+| **Status**   | Modular infrastructure, CI, and deployment checks exist. This is still a challenge-scale project. |
+| **Activity** | Updated 2026-09-12 · `Recent`                                                                     |
+| **Tags**     | `aws` ; `terraform` ; `devops`                                                                    |
+
+</details>
+
+</dd></dl>
 
 </details>
 
@@ -186,31 +190,35 @@ self.INTERESTS = [
 
 <p></p>
 
-- <details>
-  <summary><a href="https://github.com/neon1llc/aws-clip"><strong>AWS CLI Plus</strong></a> — Make multi-profile AWS CLI work easier to follow and safer.</summary>
+<dl><dd>
 
-  |              |                                                                                            |
-  | :----------- | :----------------------------------------------------------------------------------------- |
-  | **Flow**     | _select profile → verify identity → check policy → run AWS CLI_                            |
-  | **Maturity** | `Experimental`                                                                             |
-  | **Status**   | Working Go wrapper around AWS CLI v2. Account checks and guarded commands are implemented. |
-  | **Activity** | Updated 2026-09-13 · `Recent`                                                              |
-  | **Tags**     | `aws` ; `cli` ; `go` ; `automation`                                                        |
+<details>
+<summary><a href="https://github.com/neon1llc/aws-clip"><strong>AWS CLI Plus</strong></a> — Make multi-profile AWS CLI work easier to follow and safer.</summary>
 
-  </details>
+|              |                                                                                            |
+| :----------- | :----------------------------------------------------------------------------------------- |
+| **Flow**     | _select profile → verify identity → check policy → run AWS CLI_                            |
+| **Maturity** | `Experimental`                                                                             |
+| **Status**   | Working Go wrapper around AWS CLI v2. Account checks and guarded commands are implemented. |
+| **Activity** | Updated 2026-09-13 · `Recent`                                                              |
+| **Tags**     | `aws` ; `cli` ; `go` ; `automation`                                                        |
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/shoulda-used-that"><strong>ShouldaUsedThat</strong></a> — Find what to reuse, what to skip, and what remains worth building.</summary>
+</details>
 
-  |              |                                                                                                                                                                      |
-  | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | **Flow**     | _problem → candidates → evidence → decision → revisit_                                                                                                               |
-  | **Maturity** | [`v0.4.0`](https://github.com/pradeeptathineni/shoulda-used-that/releases/tag/v0.4.0)                                                                                |
-  | **Status**   | Deterministic CLI and [reviewed catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) exist. Each reuse decision still needs contextual judgment. |
-  | **Activity** | Updated 2026-09-20 · `Recent`                                                                                                                                        |
-  | **Tags**     | `oss` ; `prior-art` ; `python`                                                                                                                                       |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/shoulda-used-that"><strong>ShouldaUsedThat</strong></a> — Find what to reuse, what to skip, and what remains worth building.</summary>
 
-  </details>
+|              |                                                                                                                                                                      |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Flow**     | _problem → candidates → evidence → decision → revisit_                                                                                                               |
+| **Maturity** | [`v0.4.0`](https://github.com/pradeeptathineni/shoulda-used-that/releases/tag/v0.4.0)                                                                                |
+| **Status**   | Deterministic CLI and [reviewed catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) exist. Each reuse decision still needs contextual judgment. |
+| **Activity** | Updated 2026-09-20 · `Recent`                                                                                                                                        |
+| **Tags**     | `oss` ; `prior-art` ; `python`                                                                                                                                       |
+
+</details>
+
+</dd></dl>
 
 </details>
 
@@ -223,109 +231,113 @@ self.INTERESTS = [
 
 > `#` These projects explore my AI engineering direction, from planning and evidence to development and orchestration.
 
-- <details>
-  <summary><strong>Planning AI</strong> — Keep project intent, research, decisions, and next steps coherent.</summary>
+<dl><dd>
 
-  |              |                                                                  |
-  | :----------- | :--------------------------------------------------------------- |
-  | **Flow**     | _question → research → explore → decide → prepare work_          |
-  | **Maturity** | `Experimental` · Private                                         |
-  | **Status**   | A working private planning workspace. No standalone application. |
-  | **Activity** | Updated 2026-10-11 · `Recent`                                    |
-  | **Tags**     | `planning` ; `research` ; `knowledge`                            |
+<details>
+<summary><strong>Planning AI</strong> — Keep project intent, research, decisions, and next steps coherent.</summary>
 
-  </details>
+|              |                                                                  |
+| :----------- | :--------------------------------------------------------------- |
+| **Flow**     | _question → research → explore → decide → prepare work_          |
+| **Maturity** | `Experimental` · Private                                         |
+| **Status**   | A working private planning workspace. No standalone application. |
+| **Activity** | Updated 2026-10-11 · `Recent`                                    |
+| **Tags**     | `planning` ; `research` ; `knowledge`                            |
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/signals-ai"><strong>Signals AI</strong></a> — Find and retain evidence that helps me choose worthwhile project work.</summary>
+</details>
 
-  |              |                                                                                                                                                       |
-  | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | **Flow**     | _question → research → assess → compare → retain → revisit_                                                                                           |
-  | **Maturity** | [`v0.3.0`](https://github.com/pradeeptathineni/signals-ai/releases/tag/v0.3.0) · Preview                                                              |
-  | **Status**   | Research workspace and [public Corpus](https://pradeeptathineni.github.io/signals-ai/) exist. This is still well short of the discovery value I want. |
-  | **Activity** | Updated 2026-10-11 · `Recent`                                                                                                                         |
-  | **Tags**     | `ai` ; `evidence` ; `discovery` ; `typescript`                                                                                                        |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/signals-ai"><strong>Signals AI</strong></a> — Find and retain evidence that helps me choose worthwhile project work.</summary>
 
-  </details>
+|              |                                                                                                                                                       |
+| :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Flow**     | _question → research → assess → compare → retain → revisit_                                                                                           |
+| **Maturity** | [`v0.3.0`](https://github.com/pradeeptathineni/signals-ai/releases/tag/v0.3.0) · Preview                                                              |
+| **Status**   | Research workspace and [public Corpus](https://pradeeptathineni.github.io/signals-ai/) exist. This is still well short of the discovery value I want. |
+| **Activity** | Updated 2026-10-11 · `Recent`                                                                                                                         |
+| **Tags**     | `ai` ; `evidence` ; `discovery` ; `typescript`                                                                                                        |
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/context-ai"><strong>Context AI</strong></a> — Equip AI-assisted projects with reusable engineering guidance.</summary>
+</details>
 
-  |              |                                                                                                        |
-  | :----------- | :----------------------------------------------------------------------------------------------------- |
-  | **Flow**     | _need → select guidance → plan adoption → apply → verify → refine_                                     |
-  | **Maturity** | [`v0.3.0`](https://github.com/pradeeptathineni/context-ai/releases/tag/v0.3.0) · Preview               |
-  | **Status**   | Guidance selection, installation, and undo work. Broader everyday usefulness remains under evaluation. |
-  | **Activity** | Updated 2026-10-10 · `Recent`                                                                          |
-  | **Tags**     | `ai` ; `context-engineering` ; `devtools`                                                              |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/context-ai"><strong>Context AI</strong></a> — Equip AI-assisted projects with reusable engineering guidance.</summary>
 
-  </details>
+|              |                                                                                                        |
+| :----------- | :----------------------------------------------------------------------------------------------------- |
+| **Flow**     | _need → select guidance → plan adoption → apply → verify → refine_                                     |
+| **Maturity** | [`v0.3.0`](https://github.com/pradeeptathineni/context-ai/releases/tag/v0.3.0) · Preview               |
+| **Status**   | Guidance selection, installation, and undo work. Broader everyday usefulness remains under evaluation. |
+| **Activity** | Updated 2026-10-10 · `Recent`                                                                          |
+| **Tags**     | `ai` ; `context-engineering` ; `devtools`                                                              |
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/principles-ai"><strong>Principles AI</strong></a> — Make evidence-informed domain principles simple to research, understand, and apply.</summary>
+</details>
 
-  |              |                                                                                                 |
-  | :----------- | :---------------------------------------------------------------------------------------------- |
-  | **Flow**     | _research → reconcile → define → apply → reassess_                                              |
-  | **Maturity** | `Experimental`                                                                                  |
-  | **Status**   | Structured corpus and validation tooling exist. The guidance remains under research and review. |
-  | **Activity** | Updated 2026-09-10 · `Recent`                                                                   |
-  | **Tags**     | `ai` ; `principles` ; `learning` ; `evidence`                                                   |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/principles-ai"><strong>Principles AI</strong></a> — Make evidence-informed domain principles simple to research, understand, and apply.</summary>
 
-  </details>
+|              |                                                                                                 |
+| :----------- | :---------------------------------------------------------------------------------------------- |
+| **Flow**     | _research → reconcile → define → apply → reassess_                                              |
+| **Maturity** | `Experimental`                                                                                  |
+| **Status**   | Structured corpus and validation tooling exist. The guidance remains under research and review. |
+| **Activity** | Updated 2026-09-10 · `Recent`                                                                   |
+| **Tags**     | `ai` ; `principles` ; `learning` ; `evidence`                                                   |
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/blueprint-ai"><strong>Blueprint AI</strong></a> — Create and evolve software projects with practical engineering checks.</summary>
+</details>
 
-  |              |                                                                                                                |
-  | :----------- | :------------------------------------------------------------------------------------------------------------- |
-  | **Flow**     | _inspect → plan → create or evolve → review → verify_                                                          |
-  | **Maturity** | [`0.9.0`](https://github.com/pradeeptathineni/blueprint-ai/releases/tag/0.9.0)                                 |
-  | **Status**   | Working CLI for project creation, inspection, review, and evolution. Optional model reasoning remains bounded. |
-  | **Activity** | Updated 2026-10-03 · `Recent`                                                                                  |
-  | **Tags**     | `devtools` ; `python` ; `engineering`                                                                          |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/blueprint-ai"><strong>Blueprint AI</strong></a> — Create and evolve software projects with practical engineering checks.</summary>
 
-  </details>
+|              |                                                                                                                |
+| :----------- | :------------------------------------------------------------------------------------------------------------- |
+| **Flow**     | _inspect → plan → create or evolve → review → verify_                                                          |
+| **Maturity** | [`0.9.0`](https://github.com/pradeeptathineni/blueprint-ai/releases/tag/0.9.0)                                 |
+| **Status**   | Working CLI for project creation, inspection, review, and evolution. Optional model reasoning remains bounded. |
+| **Activity** | Updated 2026-10-03 · `Recent`                                                                                  |
+| **Tags**     | `devtools` ; `python` ; `engineering`                                                                          |
 
-- <details>
-  <summary><strong>Intentional AI</strong> — Schedule autonomous project development within deliberate timing and scope.</summary>
+</details>
 
-  |              |                                                                                                    |
-  | :----------- | :------------------------------------------------------------------------------------------------- |
-  | **Flow**     | _approved intent → schedule → bounded work → verify → retain state_                                |
-  | **Maturity** | `Experimental` · Private                                                                           |
-  | **Status**   | Private scheduling and Git-control experiments exist. A wider orchestration role remains proposed. |
-  | **Activity** | Updated 2026-09-13 · `Recent`                                                                      |
-  | **Tags**     | `automation` ; `scheduling` ; `python`                                                             |
+<details>
+<summary><strong>Intentional AI</strong> — Schedule autonomous project development within deliberate timing and scope.</summary>
 
-  </details>
+|              |                                                                                                    |
+| :----------- | :------------------------------------------------------------------------------------------------- |
+| **Flow**     | _approved intent → schedule → bounded work → verify → retain state_                                |
+| **Maturity** | `Experimental` · Private                                                                           |
+| **Status**   | Private scheduling and Git-control experiments exist. A wider orchestration role remains proposed. |
+| **Activity** | Updated 2026-09-13 · `Recent`                                                                      |
+| **Tags**     | `automation` ; `scheduling` ; `python`                                                             |
 
-- <details>
-  <summary><strong>Maestro AI</strong> — Coordinate multi-agent project development from planning through review and integration.</summary>
+</details>
 
-  |              |                                                                                    |
-  | :----------- | :--------------------------------------------------------------------------------- |
-  | **Flow**     | _goal → plan → delegate → review → integrate → observe_                            |
-  | **Maturity** | `Idea`                                                                             |
-  | **Status**   | Proposed orchestration layer, intended to incorporate Intentional AI’s scheduling. |
-  | **Activity** | Planning only. No standalone implementation.                                       |
-  | **Tags**     | `ai` ; `orchestration` ; `project-evolution`                                       |
+<details>
+<summary><strong>Maestro AI</strong> — Coordinate multi-agent project development from planning through review and integration.</summary>
 
-  </details>
+|              |                                                                                    |
+| :----------- | :--------------------------------------------------------------------------------- |
+| **Flow**     | _goal → plan → delegate → review → integrate → observe_                            |
+| **Maturity** | `Idea`                                                                             |
+| **Status**   | Proposed orchestration layer, intended to incorporate Intentional AI’s scheduling. |
+| **Activity** | Planning only. No standalone implementation.                                       |
+| **Tags**     | `ai` ; `orchestration` ; `project-evolution`                                       |
 
-- <details>
-  <summary><strong>Deep AI</strong> — Unify these AI projects in a central GUI for research, decisions, and development.</summary>
+</details>
 
-  |              |                                                                                        |
-  | :----------- | :------------------------------------------------------------------------------------- |
-  | **Flow**     | _understand → discover → weigh options → choose → build → learn_                       |
-  | **Maturity** | `Idea`                                                                                 |
-  | **Status**   | Idea only. No unified UI or deployed integration. Signals is the nearer-term priority. |
-  | **Activity** | Planning only. No standalone implementation.                                           |
-  | **Tags**     | `ai` ; `discovery` ; `decision-support`                                                |
+<details>
+<summary><strong>Deep AI</strong> — Unify these AI projects in a central GUI for research, decisions, and development.</summary>
 
-  </details>
+|              |                                                                                        |
+| :----------- | :------------------------------------------------------------------------------------- |
+| **Flow**     | _understand → discover → weigh options → choose → build → learn_                       |
+| **Maturity** | `Idea`                                                                                 |
+| **Status**   | Idea only. No unified UI or deployed integration. Signals is the nearer-term priority. |
+| **Activity** | Planning only. No standalone implementation.                                           |
+| **Tags**     | `ai` ; `discovery` ; `decision-support`                                                |
+
+</details>
+
+</dd></dl>
 
 > `#` Deep AI is a planned central GUI that combines these AI projects to research ideas, make decisions, and build software in one place.\
 > `#` Deep control of every level → ( planning → gather high-signaling evidence → apply context & principles → blueprint the project → intentional orchestration ).\
@@ -340,44 +352,48 @@ self.INTERESTS = [
 
 <p></p>
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/labs"><strong>Labs</strong></a> — Practice problem-solving and share the work behind it.</summary>
+<dl><dd>
 
-  |              |                                                                                                                              |
-  | :----------- | :--------------------------------------------------------------------------------------------------------------------------- |
-  | **Flow**     | _problem → investigate → build or explain → reflect → catalog_                                                               |
-  | **Maturity** | `Experimental`                                                                                                               |
-  | **Status**   | [Published catalog](https://pradeeptathineni.github.io/labs/) separates actual practice from exercises still waiting for me. |
-  | **Activity** | Updated 2026-10-12 · `Recent`                                                                                                |
-  | **Tags**     | `practice` ; `code` ; `study` ; `writing`                                                                                    |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/labs"><strong>Labs</strong></a> — Practice problem-solving and share the work behind it.</summary>
 
-  </details>
+|              |                                                                                                                              |
+| :----------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| **Flow**     | _problem → investigate → build or explain → reflect → catalog_                                                               |
+| **Maturity** | `Experimental`                                                                                                               |
+| **Status**   | [Published catalog](https://pradeeptathineni.github.io/labs/) separates actual practice from exercises still waiting for me. |
+| **Activity** | Updated 2026-10-12 · `Recent`                                                                                                |
+| **Tags**     | `practice` ; `code` ; `study` ; `writing`                                                                                    |
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/home-lab"><strong>Home Lab</strong></a> — Learn what useful private services need before moving to a dedicated server.</summary>
+</details>
 
-  |              |                                                                                                                                |
-  | :----------- | :----------------------------------------------------------------------------------------------------------------------------- |
-  | **Flow**     | _provision → run services → observe → test recovery → refine_                                                                  |
-  | **Maturity** | `Experimental`                                                                                                                 |
-  | **Status**   | Mac-hosted Linux lab with monitoring, local AI, and disposable experiments. An independent backup destination is still needed. |
-  | **Activity** | Updated 2026-10-03 · `Recent`                                                                                                  |
-  | **Tags**     | `homelab` ; `linux` ; `local-ai` ; `observability`                                                                             |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/home-lab"><strong>Home Lab</strong></a> — Learn what useful private services need before moving to a dedicated server.</summary>
 
-  </details>
+|              |                                                                                                                                |
+| :----------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| **Flow**     | _provision → run services → observe → test recovery → refine_                                                                  |
+| **Maturity** | `Experimental`                                                                                                                 |
+| **Status**   | Mac-hosted Linux lab with monitoring, local AI, and disposable experiments. An independent backup destination is still needed. |
+| **Activity** | Updated 2026-10-03 · `Recent`                                                                                                  |
+| **Tags**     | `homelab` ; `linux` ; `local-ai` ; `observability`                                                                             |
 
-- <details>
-  <summary><a href="https://github.com/pradeeptathineni/nature-of-code"><strong>Nature of Code</strong></a> — Explore visual systems through creative coding.</summary>
+</details>
 
-  |              |                                                                                                                                  |
-  | :----------- | :------------------------------------------------------------------------------------------------------------------------------- |
-  | **Flow**     | _idea → simulation → observe → change rules → repeat_                                                                            |
-  | **Maturity** | `Experimental`                                                                                                                   |
-  | **Status**   | Terrain, starfields, fireworks, and other sketches inspired by Daniel Shiffman and Coding Train. An older experiment collection. |
-  | **Activity** | Updated 2023-06-12 · `Quiet`                                                                                                     |
-  | **Tags**     | `p5.js` ; `simulation` ; `creative-coding`                                                                                       |
+<details>
+<summary><a href="https://github.com/pradeeptathineni/nature-of-code"><strong>Nature of Code</strong></a> — Explore visual systems through creative coding.</summary>
 
-  </details>
+|              |                                                                                                                                  |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| **Flow**     | _idea → simulation → observe → change rules → repeat_                                                                            |
+| **Maturity** | `Experimental`                                                                                                                   |
+| **Status**   | Terrain, starfields, fireworks, and other sketches inspired by Daniel Shiffman and Coding Train. An older experiment collection. |
+| **Activity** | Updated 2023-06-12 · `Quiet`                                                                                                     |
+| **Tags**     | `p5.js` ; `simulation` ; `creative-coding`                                                                                       |
+
+</details>
+
+</dd></dl>
 
 </details>
 <br/>
@@ -400,8 +416,8 @@ self.INTERESTS = [
 
 <p></p>
 
-- **Operating Systems:** `*macOS*` ; `*Linux*` ; `Windows`
-- **Editors / Notebooks:** `*VS Code*` ; `Jupyter` ; `Google Colab`
+- **Operating Systems** — `*macOS*` ; `*Linux*` ; `Windows`
+- **Editors / Notebooks** — `*VS Code*` ; `Jupyter` ; `Google Colab`
 
 </details>
 
@@ -412,12 +428,12 @@ self.INTERESTS = [
 
 <p></p>
 
-- **Code:** `*Python*` ; `*Bash*` ; `Go` ; `JavaScript` ; `TypeScript` ; `Node.js` ; `SQL` ; `React`
-- **Cloud & Platform:** `*AWS*` ; `*Docker*` ; `Kubernetes` ; `Helm`
-- **Infrastructure as Code:** `*Terraform*` ; `OpenTofu` ; `AWS CloudFormation`
-- **Delivery:** `*Git*` ; `*GitHub Actions*` ; `CircleCI` ; `AWS CodePipeline` ; `Jenki...nvm`
-- **Observability:** `CloudWatch` ; `Prometheus` ; `Grafana` ; `ELK`
-- **AI Tooling:** `*Codex*` ; `*ChatGPT*` ; `Claude Code` ; `Claude`
+- **Code** — `*Python*` ; `*Bash*` ; `Go` ; `JavaScript` ; `TypeScript` ; `Node.js` ; `SQL` ; `React`
+- **Cloud & Platform** — `*AWS*` ; `*Docker*` ; `Kubernetes` ; `Helm`
+- **Infrastructure as Code** — `*Terraform*` ; `OpenTofu` ; `AWS CloudFormation`
+- **Delivery** — `*Git*` ; `*GitHub Actions*` ; `CircleCI` ; `AWS CodePipeline` ; `Jenki...nvm`
+- **Observability** — `CloudWatch` ; `Prometheus` ; `Grafana` ; `ELK`
+- **AI Tooling** — `*Codex*` ; `*ChatGPT*` ; `Claude Code` ; `Claude`
 
 </details>
 
@@ -428,9 +444,9 @@ self.INTERESTS = [
 
 <p></p>
 
-- **Engineering:** `Automation` ; `DevOps` ; `Cloud Architecture` ; `Platform Engineering` ; `Solutions Architecture` ; `Modernization` ; `Customer Enablement` ; `Developer Tooling` ; `OSS / Prior-Art Discovery` ; `IoT`
-- **AI:** `LLM Applications` ; `RAG` ; `Agents` ; `Context Engineering` ; `Model Routing` ; `Evaluation` ; `Machine Learning`
-- **Exploring:** `Computer Vision` ; `Data Visualization` ; `Simulation`
+- **Engineering** — `Automation` ; `DevOps` ; `Cloud Architecture` ; `Platform Engineering` ; `Solutions Architecture` ; `Modernization` ; `Customer Enablement` ; `Developer Tooling` ; `OSS / Prior-Art Discovery` ; `IoT`
+- **AI** — `LLM Applications` ; `RAG` ; `Agents` ; `Context Engineering` ; `Model Routing` ; `Evaluation` ; `Machine Learning`
+- **Exploring** — `Computer Vision` ; `Data Visualization` ; `Simulation`
 
 </details>
 <br/>
