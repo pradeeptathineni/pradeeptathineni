@@ -28,6 +28,8 @@ group labels and meaningful, restrained parameters. Preserve current ordering
 and disclosure defaults; the README owns their exact names and settings.
 Bold and underline group-name words inside summaries, excluding quotes and call
 syntax. Use `<ins>` for underlining; GitHub's renderer strips `<u>`.
+Values and practices use a concise bold lead-in without a trailing period,
+followed by an em dash and a plain-language explanation.
 
 Keep the welcome centered and identity onward left-aligned. Standalone badges go
 beneath the class header, separated by spaces; links follow, separated by dots.

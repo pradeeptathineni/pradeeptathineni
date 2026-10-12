@@ -112,11 +112,11 @@ self.INTERESTS = [
 
 <p></p>
 
-- **Learn and share.** Knowing my options is paramount to good decisions.
-- **Strengthen my AI engineering practice.** Explore OSS, context engineering, and orchestration through useful work.
-- **Create useful deterministic tools.** Automate repeated work and keep it inspectable.
-- **Build on existing OSS.** Reuse, adapt, and integrate before writing custom code.
-- **Turn personal needs into useful public OSS.** Generalize when other people's use cases support it.
+- **Learn and share** — Knowing my options is paramount to good decisions; sharing what I learn helps others make theirs.
+- **Strengthen my AI engineering practice** — Improve how I give AI context, coordinate its work, and verify its results.
+- **Create deterministic tools** — Automate repeated work so I can trace what happened and verify the result.
+- **Build on existing OSS** — Reuse, adapt, and integrate open-source software before writing custom code.
+- **Build useful public OSS** — Start with a need I have; expand when other people's use cases reveal a shared problem.
 
 </details>
 
@@ -127,10 +127,10 @@ self.INTERESTS = [
 
 <p></p>
 
-- **Research deeply before building.** Compare existing tools and practices. My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) track leads to investigate.
-- **Back claims with evidence.** Keep sources and measurements close to claims; compare against baselines.
-- **Generalize across real use cases.** Define what holds across substantial examples, and retain the differences that matter.
-- **Remove, automate, verify, and revisit.** Prefer small changes and a way to recover.
+- **Research deeply before building** — Compare existing tools and approaches. My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) collect possibilities to investigate.
+- **Back claims with evidence** — Cite sources, measure results, and compare them with a baseline.
+- **Generalize across real use cases** — Check whether an idea holds across different needs; keep the shared pattern and the differences that matter.
+- **Remove, automate, verify, and revisit** — Keep changes small, check that they help, and keep a way to recover.
 
 </details>
 
