@@ -511,7 +511,7 @@ self.INTERESTS = [
 <p></p>
 
 <details open>
-<summary>def self(self, true=True):</summary>
+<summary>def self(self, true=False):</summary>
 
 <p></p>
 
