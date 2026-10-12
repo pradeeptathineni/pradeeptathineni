@@ -1,83 +1,87 @@
 # Maintaining this profile
 
-## Purpose and audience
+## Purpose and authority
 
-This is Pradeep's personal GitHub profile, for engineers, recruiters, fellow
-builders, and curious visitors. Lead with what he does, how he thinks, and what
-he is exploring. The reader should meet a person before encountering a catalog.
+Introduce Pradeep, his approach, and useful work to engineers, recruiters, fellow
+builders, and curious visitors. The README owns content; this guide records upkeep.
+His current request and revisions override guidance and older commits. Distinguish
+reviews from edits; honor the requested commit/push boundary and final wording.
+A supplied resume can inform understanding without being copied or published.
+Leave pins and personal uploads to Pradeep unless requested.
 
 ## Identity and voice
 
-The profile README owns three protected regions: its opening title, the entire
-automation poem near the beginning, and its final `[EOF]:` definition. Preserve
-them against the working copy at the start of each editing pass unless Pradeep
-authorizes changes. His revisions take precedence over older committed versions.
-Keep the EOF definition last. Do not copy those regions into this guide.
+Preserve the current title, entire automation poem, and final `[EOF]:` definition
+byte-for-byte against the starting working copy unless Pradeep authorizes changes.
+Keep EOF last with its existing separation. Do not duplicate protected content
+here or restore older versions over his revisions. Use simple, direct, first-person
+speech: professional, curious, and occasionally dry or absurd. Avoid cheesy slogans,
+hype, jargon, generic prose, and repetition. Preserve personal quirks; Thoughts can
+be more critical and playful. No waving-hand emoji in headers.
 
-Write in the first person: natural, curious, earnest, straightforward, and
-occasionally witty. Explain complex ideas in ordinary language. Keep intentional
-humor when it fits. Avoid hype, buzzwords, verbose slogans, repetitive headings,
-formulaic three-part claims, and marketing prose. Use dashes sparingly; connected
-paragraphs usually read better than giving every thought its own line.
+## Presentation and rendering
 
-Keep the current Python-inspired headings and disclosure style. Fenced Python
-blocks are intentional: format lists with indentation, but keep each prose string
-on one source line. Do not split strings to enforce a line-length limit.
-Pad single-line list literals with a space inside each bracket. Separate opening
-metadata assignments with a blank line for readability.
-Keep the opening badges and links in standalone centered paragraphs: spaces
-between badges, dots between links. Put author, sections, and the comment in one
-centered Python fence, separated by blank lines. Images inside `<pre><code>`
-failed on the live GitHub profile despite passing a local preview and API render.
+Keep the Python class/method/attribute theme as readable pseudocode. Methods go
+under classes; their content uses attributes and calls such as
+`self.identity.group("Core")`, not nested function headings. Use Title Case human
+group labels and meaningful, restrained parameters. Preserve current ordering
+and disclosure defaults; the README owns their exact names and settings.
 
-## Accuracy and project selection
+Keep the welcome centered and identity onward left-aligned. Standalone badges go
+beneath the class header, separated by spaces; links follow, separated by dots.
+Author, sections, and the comment share one centered Python fence with blank lines.
+Keep badges selective and use icons where available. Badge images inside
+`<pre><code>` failed on the live GitHub profile despite passing local/API previews.
 
-Check current repository identities, visibility, URLs, and source before making
-claims. Public project descriptions must be supported by public material.
-Private plans may inform intentions; never expose private contents or links.
-Distinguish implemented work, active experiments, and future ambitions. Do not
-invent integrations, benchmarks, metrics, releases, accomplishments, or outcomes.
+Use native `<details>` with inline call-style summaries; heading-sized summaries
+detached arrows in VS Code. Keep `<p></p>` disclosure spacing and `<br/>` section
+separation. Avoid blockquote indentation, CSS/JavaScript, and nonworking open-all
+controls. Keep each prose string or thought assignment on one source line;
+native wrapping or scrolling is acceptable. Indent multiline lists and pad inline
+lists inside brackets. Preserve the detailed grouped tech stack, inline code,
+major-tool markers, and legend; do not condense it unless asked.
 
-Deep AI is a longer-term ambition for a human-directed experience. Describe its
-purpose and motivation plainly; do not imply that the unified system is shipped.
-Give a broad ambition one concrete example of intended use so readers can picture
-it, without mistaking that example for an implemented feature.
-Related public AI projects remain independently useful. The old Maestro URL
-redirects to Signals; a future Maestro role is a proposal, not another product.
+## Project truth and metadata
 
-Curate worthwhile projects rather than inventory every repository. Describe a
-clear purpose and practical benefit, without implying that intent proves value.
-Keep established cloud, DevOps, and platform work visible alongside AI work.
-Pradeep prefers the detailed, grouped tech stack with its original item formatting,
-major-tool markers, and legend. Preserve that structure; do not condense it into
-shorter toolbox bullets unless asked.
-Learning collections must distinguish completed practice from planned exercises.
-Credit upstream work; a fork is not evidence of authorship.
+Keep established cloud, DevOps, and platform work visible alongside AI exploration.
+Use concise purposes and the README's Flow, Maturity, Status, Activity, and Tags
+format and definitions. Intended flow differs from implemented behavior. Releases,
+recent commits, and passing checks do not prove readiness, maintenance, or value;
+pre-v1 releases generally remain experimental. Do not invent claims or outcomes.
+Verify public identities, URLs, and capabilities against public source. Private
+or proposed work can appear at Pradeep's approved level, labeled without dead
+links or private details. Deep AI is a unified ambition until demonstrated;
+provider projects should remain independently useful. Keep future Maestro distinct
+from the old URL redirecting to Signals. Separate actual practice from planned
+exercises and credit upstream work; a fork does not establish authorship.
 
-## AI collaboration and local ownership
+Use `python3 .meta/scripts/project_metadata.py` for public release/activity facts.
+It reads GitHub through authenticated `gh`, uses New York dates, and does not
+rewrite the README. Private queries require explicit `--include-private` opt-in.
+Refresh the public check date with the facts. Human review owns purpose, current
+status, and usefulness; the script cannot infer them from repository metadata.
 
-It is fine to say that AI helps with research, planning, implementation, and
-review. Pradeep retains responsibility for choices, verification, and results.
-Do not require an apologetic disclaimer, authorship badge, or handwritten claim.
+## Media and collaboration
 
-This repository owns its practical guidance and has no Context AI runtime
-dependency. Patterns that prove helpful across projects may later inform Context
-AI's reusable library; do not imply automatic syncing or universal ownership.
+Use optional collapsed `self.imagine(variable)` image companions that fit their
+thoughts. Center images with compact `<sup><em>` credits in the same paragraph,
+separated by one `<br/>`. Preserve supplied artwork, alt text, terms, and required
+notices; [assets/README.md](../../assets/README.md) owns detailed credits. Credit
+grants no rights. The favorite meme stays optional and before EOF. Keep disclaimers
+compact. AI can assist research, planning, implementation, and review; Pradeep owns
+decisions, verification, and results. No apologetic authorship badges.
 
 ## Maintenance and checks
 
-Keep edits scoped and inspect Git status before starting. Preserve unrelated
-work. Prefer readable paragraphs and short lists to wide, dense tables; check
-the page as a quick skim and on a narrow screen.
-
-Compare all three protected regions to the starting working copy, and check that EOF
-is still last. Verify public project links and any changed capability claims.
-Check relative assets, alt text, and attribution. Keep the meme disclosure
-collapsed by default and before EOF; credit does not establish reuse permission.
-Run `git diff --check`, review the complete diff and status, and use GitHub's
-Markdown renderer when available. State the limits of any preview or link check.
-
-After a real editing pass, review the page as a skimming engineer or recruiter,
-a curious visitor, and its author. Refine this guide only for observed gaps or
-unclear instructions, then reread it and make a deliberate second README pass.
-Keep useful lessons here; remove redundant rules rather than growing a framework.
+Inspect Git status and remote state; use fast-forward-only pulls and preserve
+local work. Verify protected content, relevant links, assets, attribution,
+disclosure defaults, and `git diff --check`. For layout changes, inspect VS Code
+behavior and the actual GitHub UI when available, including loaded images and
+working links. An API/local preview is not live validation; never publish solely
+to test without authority. State what was actually checked.
+After README edits, review as a hurried visitor, fellow engineer, and author;
+reread guidance and make a deliberate second pass without gratuitous edits.
+For context-only work, verify the profile and assets remain untouched. Update
+this guide for observed gaps and keep it concise. No duplicate policy or framework
+and no Context AI runtime dependency; useful patterns may later inform Context AI
+without implying automatic synchronization or universal ownership.
