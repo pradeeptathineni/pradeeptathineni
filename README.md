@@ -466,14 +466,14 @@ self.INTERESTS = [
 
 <p></p>
 
-- **Maturity:** Pre-`v1.0.0` releases are generally experimental. A release doesn't guarantee readiness or usefulness.
-- **Activity:** Commit dates are snapshots, not maintenance promises. `Quiet` doesn't mean abandoned.
-- **Attribution:** I credit reused work and preserve required licenses and notices.
-- **Reuse:** Repository licenses and third-party terms apply. This profile grants no extra permissions. You are responsible for what you adopt and run.
-- **AI Assistance:** I use AI for research, planning, implementation, and review. I remain responsible for verification and results.
-- **Evidence:** Tests and measurements support bounded claims. They don't by themselves prove broader gains, independent review, or user value.
-- **Private and Planned Work:** Unlinked projects may be private or proposed. Plans describe intentions, not shipped features.
-- **Artwork:** Images belong to their creators and have separate [credits and reuse terms](assets/README.md).
+- **Maturity** — Pre-`v1.0.0` releases are generally experimental. A release doesn't guarantee readiness or usefulness.
+- **Activity** — Commit dates are snapshots, not maintenance promises. `Quiet` doesn't mean abandoned.
+- **Attribution** — I credit reused work and preserve required licenses and notices.
+- **Reuse** — Repository licenses and third-party terms apply. This profile grants no extra permissions. You are responsible for what you adopt and run.
+- **AI Assistance** — I use AI for research, planning, implementation, and review. I remain responsible for verification and results.
+- **Evidence** — Tests and measurements support bounded claims. They don't by themselves prove broader gains, independent review, or user value.
+- **Private and Planned Work** — Unlinked projects may be private or proposed. Plans describe intentions, not shipped features.
+- **Artwork** — Images belong to their creators and have separate [credits and reuse terms](assets/README.md).
 
 </details>
 
