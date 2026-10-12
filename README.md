@@ -1,4 +1,4 @@
-<h1 align="center">⭐ class PradeepTathineniGithub:</h1>
+<h1 align="center">⭐ class Deep(Github):</h1>
 
 <p align="center">
   <a href="#tech-stack"><img src="https://img.shields.io/badge/macOS-64748B?logo=macos&amp;logoColor=white&amp;style=flat" alt="macOS"></a>
@@ -23,7 +23,7 @@
 <div align="center">
 
 ```python
-self.AUTHOR = "Pradeep Tathineni"
+self.AUTHOR = "Pradeep Tathineni" if env.PROPER else "Deep"
 
 self.SECTIONS = [ self.identity, self.my_values, self.my_projects, self.tech_stack, self.neon1, Meta ]
 
@@ -383,7 +383,7 @@ self.INTERESTS = [
 
 <br/>
 
-# 🗂️ class Meta(PradeepTathineniGithub):
+# 🗂️ class Meta(Deep):
 
 <details>
 <summary>def disclaimers(self, warnings="alert"):</summary>
