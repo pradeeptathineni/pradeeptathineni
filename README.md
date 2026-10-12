@@ -1,89 +1,486 @@
-# H I I ' M P R A D E E P
+<h1 align="center">⭐ class PradeepTathineniGithub:</h1>
+<div align="center">
 
-I'm an engineer who sees repeated work as a design problem: if I have to do it twice, I start asking why the computer isn't doing it.
+```python
+self.AUTHOR = "Pradeep Tathineni"
 
-```text
-Once is flirtation. Twice is frustration.
-Once is temptation. Twice is libation.
-Once is foundation. Twice is causation.
-
-All thereafter is automation.
+self.SECTIONS = [ self.identity, self.my_values, self.my_projects, self.tech_stack, self.neon1, Meta ]
 ```
 
-I build cloud infrastructure, developer tools, and AI systems. My background is in automation, DevOps, and platform engineering; I like making difficult work easier to repeat and understand.
+<pre><code>self.LINKS = [ <a href="#projects">&quot;Projects&quot;</a>, <a href="https://pradeeptathineni.github.io/labs/">&quot;Labs&quot;</a>, <a href="https://github.com/pradeeptathineni?tab=stars">&quot;GitHub Stars&quot;</a>, <a href="https://github.com/neon1llc">&quot;neon1&quot;</a>, <a href="https://www.linkedin.com/in/pradeep-tathineni/">&quot;LinkedIn&quot;</a> ]
 
-## What I'm working toward
+self.TOOLBOX = [ <a href="#tech-stack"><img src="https://img.shields.io/badge/macOS-64748B?logo=macos&amp;logoColor=white&amp;style=flat" alt="macOS"></a>, <a href="#tech-stack"><img src="assets/badges/vscode.svg" alt="VS Code"></a>, <a href="#tech-stack"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=white&amp;style=flat" alt="Python, my primary language"></a>, <a href="#tech-stack"><img src="assets/badges/aws.svg" alt="AWS"></a>, <a href="#tech-stack"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&amp;logoColor=white&amp;style=flat" alt="Docker"></a>, <a href="#tech-stack"><img src="https://img.shields.io/badge/Terraform-7B42AC?logo=terraform&amp;logoColor=white&amp;style=flat" alt="Terraform"></a>, <a href="#tech-stack"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&amp;logoColor=white&amp;style=flat" alt="GitHub Actions"></a>, <a href="#tech-stack"><img src="assets/badges/codex.svg" alt="Codex, one of my primary AI tools"></a>, <a href="#tech-stack"><img src="assets/badges/chatgpt.svg" alt="ChatGPT, one of my primary AI tools"></a> ]</code></pre>
 
-**Deep AI** is my longer-term goal: a human-directed environment for understanding information, finding worthwhile ideas, weighing decisions, and turning selected ideas into useful work. I'd like to ask what's changed in an area I care about, see the evidence, and decide which idea deserves a small experiment. I want AI to help me, and eventually others, discover valuable possibilities while keeping people in charge of what matters and what happens next.
+```python
+# Could you imagine if we chose to center our code?
+```
 
-That unified experience is still a plan. Signals is my nearer-term priority, and the separate AI repositories below explore complementary parts of this direction. Each should be useful on its own as I work out where bringing them together would help.
+</div>
 
-## What I'm building
+<br/>
 
-### Cloud and developer tooling
+## 🪪 def identity(self, title="Hello World!"):
 
-- [**AWS Terraform Engineering Challenge**](https://github.com/pradeeptathineni/eng-challenge-aws-terraform): AWS web infrastructure with modular networking, optional remote state, CI, deployment verification, and safe teardown. The surrounding engineering grew beyond the original challenge.
-- [**AWS CLI Plus**](https://github.com/neon1llc/aws-clip): A Go wrapper for AWS CLI v2 that makes multi-profile work easier to follow, verifies account identity, and adds account-bound checks before risky commands.
+<details open>
+<summary>self.identity.group(<strong>"Core"</strong>)</summary>
 
-### AI systems
+<p></p>
 
-These are evolving engineering projects, with working tools and open questions about where they help most.
+```python
+self.WHO = "I'm an engineer who sees repeated work as a design problem: if I have to do it twice, I start asking why the computer isn't doing it."
 
-- [**Signals AI**](https://github.com/pradeeptathineni/signals-ai): Research questions, inspect evidence, compare findings, and retain useful knowledge for interests and projects. A local workspace supports discovery; the [public Corpus](https://pradeeptathineni.github.io/signals-ai/) shares approved records.
-- [**Context AI**](https://github.com/pradeeptathineni/context-ai): Reusable engineering guidance with tools to select and adopt it for a project, verify the installed files, and undo changes while preserving that project's own instructions.
-- [**Blueprint AI**](https://github.com/pradeeptathineni/blueprint-ai): Create, inspect, review, and evolve software projects using native tools and deterministic checks, with optional AI reasoning over bounded evidence.
-- [**Principles AI**](https://github.com/pradeeptathineni/principles-ai): An evidence-informed collection of principles, practices, and rationales, supported by tooling for structure and validation. It aims to make considered guidance easier to learn from and revisit.
+# Once is flirtation. Twice is frustration.
+# Once is temptation. Twice is libation.
+# Once is foundation. Twice is causation.
+#
+# All thereafter is automation.
 
-Each project owns its practical AI guidance; patterns that prove helpful across projects may eventually inform Context AI's reusable library.
+self.WHAT = "I have 8+ years of professional experience in automation, application development, cloud, DevOps, and security, and nearly two decades of exploring technology."
 
-### Practice and exploration
+self.WHY = "My constant pursuit has always been to enable people with technology solutions that make their work and lives easier."
 
-- [**Labs**](https://github.com/pradeeptathineni/labs): Problems I take apart, decisions I make, and things I build. The [published catalog](https://pradeeptathineni.github.io/labs/) separates work I've done from exercises waiting for me, across code, study, writing, and design.
-- [**ShouldaUsedThat**](https://github.com/pradeeptathineni/shoulda-used-that): A deterministic research CLI for deciding what to reuse, what to skip, and what remains worth building. The [reviewed catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) keeps the decisions and evidence.
-- [**home-lab**](https://github.com/pradeeptathineni/home-lab): My Mac-hosted Linux lab for private services, monitoring, local AI, backup practice, and disposable experiments. It is also how I learn what deserves a future always-on server.
-- [**nature-of-code**](https://github.com/pradeeptathineni/nature-of-code): Creative coding inspired by Daniel Shiffman's *The Nature of Code* and Coding Train: terrain, starfields, fireworks, moiré, and wave-function collapse.
-
-## How I work
-
-**observe → understand → remove → automate → verify → observe again**
-
-I start with the problem and the person dealing with it. Before adding machinery, I ask what can be removed and what already exists. My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) are a working prior-art map: a star means worth considering or revisiting, not fully audited or adopted. I'd rather find good prior art early than discover it later as “shoulda used that,” or worse, “wow, that's exactly my idea, and much better.”
-
-I favor small, inspectable changes, repeatable deployment, and checks that show what actually happened. Automation needs useful logs and a way to recover. With AI, I start from a deterministic baseline, bound what the model can do, and compare the results. A passing test is useful evidence; whether someone's work improves still needs observation.
-
-I use AI to research, plan, implement, and review. I remain responsible for the choices, verification, and results. The question I keep returning to is: **does this make someone's life easier, or more interesting?**
-
-## 🛠️ Tech stack
-
-- **Systems:**
-  - **Operating Systems:** `*macOS*` ; `*Linux*` ; `Windows`
-  - **Editors / Notebooks:** `*VS Code*` ; `Jupyter` ; `Google Colab`
-- **Software & Platforms:**
-  - **Code:** `*Python*` ; `*Bash*` ; `Go` ; `JavaScript` ; `TypeScript` ; `Node.js` ; `SQL` ; `React`
-  - **Cloud & Platform:** `*AWS*` ; `*Docker*` ; `Kubernetes` ; `Helm`
-  - **Infrastructure as Code:** `*Terraform*` ; `OpenTofu` ; `AWS CloudFormation`
-  - **Delivery:** `*Git*` ; `*GitHub Actions*` ; `CircleCI` ; `AWS CodePipeline` ; `Jenki...nvm`
-  - **Observability:** `CloudWatch` ; `Prometheus` ; `Grafana` ; `ELK`
-- **Focuses:**
-  - **Engineering:** `Automation` ; `DevOps` ; `Cloud Architecture` ; `Platform Engineering` ; `Solutions Architecture` ; `Modernization` ; `Customer Enablement` ; `Developer Tooling` ; `OSS / Prior-Art Discovery` ; `IoT`
-  - **AI:** `LLM Applications` ; `RAG` ; `Agents` ; `Context Engineering` ; `Model Routing` ; `Evaluation` ; `Machine Learning`
-  - **Exploring:** `Computer Vision` ; `Data Visualization` ; `Simulation`
-
-> Items written like `*this*` are the major, most typical items in my toolbox.
-
-## neon1
-
-[**neon1**](https://github.com/neon1llc) is my personal organization for tooling that grows out of repeated needs in software, infrastructure, automation, and customer enablement. AWS CLI Plus lives there. I share patterns when they become useful beyond the problem that first prompted them.
-
----
-
-<details>
-<summary>When the dashboard is still green.</summary>
-
-<img src="assets/this-is-fine.png" alt="Two panels of a dog sitting with a mug in a burning room, saying ‘This is fine.’" width="460">
-
-*“On Fire” (2013), by [KC Green / Gunshow](https://gunshowcomic.com/648). Copyright remains with the creator.*
+self.FOCUSES["domains"] = [
+    "Automation", # performance
+    "Cloud",      # enablement
+    "DevOps",     # delivery
+    "Security",   # confidence
+    "AI",         # capability
+]
+```
 
 </details>
+
+<p></p>
+
+<details>
+<summary>self.identity.group(<strong>"More"</strong>)</summary>
+
+<p></p>
+
+```python
+self.FOCUSES["concepts"] = [
+    "Open Source",
+    "Prior Art",
+    "Developer Tools",
+    "Evidence-Based Decisions",
+]
+
+self.FOCUSES["exploring"] = [
+    "Simulation",
+    "Computer Vision",
+    "EdTech",
+    "EnviroTech",
+    "AgriTech",
+    "GeoTech",
+]
+
+self.INTERESTS = [
+    "Dog", # TODO Add link to dog pic
+    "Education",
+    "Community",
+    "Gardening",
+    "Biking",
+    "Hiking",
+    "Tacos",
+    "Driving Fast",
+]
+```
+
+</details>
+
+<br/>
+
+## 🧭 def my_values(self, group="technology"):
+
+<details open>
+<summary>self.values.group(<strong>"Intentions"</strong>)</summary>
+
+<p></p>
+
+- **Learn and share.** Knowing my options is paramount to good decisions.
+- **Strengthen my AI engineering practice.** Explore OSS, context engineering, and orchestration through useful work.
+- **Create useful deterministic tools.** Automate repeated work and keep it inspectable.
+- **Build on existing OSS.** Reuse, adapt, and integrate before writing custom code.
+- **Turn personal needs into useful public OSS.** Generalize when other people's use cases support it.
+
+</details>
+
+<p></p>
+
+<details open>
+<summary>self.values.group(<strong>"Practices"</strong>)</summary>
+
+<p></p>
+
+- **Research deeply before building.** Compare existing tools and practices. My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) track leads to investigate.
+- **Back claims with evidence.** Keep sources and measurements close to claims; compare against baselines.
+- **Generalize across real use cases.** Define what holds across substantial examples, and retain the differences that matter.
+- **Remove, automate, verify, and revisit.** Prefer small changes and a way to recover.
+
+</details>
+
+<br/>
+
+<a name="projects"></a>
+
+## 🚀 def my_projects(self, level="high"):
+
+<details>
+<summary>self.projects.meta()</summary>
+
+<p></p>
+
+- **Flow:** The intended path from input to outcome.
+- **Maturity:** `Idea` for proposed work, `Experimental` for work without a published release, or a published release version.
+- **Status:** What exists and works today.
+- **Activity:** Last default-branch commit; `Recent` means within 90 days of the check date, otherwise `Quiet`. Proposed projects show planning status instead.
+- **Tags:** Technologies and areas of focus.
+
+<pre><code># A release is a checkpoint; pre-v1.0.0 releases generally remain experimental.
+# Public release and activity facts checked on 2026-10-12, New York time.</code></pre>
+
+</details>
+
+<p></p>
+
+<!-- Refresh public release/activity facts: python3 .meta/scripts/project_metadata.py -->
+
+<details>
+<summary>self.projects.group(<strong>"Cloud and DevOps Engineering"</strong>)</summary>
+
+<p></p>
+
+- [**AWS Terraform Engineering Challenge**](https://github.com/pradeeptathineni/eng-challenge-aws-terraform) — Make AWS web infrastructure reproducible and inspectable.
+  - **Flow:** _requirements → Terraform plan → deploy → verify → tear down_
+  - **Maturity:** `Experimental`
+  - **Status:** Modular infrastructure, CI, and deployment checks exist; still a challenge-scale project.
+  - **Activity:** Updated 2026-09-12 · `Recent`
+  - **Tags:** `aws` ; `terraform` ; `devops`
+
+</details>
+
+<p></p>
+
+<details>
+<summary>self.projects.group(<strong>"Automation and Tooling"</strong>)</summary>
+
+<p></p>
+
+- [**AWS CLI Plus**](https://github.com/neon1llc/aws-clip) — Make multi-profile AWS CLI work easier to follow and safer.
+  - **Flow:** _select profile → verify identity → check policy → run AWS CLI_
+  - **Maturity:** `Experimental`
+  - **Status:** Working Go wrapper around AWS CLI v2; account checks and guarded commands are implemented.
+  - **Activity:** Updated 2026-09-13 · `Recent`
+  - **Tags:** `aws` ; `cli` ; `go` ; `automation`
+- [**ShouldaUsedThat**](https://github.com/pradeeptathineni/shoulda-used-that) — Find what to reuse, what to skip, and what remains worth building.
+  - **Flow:** _problem → candidates → evidence → decision → revisit_
+  - **Maturity:** [`v0.4.0`](https://github.com/pradeeptathineni/shoulda-used-that/releases/tag/v0.4.0)
+  - **Status:** Deterministic CLI and [reviewed catalog](https://pradeeptathineni.github.io/shoulda-used-that/curation/) exist; each reuse decision still needs contextual judgment.
+  - **Activity:** Updated 2026-09-20 · `Recent`
+  - **Tags:** `oss` ; `prior-art` ; `python`
+
+</details>
+
+<p></p>
+
+<details>
+<summary>self.projects.group(<strong>"AI Systems"</strong>)</summary>
+
+<p></p>
+
+<pre><code># These projects explore my AI engineering direction, from planning and evidence to development and orchestration.</code></pre>
+
+- **Planning AI** — Keep project intent, research, decisions, and next steps coherent.
+  - **Flow:** _question → research → explore → decide → prepare work_
+  - **Maturity:** `Experimental` · Private
+  - **Status:** A working private planning workspace; no standalone application.
+  - **Activity:** Updated 2026-10-11 · `Recent`
+  - **Tags:** `planning` ; `research` ; `knowledge`
+- [**Signals AI**](https://github.com/pradeeptathineni/signals-ai) — Find and retain evidence that helps me choose worthwhile project work.
+  - **Flow:** _question → research → assess → compare → retain → revisit_
+  - **Maturity:** [`v0.3.0`](https://github.com/pradeeptathineni/signals-ai/releases/tag/v0.3.0) · Preview
+  - **Status:** Research workspace and [public Corpus](https://pradeeptathineni.github.io/signals-ai/) exist; still well short of the discovery value I want.
+  - **Activity:** Updated 2026-10-11 · `Recent`
+  - **Tags:** `ai` ; `evidence` ; `discovery` ; `typescript`
+- [**Context AI**](https://github.com/pradeeptathineni/context-ai) — Equip AI-assisted projects with reusable engineering guidance.
+  - **Flow:** _need → select guidance → plan adoption → apply → verify → refine_
+  - **Maturity:** [`v0.3.0`](https://github.com/pradeeptathineni/context-ai/releases/tag/v0.3.0) · Preview
+  - **Status:** Guidance selection, installation, and undo work; broader everyday usefulness remains under evaluation.
+  - **Activity:** Updated 2026-10-10 · `Recent`
+  - **Tags:** `ai` ; `context-engineering` ; `devtools`
+- [**Principles AI**](https://github.com/pradeeptathineni/principles-ai) — Make evidence-informed domain principles simple to research, understand, and apply.
+  - **Flow:** _research → reconcile → define → apply → reassess_
+  - **Maturity:** `Experimental`
+  - **Status:** Structured corpus and validation tooling exist; the guidance remains under research and review.
+  - **Activity:** Updated 2026-09-10 · `Recent`
+  - **Tags:** `ai` ; `principles` ; `learning` ; `evidence`
+- [**Blueprint AI**](https://github.com/pradeeptathineni/blueprint-ai) — Create and evolve software projects with practical engineering checks.
+  - **Flow:** _inspect → plan → create or evolve → review → verify_
+  - **Maturity:** [`0.9.0`](https://github.com/pradeeptathineni/blueprint-ai/releases/tag/0.9.0)
+  - **Status:** Working CLI for project creation, inspection, review, and evolution; optional model reasoning remains bounded.
+  - **Activity:** Updated 2026-10-03 · `Recent`
+  - **Tags:** `devtools` ; `python` ; `engineering`
+- **Intentional AI** — Schedule autonomous project development within deliberate timing and scope.
+  - **Flow:** _approved intent → schedule → bounded work → verify → retain state_
+  - **Maturity:** `Experimental` · Private
+  - **Status:** Private scheduling and Git-control experiments exist; a wider orchestration role remains proposed.
+  - **Activity:** Updated 2026-09-13 · `Recent`
+  - **Tags:** `automation` ; `scheduling` ; `python`
+- **Maestro AI** — Coordinate multi-agent project development from planning through review and integration.
+  - **Flow:** _goal → plan → delegate → review → integrate → observe_
+  - **Maturity:** `Idea`
+  - **Status:** Proposed orchestration layer, intended to incorporate Intentional AI’s scheduling.
+  - **Activity:** Planning only; no standalone implementation.
+  - **Tags:** `ai` ; `orchestration` ; `project-evolution`
+- **Deep AI** — Bring evidence, ideas, decisions, and useful work into one human-directed experience.
+  - **Flow:** _understand → discover → weigh options → choose → build → learn_
+  - **Maturity:** `Idea`
+  - **Status:** Idea only; no unified UI or deployed integration. Signals is the nearer-term priority.
+  - **Activity:** Planning only; no standalone implementation.
+  - **Tags:** `ai` ; `discovery` ; `decision-support`
+
+<pre><code># I'd like to ask what's changed in an area I care about, see the evidence, and choose an idea worth a small experiment.
+# Deep AI is the ambition to make that experience useful for me and eventually others, with people deciding what matters and what happens next.
+# The individual projects should remain useful on their own.
+# Each project owns its practical AI guidance; patterns proven helpful across projects may eventually inform Context AI's reusable library.</code></pre>
+
+</details>
+
+<p></p>
+
+<details>
+<summary>self.projects.group(<strong>"Practice and Exploration"</strong>)</summary>
+
+<p></p>
+
+- [**Labs**](https://github.com/pradeeptathineni/labs) — Practice problem-solving and share the work behind it.
+  - **Flow:** _problem → investigate → build or explain → reflect → catalog_
+  - **Maturity:** `Experimental`
+  - **Status:** [Published catalog](https://pradeeptathineni.github.io/labs/) separates actual practice from exercises still waiting for me.
+  - **Activity:** Updated 2026-10-12 · `Recent`
+  - **Tags:** `practice` ; `code` ; `study` ; `writing`
+- [**Home Lab**](https://github.com/pradeeptathineni/home-lab) — Learn what useful private services need before moving to a dedicated server.
+  - **Flow:** _provision → run services → observe → test recovery → refine_
+  - **Maturity:** `Experimental`
+  - **Status:** Mac-hosted Linux lab with monitoring, local AI, and disposable experiments; an independent backup destination is still needed.
+  - **Activity:** Updated 2026-10-03 · `Recent`
+  - **Tags:** `homelab` ; `linux` ; `local-ai` ; `observability`
+- [**Nature of Code**](https://github.com/pradeeptathineni/nature-of-code) — Explore visual systems through creative coding.
+  - **Flow:** _idea → simulation → observe → change rules → repeat_
+  - **Maturity:** `Experimental`
+  - **Status:** Terrain, starfields, fireworks, and other sketches inspired by Daniel Shiffman and Coding Train; an older experiment collection.
+  - **Activity:** Updated 2023-06-12 · `Quiet`
+  - **Tags:** `p5.js` ; `simulation` ; `creative-coding`
+
+</details>
+
+<br/>
+
+<a name="tech-stack"></a>
+
+## 🛠️ def tech_stack(self, sort=[ "preference", "experience" ]):
+
+<details>
+<summary>self.tech.meta()</summary>
+
+<p></p>
+
+<pre><code># Items written like *this* are the major, most typical items in my toolbox.</code></pre>
+
+</details>
+
+<p></p>
+
+<details open>
+<summary>self.tech.group(<strong>"Systems"</strong>)</summary>
+
+<p></p>
+
+- **Operating Systems:** `*macOS*` ; `*Linux*` ; `Windows`
+- **Editors / Notebooks:** `*VS Code*` ; `Jupyter` ; `Google Colab`
+
+</details>
+
+<p></p>
+
+<details open>
+<summary>self.tech.group(<strong>"Software &amp; Platforms"</strong>)</summary>
+
+<p></p>
+
+- **Code:** `*Python*` ; `*Bash*` ; `Go` ; `JavaScript` ; `TypeScript` ; `Node.js` ; `SQL` ; `React`
+- **Cloud & Platform:** `*AWS*` ; `*Docker*` ; `Kubernetes` ; `Helm`
+- **Infrastructure as Code:** `*Terraform*` ; `OpenTofu` ; `AWS CloudFormation`
+- **Delivery:** `*Git*` ; `*GitHub Actions*` ; `CircleCI` ; `AWS CodePipeline` ; `Jenki...nvm`
+- **Observability:** `CloudWatch` ; `Prometheus` ; `Grafana` ; `ELK`
+- **AI Tooling:** `*Codex*` ; `*ChatGPT*` ; `Claude Code` ; `Claude`
+
+</details>
+
+<p></p>
+
+<details open>
+<summary>self.tech.group(<strong>"Focuses"</strong>)</summary>
+
+<p></p>
+
+- **Engineering:** `Automation` ; `DevOps` ; `Cloud Architecture` ; `Platform Engineering` ; `Solutions Architecture` ; `Modernization` ; `Customer Enablement` ; `Developer Tooling` ; `OSS / Prior-Art Discovery` ; `IoT`
+- **AI:** `LLM Applications` ; `RAG` ; `Agents` ; `Context Engineering` ; `Model Routing` ; `Evaluation` ; `Machine Learning`
+- **Exploring:** `Computer Vision` ; `Data Visualization` ; `Simulation`
+
+</details>
+
+<br/>
+
+## 🟢 def neon1(self, type="business", redirect=True):
+
+[**neon1**](https://github.com/neon1llc) is my engineering organization for software, infrastructure, and automation. AWS CLI Plus lives there. I share reusable tools and patterns through its public repositories.
+
+<br/>
+
+# 🗂️ class Meta:
+
+<details>
+<summary>def disclaimers(self, warnings="alert"):</summary>
+
+<p></p>
+
+- **Maturity:** Pre-`v1.0.0` releases are generally experimental. A release doesn't guarantee readiness or usefulness.
+- **Activity:** Commit dates are snapshots, not maintenance promises. `Quiet` doesn't mean abandoned.
+- **Attribution:** I credit reused work and preserve required licenses and notices.
+- **Reuse:** Repository licenses and third-party terms apply. This profile grants no extra permissions; you are responsible for what you adopt and run.
+- **AI Assistance:** I use AI for research, planning, implementation, and review. I remain responsible for verification and results.
+- **Evidence:** Tests and measurements support bounded claims; they don't by themselves prove broader gains, independent review, or user value.
+- **Private and Planned Work:** Unlinked projects may be private or proposed. Plans describe intentions, not shipped features.
+- **Artwork:** Images belong to their creators and have separate [credits and reuse terms](assets/README.md).
+
+</details>
+
+<p></p>
+
+<details>
+<summary>def thoughts(self, think=2, filter=None, humor="dry"):</summary>
+
+<p></p>
+
+<pre><code>fixing_problems = "If you've never thought about building a productivity app, or haven't spent a whole Sunday concerned with a single README, can you really call yourself an engineer?"</code></pre>
+
+<details>
+<summary>self.imagine(fixing_problems)</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/xkcd/1739-fixing-problems.png" alt="An engineer explains a chain of problems created while fixing earlier problems." width="312"><br/>
+  <sup><em><a href="https://xkcd.com/1739/">XKCD #1739</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
+</p>
+
+</details>
+
+<p></p>
+
+<pre><code>automation = "I can spend all day automating a five-minute task, then spend tomorrow repairing the automation. At some point the time savings become a matter of faith, and I call that a long-term investment."</code></pre>
+
+<details>
+<summary>self.imagine(automation)</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/xkcd/1319-automation.png" alt="Two work-versus-time graphs contrast automation's promised free time with debugging, rethinking, and ongoing development." width="404"><br/>
+  <sup><em><a href="https://xkcd.com/1319/">XKCD #1319</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
+</p>
+
+</details>
+
+<p></p>
+
+<pre><code>autonomy = "If my autonomous system needs a babysitter, I’ve built a very expensive toddler. Give it a memory file and a calendar and apparently I’m supposed to call it a coworker."</code></pre>
+
+<p></p>
+
+<pre><code>machine_learning = "Some AI architecture diagrams are just invoices with arrows. I want to know what each box does, why I need it, and what happens if I stop paying for it. Calling it a pile of math doesn't help if the next step is poking it until the answers look right."</code></pre>
+
+<details>
+<summary>self.imagine(machine_learning)</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/xkcd/1838-machine-learning.png" alt="Data enters a pile of linear algebra; an engineer stirs the pile until the answers look right." width="371"><br/>
+  <sup><em><a href="https://xkcd.com/1838/">XKCD #1838</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
+</p>
+
+</details>
+
+<p></p>
+
+<pre><code>originality = "Nothing humbles an original idea like a ten-year-old GitHub repo that already does it, has better documentation, and runs on a Raspberry Pi. My innovation may just be not having searched properly."</code></pre>
+
+<p></p>
+
+<pre><code>the_general_problem = "An abstraction that only works for my favorite example is a private joke. If I need to explain why every other example doesn't count, I probably haven't found the pattern yet. The other extreme is spending twenty minutes building a condiment system when someone asked for salt."</code></pre>
+
+<details>
+<summary>self.imagine(the_general_problem)</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/xkcd/0974-the-general-problem.png" alt="A request to pass the salt becomes a twenty-minute effort to build a general condiment-passing system." width="550"><br/>
+  <sup><em><a href="https://xkcd.com/974/">XKCD #974</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
+</p>
+
+</details>
+
+<p></p>
+
+<pre><code>significance = "My tests passed. My claims are still on probation. I wrote the code, picked the examples, and decided what counts as success; that is a lot of authority for someone trying to prove himself right."</code></pre>
+
+<details>
+<summary>self.imagine(significance)</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/xkcd/0882-significant.png" alt="Scientists test many jelly-bean colors; one apparent association produces an exaggerated news headline." width="540"><br/>
+  <sup><em><a href="https://xkcd.com/882/">XKCD #882</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
+</p>
+
+</details>
+
+<p></p>
+
+<pre><code>research = "Knowing all my options is paramount. Unfortunately, ‘keep researching’ is always one of them, and it comes with an unlimited free trial. Eventually I have to choose something and find out what I missed."</code></pre>
+
+<p></p>
+
+<pre><code>dashboards = "Every dashboard is green, every failed test is a pass, and every benchmark is a record with Inspect Element and a few minutes. Show me what survives a refresh."</code></pre>
+
+<p></p>
+
+<pre><code>impact = "The world does not owe my side project a use case. If nobody needs it, I can still enjoy building it. I just don't get to rename my enjoyment ‘impact’ and expect everyone else to agree."</code></pre>
+
+</details>
+
+<p></p>
+
+<details>
+<summary>def state(self, true=True):</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/this-is-fine.png" alt="Two panels of a dog sitting with a mug in a burning room, saying ‘This is fine.’" width="460"><br/>
+  <sup><em>“On Fire” (2013), by <a href="https://gunshowcomic.com/648">KC Green / Gunshow</a>. Copyright remains with the creator.</em></sup>
+</p>
+
+</details>
+
+<br/>
+<br/>
+<br/>
+
+---
 
 [EOF]: :c-l>lF%H5o5CnU_Vmlh-FCge>5FPa;UMYxhC)pQ_f1d;)NIRNY?RBIS;zHY_*@Qt}gd03h#qnee;Wo5G2q*S3E#^<^NJX-$@PT<V@ldM^6Gt{l8^*WvJ~q^ke|Jz*i8yM)`Csh{)ch;0Z58$PQpY$0Xw5t&

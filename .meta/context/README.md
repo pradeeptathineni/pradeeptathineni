@@ -9,15 +9,26 @@ he is exploring. The reader should meet a person before encountering a catalog.
 ## Identity and voice
 
 The profile README owns three protected regions: its opening title, the entire
-fenced automation poem near the beginning, and its final `[EOF]:` definition.
-Preserve their exact bytes against the starting committed README. Keep the EOF
-definition last. Do not copy those regions into this guide.
+automation poem near the beginning, and its final `[EOF]:` definition. Preserve
+them against the working copy at the start of each editing pass unless Pradeep
+authorizes changes. His revisions take precedence over older committed versions.
+Keep the EOF definition last. Do not copy those regions into this guide.
 
 Write in the first person: natural, curious, earnest, straightforward, and
 occasionally witty. Explain complex ideas in ordinary language. Keep intentional
 humor when it fits. Avoid hype, buzzwords, verbose slogans, repetitive headings,
 formulaic three-part claims, and marketing prose. Use dashes sparingly; connected
 paragraphs usually read better than giving every thought its own line.
+
+Keep the current Python-inspired headings and disclosure style. Fenced Python
+blocks are intentional: format lists with indentation, but keep each prose string
+on one source line. Do not split strings to enforce a line-length limit.
+Pad single-line list literals with a space inside each bracket. Separate opening
+metadata assignments with a blank line for readability.
+The opening metadata uses HTML `<pre><code>` to display clickable links and badge
+images inside the code-style block. A fenced block would display their markup.
+The closing comment has its own Python fence for native highlighting. Applying
+Python highlighting to the HTML metadata strips its embedded links and images.
 
 ## Accuracy and project selection
 
@@ -59,7 +70,7 @@ Keep edits scoped and inspect Git status before starting. Preserve unrelated
 work. Prefer readable paragraphs and short lists to wide, dense tables; check
 the page as a quick skim and on a narrow screen.
 
-Compare all three protected regions to the starting commit, and check that EOF
+Compare all three protected regions to the starting working copy, and check that EOF
 is still last. Verify public project links and any changed capability claims.
 Check relative assets, alt text, and attribution. Keep the meme disclosure
 collapsed by default and before EOF; credit does not establish reuse permission.
