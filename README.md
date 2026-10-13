@@ -40,7 +40,7 @@ self.SECTIONS = [ self.identity, self.values, self.projects, self.tech_stack, se
 
 <p></p>
 
-> `self.WHO` = "I'm an engineer who sees repeated work as a design problem: if I have to do it twice, I start asking why the computer isn't doing it."
+`self.WHO` = "I'm an engineer who sees repeated work as a design problem: if I have to do it twice, I start asking why the computer isn't doing it."
 
 ```python
 # Once is flirtation. Twice is frustration.
@@ -50,9 +50,9 @@ self.SECTIONS = [ self.identity, self.values, self.projects, self.tech_stack, se
 # All thereafter is automation.
 ```
 
-> `self.WHAT` = "I have 8+ years of professional experience in automation, application development, cloud, DevOps, and security, and nearly two decades of exploring technology."
+`self.WHAT` = "I have 8+ years of professional experience in automation, application development, cloud, DevOps, and security, and nearly two decades of exploring technology."
 
-> `self.WHY` = "My constant pursuit has always been to enable people with technology solutions that make their work and lives easier."
+`self.WHY` = "My constant pursuit has always been to enable people with technology solutions that make their work and lives easier."
 
 </details>
 
@@ -111,11 +111,11 @@ self.INTERESTS = [
 
 <p></p>
 
-> `#` **Learn and share** — Knowing my options is paramount to good decisions. Sharing what I learn helps others make theirs.\
-> `#` **Strengthen my AI engineering practice** — Improve how I give AI context, coordinate its work, and verify its results.\
-> `#` **Create deterministic tools** — Automate repeated work so I can trace what happened and verify the result.\
-> `#` **Build on existing OSS** — Reuse, adapt, and integrate open-source software before writing custom code.\
-> `#` **Build useful public OSS** — Start with a need I have. Expand when other people's use cases reveal a shared problem.
+`#` **Learn and share** — Knowing my options is paramount to good decisions. Sharing what I learn helps others make theirs.\
+`#` **Strengthen my AI engineering practice** — Improve how I give AI context, coordinate its work, and verify its results.\
+`#` **Create deterministic tools** — Automate repeated work so I can trace what happened and verify the result.\
+`#` **Build on existing OSS** — Reuse, adapt, and integrate open-source software before writing custom code.\
+`#` **Build useful public OSS** — Start with a need I have. Expand when other people's use cases reveal a shared problem.
 
 </details>
 
@@ -126,10 +126,10 @@ self.INTERESTS = [
 
 <p></p>
 
-> `#` **Research deeply before building** — Compare existing tools and approaches. My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) collect possibilities to investigate.\
-> `#` **Back claims with evidence** — Cite sources, measure results, and compare them with a baseline.\
-> `#` **Generalize across real use cases** — Check whether an idea holds across different needs. Keep the shared pattern and the differences that matter.\
-> `#` **Remove, automate, verify, and revisit** — Keep changes small, check that they help, and keep a way to recover.
+`#` **Research deeply before building** — Compare existing tools and approaches. My [GitHub Stars](https://github.com/pradeeptathineni?tab=stars) collect possibilities to investigate.\
+`#` **Back claims with evidence** — Cite sources, measure results, and compare them with a baseline.\
+`#` **Generalize across real use cases** — Check whether an idea holds across different needs. Keep the shared pattern and the differences that matter.\
+`#` **Remove, automate, verify, and revisit** — Keep changes small, check that they help, and keep a way to recover.
 
 </details>
 
@@ -151,7 +151,7 @@ self.INTERESTS = [
   | **Activity** | · Updated: last default-branch commit date.<br/>· `Recent` means within 90 days of the check date, otherwise `Quiet`.<br/>· Proposed projects show planning status instead. |
   | **Tags** | Technologies and areas of focus. |
 
-> `#` Public release and activity facts last checked on 2026-10-12.
+`#` Public release and activity facts last checked on 2026-10-12.
 
 </details>
 
@@ -229,7 +229,7 @@ self.INTERESTS = [
 
 <p></p>
 
-> `#` These projects explore my AI engineering direction, from planning and evidence to development and orchestration.
+`#` These projects explore my AI engineering direction, from planning and evidence to development and orchestration.
 
 <dl><dd>
 
@@ -339,9 +339,9 @@ self.INTERESTS = [
 
 </dd></dl>
 
-> `#` Deep AI is a planned central GUI that combines these AI projects to research ideas, make decisions, and build software in one place.\
-> `#` Deep control of every level → ( planning → gather high-signaling evidence → apply context & principles → blueprint the project → intentional orchestration ).\
-> `#` Each project, useful as a standalone, a component to a broader AI engineering control surface.
+`#` Deep AI is a planned central GUI that combines these AI projects to research ideas, make decisions, and build software in one place.\
+`#` Deep control of every level → ( planning → gather high-signaling evidence → apply context & principles → blueprint the project → intentional orchestration ).\
+`#` Each project, useful as a standalone, a component to a broader AI engineering control surface.
 
 </details>
 
@@ -405,7 +405,7 @@ self.INTERESTS = [
 
 <p></p>
 
-> `#` Items written like `*this*` are the major, most typical items in my toolbox.
+`#` Items written like `*this*` are the major, most typical items in my toolbox.
 
 </details>
 
@@ -453,9 +453,9 @@ self.INTERESTS = [
 
 ## 🟢 def neon1(self, type="business", redirect=True):
 
-> `#` [**neon1**](https://github.com/neon1llc) is my engineering organization for software, infrastructure, and automation within SMBs.\
-> `#` I share reusable tools and patterns through its public repositories.\
-> `#` AWS CLI Plus lives there.
+`#` [**neon1**](https://github.com/neon1llc) is my engineering organization for software, infrastructure, and automation within SMBs.\
+`#` I share reusable tools and patterns through its public repositories.\
+`#` AWS CLI Plus lives there.
 
 <br/>
 
@@ -484,15 +484,15 @@ self.INTERESTS = [
 
 <p></p>
 
-> `is_this_a_joke_r` = "You either die a standard, or live long enough to see yourself become the **_🌟spectacle✨_**."
+`is_this_a_joke_r` = "You either die a standard, or live long enough to see yourself become the **_🌟spectacle✨_**."
 
-> `sanity` = "Sanity is like a spectacular README. They both heavily collapse."
+`sanity` = "Sanity is like a spectacular README. They both heavily collapse."
 
-> `state` = `self.self()`
+`state` = `self.self()`
 
 <p></p>
 
-> `fixing_problems` = "If you've never thought about building a third productivity tool, or haven't spent a whole Sunday on one README, can you really call yourself an engineer?"
+`fixing_problems` = "If you've never thought about building a third productivity tool, or haven't spent a whole Sunday on one README, can you really call yourself an engineer?"
 
 <details>
 <summary>self.imagine(im_fixing_problems)</summary>
@@ -508,7 +508,7 @@ self.INTERESTS = [
 
 <p></p>
 
-> `automation` = "I can spend all day automating a five-minute task, then spend tomorrow repairing the automation. At some point the time savings become a matter of faith, and I call that a long-term investment."
+`automation` = "I can spend all day automating a five-minute task, then spend tomorrow repairing the automation. At some point the time savings become a matter of faith, and I call that a long-term investment."
 
 <details>
 <summary>self.imagine(automation)</summary>
@@ -524,7 +524,7 @@ self.INTERESTS = [
 
 <p></p>
 
-> `wild_times` = "Ain't it some wild, curious times we be havin ese days, pardna."
+`wild_times` = "Ain't it some wild, curious times we be havin ese days, pardna."
 
 <details>
 <summary>self.imagine(wild_times)</summary>
@@ -540,11 +540,11 @@ self.INTERESTS = [
 
 <p></p>
 
-> `autonomy` = "If my autonomous system needs a babysitter, I’ve built a very expensive toddler. Give it a memory file and a calendar and apparently I’m supposed to call it a coworker."
+`autonomy` = "If my autonomous system needs a babysitter, I’ve built a very expensive toddler. Give it a memory file and a calendar and apparently I’m supposed to call it a coworker."
 
 <p></p>
 
-> `machine_learning` = "Some AI architecture diagrams are just invoices with arrows. I want to know what each box does, why I need it, and what happens if I stop paying for it. Calling it a pile of math doesn't help if the next step is poking it until the answers look right."
+`machine_learning` = "Some AI architecture diagrams are just invoices with arrows. I want to know what each box does, why I need it, and what happens if I stop paying for it. Calling it a pile of math doesn't help if the next step is poking it until the answers look right."
 
 <details>
 <summary>self.imagine(machine_learning)</summary>
@@ -560,11 +560,11 @@ self.INTERESTS = [
 
 <p></p>
 
-> `originality` = "Nothing humbles an original idea like a ten-year-old GitHub repo that already does it, has better documentation, and runs on a Raspberry Pi. My innovation may just be not having searched properly."
+`originality` = "Nothing humbles an original idea like a ten-year-old GitHub repo that already does it, has better documentation, and runs on a Raspberry Pi. My innovation may just be not having searched properly."
 
 <p></p>
 
-> `the_general_problem` = "An abstraction that only works for my favorite example is a private joke. If I need to explain why every other example doesn't count, I probably haven't found the pattern yet. The other extreme is spending twenty minutes building a condiment system when someone asked for salt."
+`the_general_problem` = "An abstraction that only works for my favorite example is a private joke. If I need to explain why every other example doesn't count, I probably haven't found the pattern yet. The other extreme is spending twenty minutes building a condiment system when someone asked for salt."
 
 <details>
 <summary>self.imagine(the_general_problem)</summary>
@@ -580,7 +580,7 @@ self.INTERESTS = [
 
 <p></p>
 
-> `significance` = "My tests passed. My claims are still on probation. I wrote the code, picked the examples, and decided what counts as success. That is a lot of authority for someone trying to prove himself right."
+`significance` = "My tests passed. My claims are still on probation. I wrote the code, picked the examples, and decided what counts as success. That is a lot of authority for someone trying to prove himself right."
 
 <details>
 <summary>self.imagine(significance)</summary>
@@ -596,15 +596,15 @@ self.INTERESTS = [
 
 <p></p>
 
-> `research` = "Knowing all my options is paramount. Unfortunately, ‘keep researching’ is always one of them, and it comes with an unlimited free trial. Eventually I have to choose something and find out what I missed."
+`research` = "Knowing all my options is paramount. Unfortunately, ‘keep researching’ is always one of them, and it comes with an unlimited free trial. Eventually I have to choose something and find out what I missed."
 
 <p></p>
 
-> `dashboards` = "Every dashboard is green, every failed test is a pass, and every benchmark is a record with Inspect Element and a few minutes. Show me what survives a refresh."
+`dashboards` = "Every dashboard is green, every failed test is a pass, and every benchmark is a record with Inspect Element and a few minutes. Show me what survives a refresh."
 
 <p></p>
 
-> `impact` = "The world does not owe my side project a use case. If nobody needs it, I can still enjoy building it. I just don't get to rename my enjoyment ‘impact’ and expect everyone else to agree."
+`impact` = "The world does not owe my side project a use case. If nobody needs it, I can still enjoy building it. I just don't get to rename my enjoyment ‘impact’ and expect everyone else to agree."
 
 </details>
 
