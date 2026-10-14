@@ -61,10 +61,11 @@ major-tool markers, and legend; do not condense it unless asked.
 
 Keep established cloud, DevOps, and platform work visible alongside AI exploration.
 Use concise purposes and the README's Flow, Maturity, Status, Activity, and Tags
-format and definitions. Keep project titles as bullets with nested two-column,
-five-row metadata tables and blank column headings; Meta mirrors that layout.
-Keep adjacent project bullets contiguous: blank lines make lists loose and add
-paragraph spacing above their tables. Intended flow differs from implemented behavior. Releases,
+format and definitions. Each project is an inline `<details>` entry whose summary
+holds the linked title and purpose, followed by a two-column, five-row metadata
+table with blank column headings; `self.projects.info()` shows that layout as one
+bullet. Keep entries contiguous inside each group's `<dl><dd>` wrapper.
+Education, certification, and study repositories belong under Learning. Intended flow differs from implemented behavior. Releases,
 recent commits, and passing checks do not prove readiness, maintenance, or value;
 pre-v1 releases generally remain experimental. Do not invent claims or outcomes.
 Verify public identities, URLs, and capabilities against public source. Private
@@ -73,6 +74,53 @@ links or private details. Deep AI is a unified ambition until demonstrated;
 provider projects should remain independently useful. Keep future Maestro distinct
 from the old URL redirecting to Signals. Separate actual practice from planned
 exercises and credit upstream work; a fork does not establish authorship.
+
+### Software readiness
+
+The README legend owns the TRL definition. ` · TRL N` is appended to the
+existing Maturity value, keeping releases and Preview/Private markers, only for
+projects meant to become shared, useful products. It is Pradeep's conservative
+self-assessment of the technical behavior in the intended flow, adapted from
+[Wikipedia](https://en.wikipedia.org/wiki/Technology_readiness_level) and
+[NASA ESTO software TRLs](https://esto.nasa.gov/trl/). It is not certification.
+Versions, test counts, popularity, and demand do not raise a level; usefulness
+and human value are judged separately. Raise a level only with retained evidence
+that the next stage's integration or environment was actually exercised.
+For already approved private descriptions, mark an unverified rating provisional
+and publish no private implementation evidence or links.
+
+Assessed 2026-10-14 from public READMEs, pinned docs, selected integration-test
+source, head commits, and releases. Existing acceptance records inform the
+ratings; the product test suites were not rerun or fully audited here. A low
+fidelity integrated workflow can support 4 without proving usefulness. Moving
+to 5 needs relevant-environment performance and scaling evidence; missing
+human-value measurements alone do not cap technical readiness.
+
+- **Signals AI** `TRL 3` ([`1d6cfb6`](https://github.com/pradeeptathineni/signals-ai/tree/1d6cfb6fbe355256b912a2ed042547dd3cf04ff5), `v0.3.0`) — Research, claim checks, retention, and the public Corpus exist, with controlled integration checks. For the broader evidence-assessment flow, live research quality and source-scoped semantic accuracy lack established validation against defined acceptance criteria. That critical behavior keeps this scope at 3; individual deterministic components can be further along. Human decision benefit is a separate unknown.
+- **Context AI** `TRL 4` ([`aab3872`](https://github.com/pradeeptathineni/context-ai/tree/aab3872d9a34c54d5172403f48978edc5c4b6915), `v0.3.0`) — The [acceptance record](https://github.com/pradeeptathineni/context-ai/blob/aab3872d9a34c54d5172403f48978edc5c4b6915/evals/v1-acceptance.md) documents disposable-consumer plan/apply/reapply/verify/undo and conflict protection. [Consumer-path checks](https://github.com/pradeeptathineni/context-ai/blob/aab3872d9a34c54d5172403f48978edc5c4b6915/tests/test_consumer_path.py) exercise explanation, selection, installation, and verification boundaries together. This supports controlled integration of reusable guidance delivery. Not 5: relevant-workload performance and scaling are not established. Installation integrity and improved agent work remain separate observations.
+- **Blueprint AI** `TRL 4` ([`8965edb`](https://github.com/pradeeptathineni/blueprint-ai/tree/8965edb5eabb2688db66e461e8c1ba314dfbcfd2), `0.9.0`) — The [published transformation evidence](https://github.com/pradeeptathineni/blueprint-ai/blob/8965edb5eabb2688db66e461e8c1ba314dfbcfd2/docs/phase-7-evidence.json) records native preview/apply, repeatability, verification, and exact rollback on supported cases, plus a scoped workflow-only change in an upstream checkout. This supports controlled integration of the CLI workflow. It does not validate every advertised project family, complete model review, or relevant-environment performance and scaling for 5.
+- **ShouldaUsedThat** `TRL 4` ([`6edaff0`](https://github.com/pradeeptathineni/shoulda-used-that/tree/6edaff07d582a2d2d2d06145643f22dbfee3ca0e), `v0.4.0`) — The deterministic CLI, retained decisions, and reviewed catalog form an integrated workflow. The [CLI chain](https://github.com/pradeeptathineni/shoulda-used-that/blob/6edaff07d582a2d2d2d06145643f22dbfee3ca0e/tests/test_cli.py) checks candidate selection, recording a decision, and rechecking retained state with controlled fixtures. The [product contract](https://github.com/pradeeptathineni/shoulda-used-that/blob/6edaff07d582a2d2d2d06145643f22dbfee3ca0e/docs/architecture/product-contract.md) reserves contextual assessment for reviewed inputs. This is a bounded technical rating; judgment is an intended part of the flow. Realistic decision-brief performance and scaling are not validated for 5, and saved decisions do not establish better decisions.
+- **AWS CLI Plus** `TRL 3` ([`c90f092`](https://github.com/neon1llc/aws-clip/tree/c90f092292cd2dd60be89ea906777c667666b4c5)) — The wrapper implements identity checks, policy, and guarded commands. [Workflow test source](https://github.com/neon1llc/aws-clip/blob/c90f092292cd2dd60be89ea906777c667666b4c5/internal/cli/workflow_test.go) exercises planning and fake-AWS execution, but the collected record does not establish an observed integrated account/authentication validation. Keep 3 until that evidence is retained; no live AWS account was queried for this assessment.
+- **Intentional AI** `TRL 2`, provisional — The approved description formulates scheduled, bounded project work and mentions private experiments. Those experiments were not re-reviewed here; their technical readiness remains unverified beyond the described concept. Publish no private implementation evidence.
+- **Maestro AI** and **Deep AI** `TRL 2` — Concepts are formulated; nothing is implemented.
+
+Content gets a descriptive label instead of `Experimental`, a version, or a TRL:
+Planning AI `Working notes` (private workspace content; Activity unchanged),
+Principles AI `Draft guidance`, Sandbox AI `Draft methods` (documents and
+fixtures at [`a252e4f`](https://github.com/pradeeptathineni/sandbox-ai/tree/a252e4f9d8f9592130502ca13c84f7e91c3e52a8);
+its Watchexec report is bounded execution on synthetic inputs, not product
+validation, and it has no runner), Labs `Published collection`, Home Lab
+`Personal practice`, Nature of Code `Exercise collection`, AWS IaC Terraform
+`Reference scaffold` (README only), System `Personal config` (one `.bashrc`),
+UT Austin McCombs `Study in progress`, Johns Hopkins `Planned coursework`, and
+AI Engineering from Scratch `Upstream fork`. The AWS Terraform Engineering
+Challenge uses `Practice artifact` without a TRL because it is challenge-scale.
+Learning entries link no solutions and claim no completed program or credential.
+
+The public owner inventory has 16 repositories. Fifteen have entries, plus AWS
+CLI Plus under neon1; the profile repository is this README. Activity uses each
+default-branch head commit converted to New York time; a fork's date can
+reflect upstream commits.
 
 Use `python3 .meta/scripts/project_metadata.py` for public release/activity facts.
 It reads GitHub through authenticated `gh`, uses New York dates, and does not
