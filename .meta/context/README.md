@@ -67,7 +67,8 @@ table with blank column headings; `self.projects.info()` shows that layout as on
 bullet. Keep entries contiguous inside each group's `<dl><dd>` wrapper.
 Education, certification, and study repositories belong under Learning. Intended flow differs from implemented behavior. Releases,
 recent commits, and passing checks do not prove readiness, maintenance, or value;
-pre-v1 releases generally remain experimental. Do not invent claims or outcomes.
+pre-v1 releases are displayed as `Experimental` with their verified version.
+Do not invent claims or outcomes.
 Verify public identities, URLs, and capabilities against public source. Private
 or proposed work can appear at Pradeep's approved level, labeled without dead
 links or private details. Deep AI is a unified ambition until demonstrated;
@@ -77,10 +78,20 @@ exercises and credit upstream work; a fork does not establish authorship.
 
 ### Software readiness
 
-The README legend owns the TRL definition. ` · TRL N` is appended to the
-existing Maturity value, keeping releases and Preview/Private markers, only for
-projects meant to become shared, useful products. It is Pradeep's conservative
-self-assessment of the technical behavior in the intended flow, adapted from
+The README `self.projects.info()` table owns the maturity convention: `Idea`
+for a concept or planned collection; `Experimental` for an evolving
+implementation or existing collection. Pre-v1 releases retain their verified
+version beside `Experimental`; a version alone requires a verified v1.0.0+
+release. Do not invent tags or add maturity synonyms. Private is visibility,
+not maturity. Status describes what a collection contains and its study,
+reference, or practice purpose; these collections carry no software TRL or
+credential claim.
+
+The README legend owns the TRL definition. ` · TRL N` is appended only for
+projects meant to become shared, useful products. Idea often corresponds to
+1–2 and Experimental to 3–5; these are rough associations, not conversion
+rules. Keep the evidence-based TRL independent of maturity and release version.
+It is Pradeep's conservative self-assessment of the technical behavior in the intended flow, adapted from
 [Wikipedia](https://en.wikipedia.org/wiki/Technology_readiness_level) and
 [NASA ESTO software TRLs](https://esto.nasa.gov/trl/). It is not certification.
 Versions, test counts, popularity, and demand do not raise a level; usefulness
@@ -104,18 +115,22 @@ human-value measurements alone do not cap technical readiness.
 - **Intentional AI** `TRL 2`, provisional — The approved description formulates scheduled, bounded project work and mentions private experiments. Those experiments were not re-reviewed here; their technical readiness remains unverified beyond the described concept. Publish no private implementation evidence.
 - **Maestro AI** and **Deep AI** `TRL 2` — Concepts are formulated; nothing is implemented.
 
-Content gets a descriptive label instead of `Experimental`, a version, or a TRL:
-Planning AI `Working notes` (private workspace content; Activity unchanged),
-Principles AI `Draft guidance`, Sandbox AI `Draft methods` (documents and
-fixtures at [`a252e4f`](https://github.com/pradeeptathineni/sandbox-ai/tree/a252e4f9d8f9592130502ca13c84f7e91c3e52a8);
-its Watchexec report is bounded execution on synthetic inputs, not product
-validation, and it has no runner), Labs `Published collection`, Home Lab
-`Personal practice`, Nature of Code `Exercise collection`, AWS IaC Terraform
-`Reference scaffold` (README only), System `Personal config` (one `.bashrc`),
-UT Austin McCombs `Study in progress`, Johns Hopkins `Planned coursework`, and
-AI Engineering from Scratch `Upstream fork`. The AWS Terraform Engineering
-Challenge uses `Practice artifact` without a TRL because it is challenge-scale.
+Collection maturity follows the same small vocabulary. AWS IaC Terraform and
+Johns Hopkins use `Idea` because no templates or coursework projects exist yet.
+Planning, Principles, Sandbox, Labs, Home Lab, Nature of Code, System,
+UT Austin, the upstream AI Engineering from Scratch fork, and the Terraform
+challenge use `Experimental` because material or implementations exist.
+Their existing Status fields distinguish notes, guidance, methods, practice,
+configuration, coursework, and upstream authorship; no collection gets a TRL.
 Learning entries link no solutions and claim no completed program or credential.
+
+Sandbox remains documents and trial records at
+[`a252e4f`](https://github.com/pradeeptathineni/sandbox-ai/tree/a252e4f9d8f9592130502ca13c84f7e91c3e52a8).
+Its Watchexec report records bounded execution on synthetic inputs, not product
+validation. It supplies no runner. Keep Sandbox immediately below Signals.
+The Deep AI comment describes intended discovery → Sandbox testing → potential
+Context adoption. Trial results inform a reviewed adoption choice; this is
+not an implemented automatic cross-project integration.
 
 The public owner inventory has 16 repositories. Fifteen have entries, plus AWS
 CLI Plus under neon1; the profile repository is this README. Activity uses each
@@ -127,6 +142,8 @@ It reads GitHub through authenticated `gh`, uses New York dates, and does not
 rewrite the README. Private queries require explicit `--include-private` opt-in.
 Refresh the public check date with the facts. Human review owns purpose, current
 status, and usefulness; the script cannot infer them from repository metadata.
+Its `maturity` and `preview` fields are observed release facts, not extra display
+categories. Apply the README convention manually when updating maturity cells.
 
 ## Media and collaboration
 
