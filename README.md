@@ -263,11 +263,11 @@ self.INTERESTS = [
 <dl><dd>
 
 <details>
-<summary><strong>Planning AI</strong> — Keep project intent, research, decisions, and next steps coherent.</summary>
+<summary><strong>Research AI</strong> — Use research methods to drive exploration, learning, and awareness of what exists.</summary>
 
 |              |                                                                  |
 | :----------- | :--------------------------------------------------------------- |
-| **Flow**     | _question → research → explore → decide → prepare work_          |
+| **Flow**     | _question → research → explore → document_                       |
 | **Maturity** | `Experimental` · Private                                         |
 | **Status**   | A working private planning workspace. No standalone application. |
 | **Activity** | Updated 2026-10-11 · `Recent`                                    |
@@ -276,46 +276,7 @@ self.INTERESTS = [
 </details>
 
 <details>
-<summary><a href="https://github.com/pradeeptathineni/signals-ai"><strong>Signals AI</strong></a> — Find and retain evidence that helps me choose worthwhile project work.</summary>
-
-|              |                                                                                                                                                       |
-| :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Flow**     | _question → research → assess → compare → retain → revisit_                                                                                           |
-| **Maturity** | `Experimental` · [`v0.3.0`](https://github.com/pradeeptathineni/signals-ai/releases/tag/v0.3.0) · TRL 3                                               |
-| **Status**   | Research workspace and [public Corpus](https://pradeeptathineni.github.io/signals-ai/) exist. This is still well short of the discovery value I want. |
-| **Activity** | Updated 2026-10-14 · `Recent`                                                                                                                         |
-| **Tags**     | `ai` ; `evidence` ; `discovery` ; `typescript`                                                                                                        |
-
-</details>
-
-<details>
-<summary><a href="https://github.com/pradeeptathineni/sandbox-ai"><strong>Sandbox AI</strong></a> — Plan bounded trials of tools and models, then record what the evidence supports.</summary>
-
-|              |                                                                                                                           |
-| :----------- | :------------------------------------------------------------------------------------------------------------------------ |
-| **Flow**     | _candidate → bounded trial → record evidence → review → advisory decision_                                                |
-| **Maturity** | `Experimental`                                                                                                            |
-| **Status**   | Trial template, evidence meanings, and a Watchexec report on synthetic inputs exist. No runner; the host executes trials. |
-| **Activity** | Updated 2026-10-14 · `Recent`                                                                                             |
-| **Tags**     | `ai` ; `evaluation` ; `evidence` ; `methods`                                                                              |
-
-</details>
-
-<details>
-<summary><a href="https://github.com/pradeeptathineni/context-ai"><strong>Context AI</strong></a> — Equip AI-assisted projects with reusable engineering guidance.</summary>
-
-|              |                                                                                                        |
-| :----------- | :----------------------------------------------------------------------------------------------------- |
-| **Flow**     | _need → select guidance → plan adoption → apply → verify → refine_                                     |
-| **Maturity** | `Experimental` · [`v0.3.0`](https://github.com/pradeeptathineni/context-ai/releases/tag/v0.3.0) · TRL 4 |
-| **Status**   | Guidance selection, installation, and undo work. Broader everyday usefulness remains under evaluation. |
-| **Activity** | Updated 2026-10-14 · `Recent`                                                                          |
-| **Tags**     | `ai` ; `context-engineering` ; `devtools`                                                              |
-
-</details>
-
-<details>
-<summary><a href="https://github.com/pradeeptathineni/principles-ai"><strong>Principles AI</strong></a> — Make evidence-informed domain principles simple to research, understand, and apply.</summary>
+<summary><a href="https://github.com/pradeeptathineni/principles-ai"><strong>Principles AI</strong></a> — Record evidence-informed domain principles to research, understand, and apply.</summary>
 
 |              |                                                                                                 |
 | :----------- | :---------------------------------------------------------------------------------------------- |
@@ -328,12 +289,64 @@ self.INTERESTS = [
 </details>
 
 <details>
-<summary><a href="https://github.com/pradeeptathineni/blueprint-ai"><strong>Blueprint AI</strong></a> — Create and evolve software projects with practical engineering checks.</summary>
+<summary><a href="https://github.com/pradeeptathineni/signals-ai"><strong>Signals AI</strong></a> — Define, rank, and follow research to drive options, decisions, and currentness.</summary>
+
+|              |                                                                                                                                                       |
+| :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Flow**     | _finding → assess → compare → retain → revisit_                                                                                           |
+| **Maturity** | `Experimental` · [`v0.3.0`](https://github.com/pradeeptathineni/signals-ai/releases/tag/v0.3.0) · TRL 3                                               |
+| **Status**   | Research workspace and [public Corpus](https://pradeeptathineni.github.io/signals-ai/) exist. This is still well short of the discovery value I want. |
+| **Activity** | Updated 2026-10-14 · `Recent`                                                                                                                         |
+| **Tags**     | `ai` ; `evidence` ; `discovery` ; `typescript`                                                                                                        |
+
+</details>
+
+<details>
+<summary><a href="https://github.com/pradeeptathineni/sandbox-ai"><strong>Sandbox AI</strong></a> — Plan bounded trials of options and record what the evidence supports.</summary>
+
+|              |                                                                                                                           |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------ |
+| **Flow**     | _candidate → bounded trial → record evidence → review → advisory decision_                                                |
+| **Maturity** | `Experimental` · TRL 2                                                                                                    |
+| **Status**   | Trial template, evidence meanings, and a Watchexec report on synthetic inputs exist. No runner; the host executes trials. |
+| **Activity** | Updated 2026-10-14 · `Recent`                                                                                             |
+| **Tags**     | `ai` ; `evaluation` ; `evidence` ; `methods`                                                                              |
+
+</details>
+
+<details>
+<summary><a href="https://github.com/pradeeptathineni/context-ai"><strong>Context AI</strong></a> — Equip AI-assisted projects with reusable engineering guidance.</summary>
+
+|              |                                                                                                         |
+| :----------- | :------------------------------------------------------------------------------------------------------ |
+| **Flow**     | _need → select guidance → plan adoption → apply → verify → refine_                                      |
+| **Maturity** | `Experimental` · [`v0.3.0`](https://github.com/pradeeptathineni/context-ai/releases/tag/v0.3.0) · TRL 4 |
+| **Status**   | Guidance selection, installation, and undo work. Broader everyday usefulness remains under evaluation.  |
+| **Activity** | Updated 2026-10-14 · `Recent`                                                                           |
+| **Tags**     | `ai` ; `context-engineering` ; `devtools`                                                               |
+
+</details>
+
+<details>
+<summary><strong>Planning AI</strong> — Expatiate project intent, structure, goals, use cases, etc to great extent.</summary>
+
+|              |                                                                  |
+| :----------- | :--------------------------------------------------------------- |
+| **Flow**     | _idea → knowledge → decide → document_                           |
+| **Maturity** | `Experimental` · Private · TRL 3                                 |
+| **Status**   | A working private planning workspace. No standalone application. |
+| **Activity** | Updated 2026-10-11 · `Recent`                                    |
+| **Tags**     | `planning` ; `research` ; `knowledge`                            |
+
+</details>
+
+<details>
+<summary><a href="https://github.com/pradeeptathineni/blueprint-ai"><strong>Blueprint AI</strong></a> — Deterministically install initial foundations and practical engineering checks.</summary>
 
 |              |                                                                                                                |
 | :----------- | :------------------------------------------------------------------------------------------------------------- |
 | **Flow**     | _inspect → plan → create or evolve → review → verify_                                                          |
-| **Maturity** | `Experimental` · [`0.9.0`](https://github.com/pradeeptathineni/blueprint-ai/releases/tag/0.9.0) · TRL 4        |
+| **Maturity** | `Experimental` · [`0.9.0`](https://github.com/pradeeptathineni/blueprint-ai/releases/tag/0.9.0) · TRL 3        |
 | **Status**   | Working CLI for project creation, inspection, review, and evolution. Optional model reasoning remains bounded. |
 | **Activity** | Updated 2026-10-03 · `Recent`                                                                                  |
 | **Tags**     | `devtools` ; `python` ; `engineering`                                                                          |
@@ -359,7 +372,7 @@ self.INTERESTS = [
 |              |                                                                                    |
 | :----------- | :--------------------------------------------------------------------------------- |
 | **Flow**     | _goal → plan → delegate → review → integrate → observe_                            |
-| **Maturity** | `Idea` · TRL 2                                                                     |
+| **Maturity** | `Idea` · TRL 1                                                                     |
 | **Status**   | Proposed orchestration layer, intended to incorporate Intentional AI’s scheduling. |
 | **Activity** | Planning only. No standalone implementation.                                       |
 | **Tags**     | `ai` ; `orchestration` ; `project-evolution`                                       |
@@ -367,7 +380,7 @@ self.INTERESTS = [
 </details>
 
 <details>
-<summary><strong>Deep AI</strong> — Unify these AI projects in a central GUI for research, decisions, and development.</summary>
+<summary><strong>Deep AI</strong> — Unify all end-to-end AI engineering semantics into a central GUI.</summary>
 
 |              |                                                                                        |
 | :----------- | :------------------------------------------------------------------------------------- |
@@ -381,9 +394,7 @@ self.INTERESTS = [
 
 </dd></dl>
 
-`#` Deep AI is a planned central GUI that combines these AI projects to research ideas, make decisions, and build software in one place.\
-`#` Deep control of every level → ( planning → Signals discovery → Sandbox testing → potential Context adoption → apply principles → blueprint the project → intentional orchestration ).\
-`#` Each project, useful as a standalone, a component to a broader AI engineering control surface.
+`#` The idea: each project useful as a standalone; each a component to a broader AI engineering control surface.
 
 </details>
 
@@ -441,7 +452,7 @@ self.INTERESTS = [
 
 <p></p>
 
-<details>
+<details open>
 <summary>self.projects.group(<strong>"<ins>Learning</ins>"</strong>)</summary>
 
 <p></p>
@@ -578,18 +589,55 @@ self.INTERESTS = [
 
 <p></p>
 
-`is_this_a_joke_r` = "You either die a standard, or live long enough to see yourself become the **_🌟spectacle✨_**."
-
-`sanity` = "Sanity is like a spectacular README. They both heavily collapse."
-
 `state` = `self.self()`
 
 <p></p>
 
-`fixing_problems` = "If you've never thought about building a third productivity tool, or haven't spent a whole Sunday on one README, can you really call yourself an engineer?"
+`sanity` = "Sanity is like a spectacular readme. They both heavily collapse."
+
+<p></p>
+
+`is_this_a_joke_r` = "You either die a standard, or live long enough to see yourself become a **_🌟spectacle✨_**."
+
+<p></p>
+
+`superfluously` = "An overengineered custom semantic that works great for me but retains personal value only through bias, while being generally frustrating for anyone else, is a private joke. A similar extreme is spending twenty minutes building a condiment passing system when someone asked for the salt."
 
 <details>
-<summary>self.imagine(im_fixing_problems)</summary>
+<summary>self.imagine(superfluously)</summary>
+
+<p></p>
+
+<p align="center">
+  <img src="assets/xkcd/0974-the-general-problem.png" alt="A request to pass the salt becomes a twenty-minute effort to build a general condiment-passing system." width="550"><br/>
+  <sup><em><a href="https://xkcd.com/974/">XKCD #974</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
+</p>
+
+</details>
+
+<p></p>
+
+`basic` = "If you've ever thought about building a habit tracker, to-do app, or productivity tool, you might just be an engineer."
+
+<p></p>
+
+`cliche` = "If you've ever used 5x, 10x, or similar to describe productivity gain, you might just be an idiot."
+
+<p></p>
+
+`overzealous` = "If you haven't spent a whole Sunday on one readme, can you really call yourself an engineer?"
+
+<p></p>
+
+`fixing_problems` = "Within the problem set, each problem's solution comes with its own set of problems. "
+
+```python
+while(fixing_problems): fixing_problems += fixing_problems
+```
+> _MemoryError_
+
+<details>
+<summary>❌ self.imagine(fixing problems)</summary>
 
 <p></p>
 
@@ -602,7 +650,7 @@ self.INTERESTS = [
 
 <p></p>
 
-`automation` = "I can spend all day automating a five-minute task, then spend tomorrow repairing the automation. At some point the time savings become a matter of faith, and I call that a long-term investment."
+`automation` = "Spend all day automating a five-minute task, spend tomorrow repairing the automation. Time spent to earn time saved becomes a matter of faith, and I call that a long-term investment."
 
 <details>
 <summary>self.imagine(automation)</summary>
@@ -618,27 +666,19 @@ self.INTERESTS = [
 
 <p></p>
 
-`wild_times` = "Ain't it some wild, curious times we be havin ese days, pardna."
-
-<details>
-<summary>self.imagine(wild_times)</summary>
+`autonomy` = "No matter how smart or independent, every autonomous system still ends up needing human intervention. I s'pose we're not so different from them."
 
 <p></p>
 
-<p align="center">
-  <img src="assets/xkcd/0789-showdown.png" alt="Two cowboys prepare for a duel, but a tumbleweed draws two guns and wins the showdown." width="740"><br/>
-  <sup><em><a href="https://xkcd.com/789/">XKCD #789</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
-</p>
-
-</details>
-
-<p></p>
-
-`autonomy` = "If my autonomous system needs a babysitter, I’ve built a very expensive toddler. Give it a memory file and a calendar and apparently I’m supposed to call it a coworker."
-
-<p></p>
-
-`machine_learning` = "Some AI architecture diagrams are just invoices with arrows. I want to know what each box does, why I need it, and what happens if I stop paying for it. Calling it a pile of math doesn't help if the next step is poking it until the answers look right."
+`machine_learning` = """\\\
+1\. Get data.\
+2. Check data out, head to tail.\
+3. Analyze data's patterns.\
+4. Get to know data completely; build model judgements.\
+5. Predict next moves with model judgments; if data agrees, continue.\
+6. Continuously predict next moves, classify new outcomes, and reassess judgments.\
+7. Marry data, maybe have some child processes, grow stale together.\
+"""
 
 <details>
 <summary>self.imagine(machine_learning)</summary>
@@ -654,30 +694,30 @@ self.INTERESTS = [
 
 <p></p>
 
-`originality` = "Nothing humbles an original idea like a ten-year-old GitHub repo that already does it, has better documentation, and runs on a Raspberry Pi. My innovation may just be not having searched properly."
-
-<p></p>
-
-`the_general_problem` = "An abstraction that only works for my favorite example is a private joke. If I need to explain why every other example doesn't count, I probably haven't found the pattern yet. The other extreme is spending twenty minutes building a condiment system when someone asked for salt."
+`ai` = "Just sum wild, curious times, pardna."
 
 <details>
-<summary>self.imagine(the_general_problem)</summary>
+<summary>self.imagine(ai)</summary>
 
 <p></p>
 
 <p align="center">
-  <img src="assets/xkcd/0974-the-general-problem.png" alt="A request to pass the salt becomes a twenty-minute effort to build a general condiment-passing system." width="550"><br/>
-  <sup><em><a href="https://xkcd.com/974/">XKCD #974</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
+  <img src="assets/xkcd/0789-showdown.png" alt="Two cowboys prepare for a duel, but a tumbleweed draws two guns and wins the showdown." width="740"><br/>
+  <sup><em><a href="https://xkcd.com/789/">XKCD #789</a> by Randall Munroe · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>.</em></sup>
 </p>
 
 </details>
 
 <p></p>
 
-`significance` = "My tests passed. My claims are still on probation. I wrote the code, picked the examples, and decided what counts as success. That is a lot of authority for someone trying to prove himself right."
+`originality` = "Nothing humbles an original idea like a 10 year old GitHub repo that already does it, has better documentation, and can run on a 2004 model Raspberry Pi. That's just discovery."
+
+<p></p>
+
+`personal_projects` = "I chose the use cases. I wrote the code. I decided the golden set for success and tested. My tests passed, yet I keep all claims on probation. I accept new claims for good measure. That is a lot of authority given to myself from myself trying to prove myself to myself."
 
 <details>
-<summary>self.imagine(significance)</summary>
+<summary>self.imagine(personal_projects)</summary>
 
 <p></p>
 
