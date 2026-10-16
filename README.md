@@ -751,7 +751,7 @@ while(fixing_problems): fixing_problems += fixing_problems
 
 <p align="center">
   <img src="assets/this-is-fine.png" alt="Two panels of a dog sitting with a mug in a burning room, saying ‘This is fine.’" width="460"><br/>
-  <sup><em>“On Fire” (2013), by <a href="https://gunshowcomic.com/648">KC Green / Gunshow</a>. Copyright remains with the creator.</em></sup>
+  <sup><em>“On Fire” (2013), by <a href="https://gunshowcomic.com/648">KC Green / Gunshow</a></em></sup>
 </p>
 
 </details>
