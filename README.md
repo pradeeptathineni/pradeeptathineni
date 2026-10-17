@@ -765,7 +765,7 @@ while(fixing_problems): fixing_problems += fixing_problems
 
 <p align="center">
   <img src="assets/brain-explosion.jpg" alt="A man in glasses holds his hands beside his head as a cosmic explosion fills the background." width="460"><br/>
-  <sup><em>Brain explosion meme · <a href="https://meme-arsenal.com/create/template/11175240">Meme Arsenal template</a>.</em></sup>
+  <sup><em>Brain explosion · <a href="https://meme-arsenal.com/create/template/11175240">Meme Arsenal template</a>.</em></sup>
 </p>
 
 </details>
