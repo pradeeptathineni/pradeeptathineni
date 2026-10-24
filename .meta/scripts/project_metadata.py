@@ -4,15 +4,12 @@
 # Usage: python3 .meta/scripts/project_metadata.py --as-of 2026-10-24
 #
 
-"""Read GitHub release and commit facts; optionally reconcile activity rows.
+"""Inspect explicit project cards; optionally reconcile only Activity cells.
 
-Requires an authenticated `gh` CLI. Public repositories come from README links.
-Private repositories are queried only when explicitly supplied with
---include-private OWNER/REPO; their URLs are omitted from the output.
---write updates only linked project Activity rows and the facts-check date, and
-refuses incomplete collections. Maturity describes publication, not quality.
-Activity describes commit recency,
-not maintenance intent. Human judgment still owns project goals and status.
+Requires authenticated gh. Each project details element carries data-repo.
+Private cards require --include-private OWNER/REPO before any API call.
+Incomplete or redirected collections never write. Releases are inspection
+facts; authored maturity, status and readiness remain unchanged.
 """
 
 from __future__ import annotations
@@ -28,6 +25,50 @@ import sys
 from zoneinfo import ZoneInfo
 
 
+REPOSITORY = re.compile(r"[A-Za-z0-9][A-Za-z0-9-]*/(?!\.\.?$)[A-Za-z0-9_.-]+")
+PROJECT = re.compile(
+    r'<details data-repo="(?P<repository>[^"\n]+)">\n'
+    r'<summary>(?P<summary>[^\n]+)</summary>(?P<body>.*?)</details>',
+    re.S,
+)
+ACTIVITY = re.compile(
+    r"(\| \*\*Activity\*\*\s*\|)([^\n]*?)(\|[ \t]*)(?=\n|$)"
+)
+
+
+def projects(text):
+    """Bind each Activity row to one explicit, consistently presented repository."""
+    cards = []
+    seen = set()
+    for match in PROJECT.finditer(text):
+        repository = match["repository"].lower()
+        if not REPOSITORY.fullmatch(repository) or repository in seen:
+            raise ValueError("Project repository IDs must be valid and unique")
+        seen.add(repository)
+        summary = match["summary"]
+        private = "🔒" in summary
+        links = re.findall(r'https://github\.com/([\w.-]+/[\w.-]+)', summary)
+        # Identity and visibility must agree before any remote access
+        if private:
+            maturity = re.search(r"^\| \*\*Maturity\*\*[^\n]*", match["body"], re.M)
+            if (
+                re.search(r"<a\b", summary)
+                or f"https://github.com/{repository}" in match[0].lower()
+                or (maturity and re.search(r"\[`[^`]+`\]\(", maturity[0]))
+            ):
+                raise ValueError("Private project titles and versions must be unlinked")
+        elif [link.lower() for link in links] != [repository]:
+            raise ValueError("Public project link does not match its repository ID")
+        if len(ACTIVITY.findall(match["body"])) != 1:
+            raise ValueError("Each project needs exactly one Activity row")
+        cards.append({"match": match, "repository": repository, "private": private})
+    # Missing or malformed identifiers cannot silently drop a card from refresh
+    rows = len(re.findall(r"^\| \*\*Activity\*\*", text, re.M))
+    if not cards or rows != len(cards):
+        raise ValueError("Every project Activity row needs an explicit data-repo ID")
+    return cards
+
+
 def github(path):
     """Use the caller's authenticated gh session."""
     result = subprocess.run(
@@ -36,7 +77,11 @@ def github(path):
     return json.loads(result.stdout)
 
 
-def collect(repository, as_of, recent_days, private_allowed):
+def collect(repository, as_of, recent_days, private_allowed, private_expected=None):
+    """Inspect release/activity facts without inferring project readiness."""
+    # Known private cards require authorization before even the identity query
+    if private_expected and repository not in private_allowed:
+        return {"repository": repository, "error": "Private; explicit opt-in required"}
     try:
         # Require private opt-in before querying commit or release details
         metadata = github(f"repos/{repository}")
@@ -49,6 +94,8 @@ def collect(repository, as_of, recent_days, private_allowed):
         canonical = metadata["full_name"]
         if canonical.lower() != repository.lower():
             return {"repository": repository, "redirects_to": canonical}
+        if private_expected is not None and metadata["private"] != private_expected:
+            return {"repository": repository, "error": "Repository visibility changed"}
         # Inspect default-branch activity independently of published releases
         branch = metadata["default_branch"]
         commits = github(f"repos/{repository}/commits?per_page=1&sha={branch}")
@@ -88,54 +135,50 @@ def collect(repository, as_of, recent_days, private_allowed):
         ValueError,
         KeyError,
         IndexError,
+        TypeError,
     ) as error:
         # Report gaps without exposing potentially private CLI stderr
         return {"repository": repository, "error": type(error).__name__}
 
 
 def reconcile(text, facts, as_of):
-    """Change only linked project Activity cells and the check date."""
+    """Require a complete collection and preserve everything outside Activity cells."""
+    cards = projects(text)
     by_repository = {row["repository"].lower(): row for row in facts}
+    expected = {card["repository"] for card in cards}
+    if len(by_repository) != len(facts) or set(by_repository) != expected:
+        raise ValueError("Repository facts do not match the project cards")
+    for card in cards:
+        row = by_repository[card["repository"]]
+        if "error" in row or "redirects_to" in row or not row.get("updated"):
+            raise ValueError("Repository facts are incomplete or redirected")
+        if date.fromisoformat(row["updated"]) > as_of:
+            raise ValueError("Repository date is in the future")
+        if row.get("activity") not in {"Recent", "Quiet", "Archived"}:
+            raise ValueError("Repository activity is unknown")
+        if row.get("visibility") != ("Private" if card["private"] else "Public"):
+            raise ValueError("Repository visibility does not match the project card")
+
     changed = 0
 
     def project(match):
         nonlocal changed
-        block = match.group()
-        # The linked summary binds this block to collected repository facts
-        link = re.search(
-            r"https://github\.com/([\w.-]+/[\w.-]+)",
-            block.split("</summary>", 1)[0],
-        )
-        row = by_repository.get(link.group(1).lower()) if link else None
-        if not row or not row.get("updated") or "error" in row:
-            return block
-        # Limit replacements to Activity cells and preserve table alignment
-        value = f" Updated {row['updated']} · `{row['activity']}` "
-        replacement, count = re.subn(
-            r"(\| \*\*Activity\*\*\s*\|)([^\n]*?)(\|[ \t]*)(?=\n|$)",
-            lambda cell: (
-                cell.group(1) + value.ljust(len(cell.group(2))) + cell.group(3)
-            ),
-            block,
-        )
-        changed += count
-        return replacement
+        row = by_repository[match["repository"].lower()]
+        value = f"Updated {row['updated']} · `{row['activity']}`"
 
-    # Traverse project disclosures without rebuilding authored Markdown
-    result = re.sub(
-        r"<details>\n<summary>(?=[^\n]*https://github\.com/)"
-        r"[^\n]*</summary>.*?</details>",
-        project,
-        text,
-        flags=re.S,
-    )
-    result = re.sub(
-        r"(?:Public r|R)elease and activity facts last checked on "
-        r"\d{4}-\d{2}-\d{2}\.",
-        f"Release and activity facts last checked on {as_of.isoformat()}.",
-        result,
-    )
-    return result, changed
+        def activity(cell):
+            nonlocal changed
+            # Identical facts retain their exact padding and create no diff
+            if cell[2].strip() == value:
+                return cell[0]
+            changed += 1
+            content = (" " + value + " ").ljust(len(cell[2]))
+            return cell[1] + content + cell[3]
+
+        # Keep the source card intact, including locks, versions and author claims
+        return ACTIVITY.sub(activity, match[0])
+
+    return PROJECT.sub(project, text), changed
 
 
 def main():
@@ -155,62 +198,83 @@ def main():
         "--include-private", action="append", default=[], metavar="OWNER/REPO"
     )
     parser.add_argument(
+        "--quiet", action="store_true",
+        help="Report counts only; omit repository facts from public workflow logs",
+    )
+    parser.add_argument(
         "--write",
         action="store_true",
-        help="Reconcile only linked project Activity rows and the check date",
+        help="Reconcile Activity cells only after complete collection",
     )
     # Validate every input before starting repository collection
     args = parser.parse_args()
     if args.recent_days < 0:
         parser.error("--recent-days must be nonnegative")
-    if any(not re.fullmatch(r"[\w.-]+/[\w.-]+", r) for r in args.include_private):
+    if any(not REPOSITORY.fullmatch(r) for r in args.include_private):
         parser.error("private repositories must use OWNER/REPO syntax")
     readme = args.readme.expanduser().resolve()
     if not readme.is_file():
         parser.error(f"README not found: {readme}")
-    # Collect authored links plus explicit private opt-ins, with no discovery
-    linked = re.findall(
-        r"https://github\.com/([\w.-]+/[\w.-]+)(?=[/\s)\"?#]|$)",
-        readme.read_text(),
-    )
-    repositories = sorted(set(linked + args.include_private))
-    # Bound concurrent queries while retaining sorted output order
+    try:
+        text = readme.read_text(encoding="utf-8")
+        cards = projects(text)
+        private_allowed = {repo.lower() for repo in args.include_private}
+        private_cards = {c["repository"] for c in cards if c["private"]}
+        if not private_allowed <= private_cards:
+            parser.error("Private opt-ins must identify displayed private cards")
+    except (OSError, ValueError) as error:
+        parser.error(str(error))
+
+    # Query only declared cards, retaining their order and visibility expectations
     with ThreadPoolExecutor(max_workers=4) as pool:
         results = list(
             pool.map(
-                lambda r: collect(
-                    r, args.as_of, args.recent_days, args.include_private
+                lambda card: collect(
+                    card["repository"],
+                    args.as_of,
+                    args.recent_days,
+                    private_allowed,
+                    card["private"],
                 ),
-                repositories,
+                cards,
             )
         )
-    # Any gap or redirect prevents a partial README refresh
-    incomplete = any(
-        "error" in result or "redirects_to" in result for result in results
-    )
     cells = 0
-    if args.write:
-        if incomplete:
+    try:
+        reconciled, cells = reconcile(text, results, args.as_of)
+    except (ValueError, KeyError, TypeError):
+        print("README unchanged: incomplete repository facts.", file=sys.stderr)
+        if not args.quiet:
             print(
-                "README unchanged: resolve incomplete repository facts first.",
-                file=sys.stderr,
+                json.dumps(
+                    {
+                        "as_of": args.as_of.isoformat(),
+                        "recent_days": args.recent_days,
+                        "projects": results,
+                    },
+                    indent=2,
+                )
             )
-        else:
-            reconciled, cells = reconcile(readme.read_text(), results, args.as_of)
-            readme.write_text(reconciled)
-    # Return the collected evidence even when a requested write was refused
-    print(
-        json.dumps(
-            {
-                "as_of": args.as_of.isoformat(),
-                "recent_days": args.recent_days,
-                "activity_cells_reconciled": cells,
-                "projects": results,
-            },
-            indent=2,
+        return 1
+
+    # Successful checks produce no date-only or padding-only writes
+    if args.write and reconciled != text:
+        readme.write_text(reconciled, encoding="utf-8")
+    if args.quiet:
+        print(f"Activity changes found: {cells}; projects checked: {len(cards)}.")
+    else:
+        print(
+            json.dumps(
+                {
+                    "as_of": args.as_of.isoformat(),
+                    "recent_days": args.recent_days,
+                    "activity_cells_reconciled": cells if args.write else 0,
+                    "projects": results,
+                },
+                indent=2,
+            )
         )
-    )
-    return int(incomplete)
+    return 0
 
 
 if __name__ == "__main__":

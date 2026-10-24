@@ -111,11 +111,11 @@ self.INTERESTS = [
 
 <p></p>
 
-`#` **Learn and share** — Good decisions start with knowing my options. Sharing what I learn helps others make theirs.\
-`#` **Strengthen my AI engineering practice** — Give AI better context, coordinate its work, and check what it produces.\
-`#` **Create deterministic tools** — Make repeated work predictable, traceable, and easy to check.\
-`#` **Build on existing OSS** — Look for open-source software I can use or adapt before writing my own.\
-`#` **Build useful public OSS** — Start with a need I have. Expand when other people need it too.
+`#` **Make technology useful** — Help people get things done, whether that means a small tool, a better application, or infrastructure they can depend on.\
+`#` **Automate with care** — Take repeated work off people's hands and build systems that are dependable, understandable, and easy to change.\
+`#` **Keep learning and share** — Explore unfamiliar problems, question what I think I know, and share what I learn.\
+`#` **Build with open source** — Learn from existing work, adapt what fits, and contribute tools that others can use. Start with a real need.\
+`#` **Advance my engineering practice through AI** — Bring the same care to AI-assisted research, planning, and development: give it useful context, coordinate the work, and check the results.
 
 </details>
 
@@ -148,13 +148,12 @@ self.INTERESTS = [
   | **Flow** | The intended path from input → outcome. |
   | **Maturity** | · `Idea`: concept only; `Experimental`: evolving implementation, including pre-`v1.0.0` releases.<br/>· Keep a verified pre-v1 version beside `Experimental`; use a verified `v1.0.0`+ release version on its own.<br/>· For study, practice, and reference collections, `Idea` means planned content and `Experimental` means material exists, without a software-readiness or credential claim.<br/>· Intended shared products append ` · TRL N` independently; collections have no TRL. |
   | **Status** | What exists and works today. |
-  | **Activity** | · Updated: last default-branch commit date.<br/>· `Recent` means within 30 days of the check date, otherwise `Quiet`.<br/>· Proposed projects show planning status instead. |
+  | **Activity** | · Updated: last default-branch commit date.<br/>· `Recent` means within 30 days of the refresh, otherwise `Quiet`.<br/>· Proposed projects show planning status instead. |
   | **Tags** | Technologies and areas of focus. |
 
 `#` **Software TRL** — `2` concept formulated · `3` critical-function proof of concept · `4` integrated and validated in a controlled setting · `5` end-to-end validation in a relevant setting.\
 `#` `Idea` often corresponds to TRL 1–2 and `Experimental` to TRL 3–5; these are not conversion rules, and a release version does not establish a level.\
-`#` Adapted from [Wikipedia](https://en.wikipedia.org/wiki/Technology_readiness_level) and [NASA ESTO's software TRLs](https://esto.nasa.gov/trl/). It rates technical readiness, not usefulness or demand, and is not a certification.\
-`#` Release and activity facts last checked on 2026-10-22.
+`#` Adapted from [Wikipedia](https://en.wikipedia.org/wiki/Technology_readiness_level) and [NASA ESTO's software TRLs](https://esto.nasa.gov/trl/). It rates technical readiness, not usefulness or demand, and is not a certification.
 
 </details>
 
@@ -169,7 +168,7 @@ self.INTERESTS = [
 
 <dl><dd>
 
-<details>
+<details data-repo="pradeeptathineni/eng-challenge-aws-terraform">
 <summary><a href="https://github.com/pradeeptathineni/eng-challenge-aws-terraform"><strong>AWS Terraform Engineering Challenge</strong></a> — Make AWS web infrastructure reproducible and inspectable.</summary>
 
 |              |                                                                                                   |
@@ -182,7 +181,7 @@ self.INTERESTS = [
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/aws-iac-terraform">
 <summary><a href="https://github.com/pradeeptathineni/aws-iac-terraform"><strong>AWS IaC Terraform</strong></a> — Reserve a home for reusable AWS infrastructure templates.</summary>
 
 |              |                                                                  |
@@ -208,7 +207,7 @@ self.INTERESTS = [
 
 <dl><dd>
 
-<details>
+<details data-repo="neon1llc/aws-clip">
 <summary><a href="https://github.com/neon1llc/aws-clip"><strong>AWS CLI Plus</strong></a> — Make multi-profile AWS CLI work easier to follow and safer.</summary>
 
 |              |                                                                                            |
@@ -221,7 +220,7 @@ self.INTERESTS = [
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/shoulda-used-that">
 <summary><a href="https://github.com/pradeeptathineni/shoulda-used-that"><strong>ShouldaUsedThat</strong></a> — Find what to reuse, what to skip, and what remains worth building.</summary>
 
 |              |                                                                                                                                                                      |
@@ -234,7 +233,7 @@ self.INTERESTS = [
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/system">
 <summary><a href="https://github.com/pradeeptathineni/system"><strong>System</strong></a> — Keep my shell configuration in version control.</summary>
 
 |              |                                                                 |
@@ -262,7 +261,7 @@ self.INTERESTS = [
 
 <dl><dd>
 
-<details>
+<details data-repo="pradeeptathineni/research-ai">
 <summary><a href="https://github.com/pradeeptathineni/research-ai"><strong>Research AI</strong></a> — Investigate questions with clear limits and traceable sources.</summary>
 
 |              |                                                                  |
@@ -270,12 +269,12 @@ self.INTERESTS = [
 | **Flow**     | _question → retained sources → investigation → qualified findings_ |
 | **Maturity** | `Experimental` · TRL 4 |
 | **Status**   | Native research sessions can examine support for claims and explore perspectives from sources. Model judgments remain fallible. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `research` ; `evidence` ; `javascript` |
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/principles-ai">
 <summary><a href="https://github.com/pradeeptathineni/principles-ai"><strong>Principles AI</strong></a> — Research and record domain principles I can understand, apply, and revisit.</summary>
 
 |              |                                                                                                 |
@@ -283,12 +282,12 @@ self.INTERESTS = [
 | **Flow**     | _research → reconcile → define → apply → reassess_                                              |
 | **Maturity** | `Experimental`                                                                                  |
 | **Status**   | Structured corpus and validation tooling exist. The guidance remains under research and review. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `ai` ; `principles` ; `learning` ; `evidence`                                                   |
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/signals-ai">
 <summary><a href="https://github.com/pradeeptathineni/signals-ai"><strong>Signals AI</strong></a> — Find research worth keeping and revisit it when a decision needs it.</summary>
 
 |              |                                                                                                                                                       |
@@ -296,12 +295,12 @@ self.INTERESTS = [
 | **Flow**     | _finding → assess → compare → retain → revisit_ |
 | **Maturity** | `Experimental` · [`v0.3.0`](https://github.com/pradeeptathineni/signals-ai/releases/tag/v0.3.0) · TRL 3                                               |
 | **Status**   | Library search, discussions over saved answers and optional check suggestions work. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `ai` ; `discovery` ; `evidence` ; `typescript` |
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/sandbox-ai">
 <summary><a href="https://github.com/pradeeptathineni/sandbox-ai"><strong>Sandbox AI</strong></a> — Plan limited trials, compare options, and record what the evidence supports.</summary>
 
 |              |                                                                                                                           |
@@ -309,13 +308,13 @@ self.INTERESTS = [
 | **Flow**     | _candidate → bounded trial → record evidence → review → advisory decision_                                                |
 | **Maturity** | `Experimental` · TRL 3                                                                                                    |
 | **Status**   | Trial plans can be frozen and attempts sealed, with a working recipe for testing Context. The host runs trials; comparisons alone do not prove usefulness. |
-| **Activity** | Updated 2026-10-21 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `ai` ; `evaluation` ; `evidence` ; `methods`                                                                              |
 
 </details>
 
-<details>
-<summary>🔒 <a href="https://github.com/pradeeptathineni/custom-ai"><strong>Custom AI</strong></a> — Keep personal preferences and writing examples under my control.</summary>
+<details data-repo="pradeeptathineni/custom-ai">
+<summary>🔒 <strong>Custom AI</strong> — Keep personal preferences and writing examples under my control.</summary>
 
 |              |                                                                  |
 | :----------- | :--------------------------------------------------------------- |
@@ -327,7 +326,7 @@ self.INTERESTS = [
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/context-ai">
 <summary><a href="https://github.com/pradeeptathineni/context-ai"><strong>Context AI</strong></a> — Supply relevant engineering guidance for the task at hand.</summary>
 
 |              |                                                                                                         |
@@ -335,25 +334,25 @@ self.INTERESTS = [
 | **Flow**     | _task → select guidance → preview → apply → verify → undo_ |
 | **Maturity** | `Experimental` · [`v0.3.0`](https://github.com/pradeeptathineni/context-ai/releases/tag/v0.3.0) · TRL 4 |
 | **Status**   | Task-scoped guidance, provenance, private loadouts and reversible installation work; everyday usefulness remains under evaluation. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `ai` ; `context-engineering` ; `devtools` |
 
 </details>
 
-<details>
-<summary>🔒 <a href="https://github.com/pradeeptathineni/planning-ai"><strong>Planning AI</strong></a> — Turn goals and evidence into plans I can review and revise.</summary>
+<details data-repo="pradeeptathineni/planning-ai">
+<summary>🔒 <strong>Planning AI</strong> — Turn goals and evidence into plans I can review and revise.</summary>
 
 |              |                                                                  |
 | :----------- | :--------------------------------------------------------------- |
 | **Flow**     | _evidence → goal → recipe or tasks → preview → approve_ |
 | **Maturity** | `Experimental` · Private · TRL 4 |
 | **Status**   | Evidence-linked plans, typed recipes and ordered tasks feed reviewed Maestro execution. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `planning` ; `evidence` ; `python` |
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/blueprint-ai">
 <summary><a href="https://github.com/pradeeptathineni/blueprint-ai"><strong>Blueprint AI</strong></a> — Use deterministic tools to set up project foundations and engineering checks.</summary>
 
 |              |                                                                                                                |
@@ -361,13 +360,13 @@ self.INTERESTS = [
 | **Flow**     | _inspect → plan → create or evolve → review → verify_                                                          |
 | **Maturity** | `Experimental` · [`0.9.0`](https://github.com/pradeeptathineni/blueprint-ai/releases/tag/0.9.0) · TRL 3        |
 | **Status**   | Working CLI for project creation, inspection, review, and evolution. Optional model reasoning remains bounded. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `devtools` ; `python` ; `engineering`                                                                          |
 
 </details>
 
-<details>
-<summary>🔒 <a href="https://github.com/pradeeptathineni/intentional-ai"><strong>Intentional AI</strong></a> — Schedule deliberate local work and retain its state.</summary>
+<details data-repo="pradeeptathineni/intentional-ai">
+<summary>🔒 <strong>Intentional AI</strong> — Schedule deliberate local work and retain its state.</summary>
 
 |              |                                                                                                    |
 | :----------- | :------------------------------------------------------------------------------------------------- |
@@ -379,28 +378,28 @@ self.INTERESTS = [
 
 </details>
 
-<details>
-<summary>🔒 <a href="https://github.com/pradeeptathineni/maestro-ai"><strong>Maestro AI</strong></a> — Execute approved work with checks and a reviewable handoff.</summary>
+<details data-repo="pradeeptathineni/maestro-ai">
+<summary>🔒 <strong>Maestro AI</strong> — Execute approved work with checks and a reviewable handoff.</summary>
 
 |              |                                                                                    |
 | :----------- | :--------------------------------------------------------------------------------- |
 | **Flow**     | _approved task → isolated checkout → execute → check → review_ |
-| **Maturity** | `Experimental` · [`v0.1.0-alpha.1`](https://github.com/pradeeptathineni/maestro-ai/tree/v0.1.0-alpha.1) · Private · TRL 4 |
+| **Maturity** | `Experimental` · `v0.1.0-alpha.1` · Private · TRL 4 |
 | **Status**   | Local task series retain work and scoped commits for review. Run controls flag work needing attention and bind cancellation to its run identity. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `ai` ; `orchestration` ; `python` |
 
 </details>
 
-<details>
-<summary>🔒 <a href="https://github.com/pradeeptathineni/deep-ai"><strong>Deep AI</strong></a> — Bring research, planning, writing and execution into one desktop workspace.</summary>
+<details data-repo="pradeeptathineni/deep-ai">
+<summary>🔒 <strong>Deep AI</strong> — Bring research, planning, writing and execution into one desktop workspace.</summary>
 
 |              |                                                                                        |
 | :----------- | :------------------------------------------------------------------------------------- |
 | **Flow**     | _research → compare → plan → build → review_ |
-| **Maturity** | `Experimental` · [`v0.1.0-alpha.1`](https://github.com/pradeeptathineni/deep-ai/tree/v0.1.0-alpha.1) · Private · TRL 4 |
+| **Maturity** | `Experimental` · `v0.1.0-alpha.1` · Private · TRL 4 |
 | **Status**   | A working local UI connects the other projects' capabilities, including retained evidence, writing feedback and managed execution. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `ai` ; `desktop` ; `react` ; `typescript` |
 
 </details>
@@ -420,7 +419,7 @@ self.INTERESTS = [
 
 <dl><dd>
 
-<details>
+<details data-repo="pradeeptathineni/labs">
 <summary><a href="https://github.com/pradeeptathineni/labs"><strong>Labs</strong></a> — Practice problem-solving and share the work behind it.</summary>
 
 |              |                                                                                                                              |
@@ -433,7 +432,7 @@ self.INTERESTS = [
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/home-lab">
 <summary><a href="https://github.com/pradeeptathineni/home-lab"><strong>Home Lab</strong></a> — Learn what useful private services need before moving to a dedicated server.</summary>
 
 |              |                                                                                                                                |
@@ -446,7 +445,7 @@ self.INTERESTS = [
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/nature-of-code">
 <summary><a href="https://github.com/pradeeptathineni/nature-of-code"><strong>Nature of Code</strong></a> — Explore visual systems through creative coding.</summary>
 
 |              |                                                                                                                                  |
@@ -472,7 +471,7 @@ self.INTERESTS = [
 
 <dl><dd>
 
-<details>
+<details data-repo="pradeeptathineni/uta-mccombs-ai-ml">
 <summary><a href="https://github.com/pradeeptathineni/uta-mccombs-ai-ml"><strong>UT Austin McCombs AI/ML</strong></a> — Apply machine learning and generative AI to business problems through coursework.</summary>
 
 |              |                                                                                                                  |
@@ -485,7 +484,7 @@ self.INTERESTS = [
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/jhu-whiting-agentic">
 <summary><a href="https://github.com/pradeeptathineni/jhu-whiting-agentic"><strong>Johns Hopkins AI and Agentic AI Engineering</strong></a> — A home for planned coursework on building and operating ML and agent systems.</summary>
 
 |              |                                                                       |
@@ -498,7 +497,7 @@ self.INTERESTS = [
 
 </details>
 
-<details>
+<details data-repo="pradeeptathineni/ai-engineering-from-scratch">
 <summary><a href="https://github.com/pradeeptathineni/ai-engineering-from-scratch"><strong>AI Engineering from Scratch</strong></a> — My fork of an open AI engineering curriculum, kept for study.</summary>
 
 |              |                                                                                                                                         |
@@ -584,14 +583,11 @@ self.INTERESTS = [
 
 <p></p>
 
-- **Maturity** — Pre-`v1.0.0` releases are `Experimental`; their verified versions remain visible. A release doesn't guarantee readiness or usefulness.
-- **Activity** — Commit dates are snapshots, not maintenance promises. `Quiet` doesn't mean abandoned.
-- **Attribution** — I credit reused work and preserve required licenses and notices.
-- **Reuse** — Repository licenses and third-party terms apply. This profile grants no extra permissions. You are responsible for what you adopt and run.
-- **AI Assistance** — I use AI for research, planning, implementation, and review. I remain responsible for verification and results.
-- **Evidence** — Tests and measurements support specific claims. They don't by themselves prove broader gains, independent review, or value to users.
-- **Private and Planned Work** — Unlinked projects may be private or proposed. Plans describe intentions, not shipped features.
-- **Artwork** — Images belong to their creators and have separate [credits and reuse terms](assets/README.md).
+- **Readiness and evidence** — Experimental releases aren't proof of production readiness. Tests and internal measurements support specific claims; broader value, usefulness, and independent review need their own evidence.
+- **Activity** — Commit dates are snapshots, not maintenance commitments. `Quiet` doesn't mean abandoned.
+- **Private and planned work** — 🔒 marks a private repository with a public description. Planned work describes intentions; the Status row explains what is implemented.
+- **Reuse and credits** — Software and [artwork](assets/README.md) retain their own licenses and permissions. I preserve required attribution and notices; this profile grants no additional reuse rights. Check the terms before adopting or running anything.
+- **AI assistance** — I use AI for research, planning, implementation, and review. I remain responsible for verification and results.
 
 </details>
 

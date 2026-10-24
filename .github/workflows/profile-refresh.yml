@@ -1,0 +1,75 @@
+name: Refresh profile activity
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+      timezone: America/New_York
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      github.event.repository.default_branch == 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Collect and reconcile activity
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_METADATA_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Configure PROFILE_METADATA_TOKEN with read-only" \
+              "Contents access to the five displayed private repositories."
+            exit 1
+          fi
+          python .meta/scripts/project_metadata.py --write --quiet \
+            --include-private pradeeptathineni/custom-ai \
+            --include-private pradeeptathineni/planning-ai \
+            --include-private pradeeptathineni/intentional-ai \
+            --include-private pradeeptathineni/maestro-ai \
+            --include-private pradeeptathineni/deep-ai
+      - name: Validate the complete refresh
+        run: |
+          python -m unittest discover -s .meta/scripts/tests -v
+          python .meta/scripts/check_readme.py
+          git diff --check
+      - name: Commit and push changed activity
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No activity changes; no commit needed."
+            exit 0
+          fi
+          git diff --exit-code -- . ':!README.md'
+          git diff --cached --exit-code
+          gh auth setup-git
+          git fetch --no-tags origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse FETCH_HEAD)" ]; then
+            echo "::error::Remote main changed; rerun the refresh on the new commit."
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md
+          git commit -m 'chore(profile): refresh project activity'
+          git push origin HEAD:main

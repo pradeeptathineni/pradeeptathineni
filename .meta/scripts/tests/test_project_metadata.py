@@ -19,12 +19,12 @@ SPEC.loader.exec_module(metadata)
 
 
 class MetadataTests(unittest.TestCase):
-    def test_reconcile_preserves_everything_outside_activity_and_check_date(self):
+    def test_reconcile_preserves_everything_outside_activity(self):
         before = (
             'keep atypical wording  \n'
-            '<details>\n<summary>Group</summary>\n<details>\n'
-            '<summary>🔒 <a href="https://github.com/owner/private">'
-            '<strong>Private</strong></a> — Original.</summary>\n'
+            '<details>\n<summary>Group</summary>\n'
+            '<details data-repo="owner/private">\n'
+            '<summary>🔒 <strong>Private</strong> — Original.</summary>\n'
             '| **Status**   | Original status and spacing.   |\n'
             '| **Activity** | Updated 2000-01-01 · `Quiet`    |\n'
             '</details>\n</details>\n'
@@ -34,15 +34,13 @@ class MetadataTests(unittest.TestCase):
         expected = before.replace(
             'Updated 2000-01-01 · `Quiet`    ',
             'Updated 2026-10-22 · `Recent`   ',
-        ).replace(
-            'Public release and activity facts last checked on 2000-01-01.',
-            'Release and activity facts last checked on 2026-10-23.',
         )
         facts = [
             {
                 'repository': 'owner/private',
                 'updated': '2026-10-22',
                 'activity': 'Recent',
+                'visibility': 'Private',
             }
         ]
         result, count = metadata.reconcile(before, facts, date(2026, 10, 23))
@@ -52,14 +50,15 @@ class MetadataTests(unittest.TestCase):
             metadata.reconcile(result, facts, date(2026, 10, 23))[0], result
         )
 
-    def test_unknown_project_and_non_activity_dates_survive(self):
+    def test_missing_repository_facts_refuse_reconciliation(self):
         text = (
-            '<details>\n<summary>'
+            '<details data-repo="owner/unknown">\n<summary>'
             '<a href="https://github.com/owner/unknown">Name</a></summary>\n'
             '| **Activity** | Planning only. |\n'
             '| **Status** | Since 2020-01-01. |\n</details>\n'
         )
-        self.assertEqual(metadata.reconcile(text, [], date(2026, 10, 23)), (text, 0))
+        with self.assertRaises(ValueError):
+            metadata.reconcile(text, [], date(2026, 10, 23))
 
     def collect(self, age, private=False, allow=False, archived=False):
         today = date(2026, 10, 23)
@@ -156,8 +155,8 @@ class MetadataTests(unittest.TestCase):
                 script.parent.mkdir(parents=True)
                 readme = root / 'README.md'
                 original = (
-                    '<details>\n<summary>'
-                    '<a href="https://github.com/owner/private">Private</a>'
+                    '<details data-repo="owner/repo">\n<summary>'
+                    '<a href="https://github.com/owner/repo">Repo</a>'
                     '</summary>\n| **Activity** | Original. |\n</details>\n'
                 )
                 readme.write_text(original)
@@ -182,7 +181,7 @@ class MetadataTests(unittest.TestCase):
             script.parent.mkdir(parents=True)
             readme = root / 'README.md'
             readme.write_text(
-                '<details>\n<summary>'
+                '<details data-repo="owner/repo">\n<summary>'
                 '<a href="https://github.com/owner/repo">Repo</a></summary>\n'
                 '| **Activity** | Original. |\n</details>\n'
             )
