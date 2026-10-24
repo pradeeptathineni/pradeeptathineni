@@ -35,6 +35,7 @@ jobs:
       - name: Collect and reconcile activity
         env:
           GH_TOKEN: ${{ secrets.PROFILE_METADATA_TOKEN }}
+          GH_PUBLIC_TOKEN: ${{ github.token }}
         run: |
           if [ -z "$GH_TOKEN" ]; then
             echo "::error::Configure PROFILE_METADATA_TOKEN with read-only" \

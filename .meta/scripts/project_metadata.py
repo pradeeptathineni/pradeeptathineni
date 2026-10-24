@@ -8,6 +8,7 @@
 
 Requires authenticated gh. Each project details element carries data-repo.
 Private cards require --include-private OWNER/REPO before any API call.
+GH_PUBLIC_TOKEN optionally supplies separate authentication for public cards.
 Incomplete or redirected collections never write. Releases are inspection
 facts; authored maturity, status and readiness remain unchanged.
 """
@@ -18,6 +19,7 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime
 import json
+import os
 from pathlib import Path
 import re
 import subprocess
@@ -69,10 +71,15 @@ def projects(text):
     return cards
 
 
-def github(path):
-    """Use the caller's authenticated gh session."""
+def github(path, public=False):
+    """Use separate public authentication when supplied; otherwise use gh's session."""
+    # Select credentials per subprocess, without changing other concurrent queries
+    env = None
+    if public and os.environ.get("GH_PUBLIC_TOKEN"):
+        env = dict(os.environ, GH_TOKEN=os.environ["GH_PUBLIC_TOKEN"])
     result = subprocess.run(
-        ["gh", "api", path], capture_output=True, text=True, check=True, timeout=30
+        ["gh", "api", path], capture_output=True, text=True, check=True,
+        timeout=30, env=env,
     )
     return json.loads(result.stdout)
 
@@ -82,10 +89,11 @@ def collect(repository, as_of, recent_days, private_allowed, private_expected=No
     # Known private cards require authorization before even the identity query
     if private_expected and repository not in private_allowed:
         return {"repository": repository, "error": "Private; explicit opt-in required"}
+    public = private_expected is False
     operation = "repository"
     try:
         # Require private opt-in before querying commit or release details
-        metadata = github(f"repos/{repository}")
+        metadata = github(f"repos/{repository}", public=public)
         if metadata["private"] and repository not in private_allowed:
             return {
                 "repository": repository,
@@ -100,9 +108,11 @@ def collect(repository, as_of, recent_days, private_allowed, private_expected=No
         # Inspect default-branch activity independently of published releases
         branch = metadata["default_branch"]
         operation = "commits"
-        commits = github(f"repos/{repository}/commits?per_page=1&sha={branch}")
+        commits = github(
+            f"repos/{repository}/commits?per_page=1&sha={branch}", public=public
+        )
         operation = "releases"
-        releases = github(f"repos/{repository}/releases?per_page=100")
+        releases = github(f"repos/{repository}/releases?per_page=100", public=public)
         published = [r for r in releases if not r["draft"] and r["published_at"]]
         latest = max(published, key=lambda r: r["published_at"], default=None)
         # Compare New York calendar dates rather than elapsed UTC hours

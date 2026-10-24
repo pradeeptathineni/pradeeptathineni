@@ -51,6 +51,46 @@ def step(name):
 
 
 class IdentityTests(unittest.TestCase):
+    def test_public_credentials_are_scoped_to_each_subprocess(self):
+        with patch.dict(os.environ, {
+            'GH_TOKEN': 'synthetic-private', 'GH_PUBLIC_TOKEN': 'synthetic-public',
+        }):
+            for public in (False, True):
+                with self.subTest(public=public), patch.object(
+                    metadata.subprocess, 'run',
+                    return_value=subprocess.CompletedProcess([], 0, stdout='{}'),
+                ) as run:
+                    self.assertEqual(metadata.github('repos/owner/repo', public), {})
+                    env = run.call_args.kwargs['env']
+                    if public:
+                        self.assertEqual(env['GH_TOKEN'], 'synthetic-public')
+                    else:
+                        self.assertIsNone(env)
+                    self.assertEqual(os.environ['GH_TOKEN'], 'synthetic-private')
+
+    def test_card_visibility_selects_authentication_for_every_query(self):
+        for private in (False, True):
+            replies = [
+                {
+                    'private': private, 'full_name': 'owner/repo',
+                    'default_branch': 'main', 'archived': False,
+                    'html_url': 'https://github.com/owner/repo',
+                },
+                [{'commit': {'committer': {'date': '2026-10-24T12:00:00Z'}}}],
+                [],
+            ]
+            with self.subTest(private=private), patch.object(
+                metadata, 'github', side_effect=replies,
+            ) as api:
+                row = metadata.collect(
+                    'owner/repo', date(2026, 10, 24), 30, ['owner/repo'], private
+                )
+            self.assertNotIn('error', row)
+            self.assertEqual(api.call_count, 3)
+            self.assertTrue(all(
+                call.kwargs == {'public': not private} for call in api.call_args_list
+            ))
+
     def test_public_and_unlinked_private_cards_preserve_authored_fields(self):
         before = card() + card('owner/private', True)
         rows = [fact(), fact('owner/private', True)]
