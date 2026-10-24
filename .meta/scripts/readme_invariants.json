@@ -1,0 +1,26 @@
+{
+  "title": "09c14ff92ef9af39e13f8ff80c68f1028d170c17bb722c464357420b3412eab7",
+  "code_blocks": [
+    "dcd69acfbbbc0fb54abd6d80dd2a76a235211d6d0deead1b66bbc2f339c73402",
+    "7e4624fa43a5acebec3014c8b87ace39b8dd72d55aca70c46d9edf9c44f12e8b",
+    "21a890b923e719a5a2ae16b50eebde823bf6d95db07403dc8c2b3d11b8c66a99",
+    "12455d8bfdee15a442b1a9d63db987ae8e467038687c3d6639b8d0f22a947f0a"
+  ],
+  "thoughts_and_after": "b0ad4159bb1a9fbe1459585a405a51d815a6da2d157b449d198f666058037cef",
+  "files": {
+    "assets/README.md": "8c8c03b9dc46d36a23966a9cd624c314a3fdda68795d4b0d9f29d6dd74089e93",
+    "assets/badges/DEVICON-LICENSE.txt": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664",
+    "assets/badges/aws.svg": "16be88252a84b84b530e26b41993fe8a070ea67263aa4eb480553cbbb1d8b206",
+    "assets/badges/chatgpt.svg": "7bcb6eda8c688ec206913300b690266a3327c2cf6afbb423ae657d32acb5f72a",
+    "assets/badges/codex.svg": "85f0673ac98d262b3ec66fd09833dc1973fac8d3676faee9ee304145ecb30f4e",
+    "assets/badges/vscode.svg": "68c1835b67b45bb0b0e058ea0529ebd9bae4aa61ef249a8288aeca0075a1eaf4",
+    "assets/brain-explosion.jpg": "3278b5f3cb9409b0fd6b04c0eaaca8ac25b39f485ad04745adcc11d007bde35b",
+    "assets/this-is-fine.png": "e0d6e70e019b3ab24f76421ccf23a715aaa9b6c1b404f9d90fc564a97d31f0d5",
+    "assets/xkcd/0789-showdown.png": "3750f01b2bcebf65d435a6a4fd2d4e596146825a799d572ecd90bdb7d8e42f98",
+    "assets/xkcd/0882-significant.png": "757a4261a34b750318dc609b9de4011264692c4ea6d41dcefbca0dc0d5585318",
+    "assets/xkcd/0974-the-general-problem.png": "937b7eb9a675fb1e5c1fc1dbae9b63bab3faf812c9e30dc6f12cd38649060a3d",
+    "assets/xkcd/1319-automation.png": "6b11f08c55efc6c81e6e47dcfec1d0158f0da695b79d260df55935bd0b9c617f",
+    "assets/xkcd/1739-fixing-problems.png": "e0afe86fced539bfb4b708cd7195f28272404c537fd95ab216f22a7a1c4829a7",
+    "assets/xkcd/1838-machine-learning.png": "629a87fceee0763b78929faaef1c039d6527e4e152b81784ce67ecfdfc699817"
+  }
+}

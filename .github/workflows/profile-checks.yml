@@ -1,0 +1,27 @@
+name: Profile checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Run metadata and validator tests
+        run: python -m unittest discover -s .meta/scripts/tests -v
+      - name: Check README, protected content, links and assets
+        run: python .meta/scripts/check_readme.py
