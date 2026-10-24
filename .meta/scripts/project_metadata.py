@@ -82,6 +82,7 @@ def collect(repository, as_of, recent_days, private_allowed, private_expected=No
     # Known private cards require authorization before even the identity query
     if private_expected and repository not in private_allowed:
         return {"repository": repository, "error": "Private; explicit opt-in required"}
+    operation = "repository"
     try:
         # Require private opt-in before querying commit or release details
         metadata = github(f"repos/{repository}")
@@ -98,7 +99,9 @@ def collect(repository, as_of, recent_days, private_allowed, private_expected=No
             return {"repository": repository, "error": "Repository visibility changed"}
         # Inspect default-branch activity independently of published releases
         branch = metadata["default_branch"]
+        operation = "commits"
         commits = github(f"repos/{repository}/commits?per_page=1&sha={branch}")
+        operation = "releases"
         releases = github(f"repos/{repository}/releases?per_page=100")
         published = [r for r in releases if not r["draft"] and r["published_at"]]
         latest = max(published, key=lambda r: r["published_at"], default=None)
@@ -137,8 +140,17 @@ def collect(repository, as_of, recent_days, private_allowed, private_expected=No
         IndexError,
         TypeError,
     ) as error:
-        # Report gaps without exposing potentially private CLI stderr
-        return {"repository": repository, "error": type(error).__name__}
+        # Retain safe diagnostics without exposing API bodies or CLI stderr
+        failure = {
+            "repository": repository,
+            "error": type(error).__name__,
+            "operation": operation,
+        }
+        if isinstance(error, subprocess.CalledProcessError):
+            status = re.search(r"\(HTTP ([1-5][0-9]{2})\)", error.stderr or "")
+            if status:
+                failure["http_status"] = int(status[1])
+        return failure
 
 
 def reconcile(text, facts, as_of):
@@ -244,6 +256,24 @@ def main():
         reconciled, cells = reconcile(text, results, args.as_of)
     except (ValueError, KeyError, TypeError):
         print("README unchanged: incomplete repository facts.", file=sys.stderr)
+        if args.quiet:
+            # Source IDs are public; response text and redirect targets stay hidden
+            for card, row in zip(cards, results):
+                if "error" not in row and "redirects_to" not in row:
+                    continue
+                operation = row.get("operation", "metadata")
+                if operation not in {"repository", "commits", "releases"}:
+                    operation = "metadata"
+                status = row.get("http_status")
+                detail = (
+                    f"{operation}, HTTP {status}"
+                    if isinstance(status, int) and 100 <= status <= 599
+                    else operation
+                )
+                print(
+                    f"Collection failed for {card['repository']} ({detail}).",
+                    file=sys.stderr,
+                )
         if not args.quiet:
             print(
                 json.dumps(

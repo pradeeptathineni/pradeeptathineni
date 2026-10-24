@@ -120,12 +120,30 @@ class IdentityTests(unittest.TestCase):
             row = metadata.collect('owner/public', date(2026, 10, 24), 30, [])
         self.assertEqual(row, {
             'repository': 'owner/public', 'error': 'CalledProcessError',
+            'operation': 'repository',
         })
 
     def test_malformed_api_payload_is_reported_without_its_contents(self):
         with patch.object(metadata, 'github', return_value=None):
             row = metadata.collect('owner/public', date(2026, 10, 24), 30, [])
-        self.assertEqual(row, {'repository': 'owner/public', 'error': 'TypeError'})
+        self.assertEqual(row, {
+            'repository': 'owner/public', 'error': 'TypeError',
+            'operation': 'repository',
+        })
+
+    def test_api_failure_retains_only_operation_and_numeric_http_status(self):
+        error = subprocess.CalledProcessError(
+            1, ['gh'], stderr='private response (HTTP 403) credential and details'
+        )
+        with patch.object(metadata, 'github', side_effect=[
+            {'private': False, 'full_name': 'owner/public', 'default_branch': 'main'},
+            error,
+        ]):
+            row = metadata.collect('owner/public', date(2026, 10, 24), 30, [])
+        self.assertEqual(row, {
+            'repository': 'owner/public', 'error': 'CalledProcessError',
+            'operation': 'commits', 'http_status': 403,
+        })
 
     def test_unlisted_private_opt_in_never_starts_collection(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -164,6 +182,7 @@ class IdentityTests(unittest.TestCase):
                 ]),
                 patch.object(metadata, 'collect', return_value={
                     'repository': 'owner/public', 'error': 'Private failure body',
+                    'operation': 'commits', 'http_status': 403,
                 }),
                 contextlib.redirect_stdout(stdout),
                 contextlib.redirect_stderr(stderr),
@@ -173,6 +192,7 @@ class IdentityTests(unittest.TestCase):
             self.assertNotIn(
                 'Private failure body', stdout.getvalue() + stderr.getvalue()
             )
+            self.assertIn('owner/public (commits, HTTP 403)', stderr.getvalue())
 
     def test_unchanged_facts_do_not_write_or_touch_padding(self):
         with tempfile.TemporaryDirectory() as directory:
