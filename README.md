@@ -321,7 +321,7 @@ self.INTERESTS = [
 | **Flow**     | _permissioned examples → task context → revision → preference decision_ |
 | **Maturity** | `Experimental` · Private · TRL 4 |
 | **Status**   | Private writing kits support revision feedback, explicit preference decisions and undo. Example selection matches words and tags; claim checks use heuristics. |
-| **Activity** | Updated 2026-10-22 · `Recent` |
+| **Activity** | Updated 2026-10-24 · `Recent` |
 | **Tags**     | `writing` ; `preferences` ; `python` |
 
 </details>
