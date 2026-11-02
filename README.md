@@ -269,7 +269,7 @@ self.INTERESTS = [
 | **Flow**     | _question → retained sources → investigation → qualified findings_ |
 | **Maturity** | `Experimental` · TRL 4 |
 | **Status**   | Native research sessions can examine support for claims and explore perspectives from sources. Model judgments remain fallible. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-11-02 · `Recent` |
 | **Tags**     | `research` ; `evidence` ; `javascript` |
 
 </details>
@@ -282,7 +282,7 @@ self.INTERESTS = [
 | **Flow**     | _research → reconcile → define → apply → reassess_                                              |
 | **Maturity** | `Experimental`                                                                                  |
 | **Status**   | Structured corpus and validation tooling exist. The guidance remains under research and review. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-10-28 · `Recent` |
 | **Tags**     | `ai` ; `principles` ; `learning` ; `evidence`                                                   |
 
 </details>
@@ -308,7 +308,7 @@ self.INTERESTS = [
 | **Flow**     | _candidate → bounded trial → record evidence → review → advisory decision_                                                |
 | **Maturity** | `Experimental` · TRL 3                                                                                                    |
 | **Status**   | Trial plans can be frozen and attempts sealed, with a working recipe for testing Context. The host runs trials; comparisons alone do not prove usefulness. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-11-02 · `Recent` |
 | **Tags**     | `ai` ; `evaluation` ; `evidence` ; `methods`                                                                              |
 
 </details>
@@ -321,7 +321,7 @@ self.INTERESTS = [
 | **Flow**     | _permissioned examples → task context → revision → preference decision_ |
 | **Maturity** | `Experimental` · Private · TRL 4 |
 | **Status**   | Private writing kits support revision feedback, explicit preference decisions and undo. Example selection matches words and tags; claim checks use heuristics. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-10-28 · `Recent` |
 | **Tags**     | `writing` ; `preferences` ; `python` |
 
 </details>
@@ -334,7 +334,7 @@ self.INTERESTS = [
 | **Flow**     | _task → select guidance → preview → apply → verify → undo_ |
 | **Maturity** | `Experimental` · [`v0.3.0`](https://github.com/pradeeptathineni/context-ai/releases/tag/v0.3.0) · TRL 4 |
 | **Status**   | Task-scoped guidance, provenance, private loadouts and reversible installation work; everyday usefulness remains under evaluation. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-11-02 · `Recent` |
 | **Tags**     | `ai` ; `context-engineering` ; `devtools` |
 
 </details>
@@ -347,7 +347,7 @@ self.INTERESTS = [
 | **Flow**     | _evidence → goal → recipe or tasks → preview → approve_ |
 | **Maturity** | `Experimental` · Private · TRL 4 |
 | **Status**   | Evidence-linked plans, typed recipes and ordered tasks feed reviewed Maestro execution. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-10-28 · `Recent` |
 | **Tags**     | `planning` ; `evidence` ; `python` |
 
 </details>
@@ -360,7 +360,7 @@ self.INTERESTS = [
 | **Flow**     | _inspect → plan → create or evolve → review → verify_                                                          |
 | **Maturity** | `Experimental` · [`0.9.0`](https://github.com/pradeeptathineni/blueprint-ai/releases/tag/0.9.0) · TRL 3        |
 | **Status**   | Working CLI for project creation, inspection, review, and evolution. Optional model reasoning remains bounded. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-10-28 · `Recent` |
 | **Tags**     | `devtools` ; `python` ; `engineering`                                                                          |
 
 </details>
@@ -386,7 +386,7 @@ self.INTERESTS = [
 | **Flow**     | _approved task → isolated checkout → execute → check → review_ |
 | **Maturity** | `Experimental` · `v0.1.0-alpha.1` · Private · TRL 4 |
 | **Status**   | Local task series retain work and scoped commits for review. Run controls flag work needing attention and bind cancellation to its run identity. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-11-02 · `Recent` |
 | **Tags**     | `ai` ; `orchestration` ; `python` |
 
 </details>
@@ -412,7 +412,7 @@ self.INTERESTS = [
 | **Flow**     | _research → compare → plan → build → review_ |
 | **Maturity** | `Experimental` · `v0.1.0-alpha.1` · Private · TRL 4 |
 | **Status**   | A working local UI connects the other projects' capabilities, including retained evidence, writing feedback and managed execution. |
-| **Activity** | Updated 2026-10-24 · `Recent` |
+| **Activity** | Updated 2026-11-02 · `Recent` |
 | **Tags**     | `ai` ; `desktop` ; `react` ; `typescript` |
 
 </details>
