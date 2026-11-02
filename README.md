@@ -398,7 +398,7 @@ self.INTERESTS = [
 | :----------- | :------------------------------------------------------------------------------------- |
 | **Flow**     | _explicit sources → normalize → inspect sessions → compare usage and costs_ |
 | **Maturity** | `Experimental` · Alpha · TRL 3 |
-| **Status**   | A local web dashboard and terminal report read a metadata ledger with session hierarchy, usage filters and qualified costs. Claude/Codex file adapters and a read-only Deep consumer are fixture-tested. Cloud and quota adapters remain planned. |
+| **Status**   | A local web dashboard and terminal report show session hierarchy, filtered usage, qualified costs, source freshness and cautious pace forecasts. Native Codex allowance reads and imported quota windows retain evidence age. Cloud adapters and budget alerts remain planned. |
 | **Activity** | Updated 2026-11-02 · `Recent` |
 | **Tags**     | `ai` ; `monitoring` ; `observability` ; `python` ; `sqlite` |
 
