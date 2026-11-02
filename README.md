@@ -391,6 +391,19 @@ self.INTERESTS = [
 
 </details>
 
+<details data-repo="pradeeptathineni/monitoring-ai">
+<summary><a href="https://github.com/pradeeptathineni/monitoring-ai"><strong>Monitoring AI</strong></a> — Observe AI sessions, workers, token usage and costs in one local view.</summary>
+
+|              |                                                                                        |
+| :----------- | :------------------------------------------------------------------------------------- |
+| **Flow**     | _explicit sources → normalize → inspect sessions → compare usage and costs_ |
+| **Maturity** | `Experimental` · Alpha · TRL 3 |
+| **Status**   | A local web dashboard and terminal report read a metadata ledger with session hierarchy, usage filters and qualified costs. Claude/Codex file adapters and a read-only Deep consumer are fixture-tested. Cloud and quota adapters remain planned. |
+| **Activity** | Updated 2026-11-02 · `Recent` |
+| **Tags**     | `ai` ; `monitoring` ; `observability` ; `python` ; `sqlite` |
+
+</details>
+
 <details data-repo="pradeeptathineni/deep-ai">
 <summary>🔒 <strong>Deep AI</strong> — Bring research, planning, writing and execution into one desktop workspace.</summary>
 
