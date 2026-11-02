@@ -398,7 +398,7 @@ self.INTERESTS = [
 | :----------- | :------------------------------------------------------------------------------------- |
 | **Flow**     | _explicit sources → normalize → inspect sessions → compare usage and costs_ |
 | **Maturity** | `Experimental` · Alpha · TRL 3 |
-| **Status**   | A local web dashboard and terminal report show session hierarchy, filtered usage, qualified costs, source freshness and cautious pace forecasts. Native Codex allowance reads and imported quota windows retain evidence age. Cloud adapters and budget alerts remain planned. |
+| **Status**   | Local web and terminal views show session hierarchy, filtered usage, qualified costs, period comparisons and categorized tools. Explicit multi-file inputs report read health and retain history on failure. Codex allowance and pace views preserve evidence age. Cloud adapters and budget alerts remain planned. |
 | **Activity** | Updated 2026-11-02 · `Recent` |
 | **Tags**     | `ai` ; `monitoring` ; `observability` ; `python` ; `sqlite` |
 
