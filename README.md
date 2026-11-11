@@ -8,8 +8,9 @@
   <a href="#tech-stack"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&amp;logoColor=white&amp;style=flat" alt="Docker"></a>
   <a href="#tech-stack"><img src="https://img.shields.io/badge/Terraform-7B42AC?logo=terraform&amp;logoColor=white&amp;style=flat" alt="Terraform"></a>
   <a href="#tech-stack"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&amp;logoColor=white&amp;style=flat" alt="GitHub Actions"></a>
-  <a href="#tech-stack"><img src="assets/badges/codex.svg" alt="Codex, one of my primary AI tools"></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Claude-D97757?logo=claude&amp;logoColor=white&amp;style=flat" alt="Claude, one of my primary AI tools"></a>
   <a href="#tech-stack"><img src="assets/badges/chatgpt.svg" alt="ChatGPT, one of my primary AI tools"></a>
+  <a href="#tech-stack"><img src="assets/badges/codex.svg" alt="Codex, one of my primary AI tools"></a>
 </p>
 
 <p align="center"><strong>
